@@ -1,0 +1,55 @@
+[7.996s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/floor_graph': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/floor_graph/prefix_override:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/floor_graph build --build-base /home/GTL/wxu/cs7630_g6/build/floor_graph/build install --record /home/GTL/wxu/cs7630_g6/build/floor_graph/install.log --single-version-externally-managed
+[8.708s] running egg_info
+[8.708s] creating ../../build/floor_graph/floor_graph.egg-info
+[8.708s] writing ../../build/floor_graph/floor_graph.egg-info/PKG-INFO
+[8.708s] writing dependency_links to ../../build/floor_graph/floor_graph.egg-info/dependency_links.txt
+[8.708s] writing entry points to ../../build/floor_graph/floor_graph.egg-info/entry_points.txt
+[8.708s] writing requirements to ../../build/floor_graph/floor_graph.egg-info/requires.txt
+[8.709s] writing top-level names to ../../build/floor_graph/floor_graph.egg-info/top_level.txt
+[8.709s] writing manifest file '../../build/floor_graph/floor_graph.egg-info/SOURCES.txt'
+[8.777s] reading manifest file '../../build/floor_graph/floor_graph.egg-info/SOURCES.txt'
+[8.824s] writing manifest file '../../build/floor_graph/floor_graph.egg-info/SOURCES.txt'
+[8.862s] running build
+[8.862s] running build_py
+[8.865s] creating /home/GTL/wxu/cs7630_g6/build/floor_graph/build
+[8.878s] creating /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib
+[8.915s] creating /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph
+[8.937s] copying floor_graph/viz_graph.py -> /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph
+[9.141s] copying floor_graph/build_graph_test.py -> /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph
+[9.361s] copying floor_graph/build_graph.py -> /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph
+[9.587s] copying floor_graph/__init__.py -> /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph
+[9.685s] running install
+[9.685s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.685s]   warnings.warn(
+[9.685s] running install_lib
+[9.708s] creating /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph
+[9.789s] copying /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph/viz_graph.py -> /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph
+[10.197s] copying /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph/build_graph_test.py -> /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph
+[10.372s] copying /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph/build_graph.py -> /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph
+[10.627s] copying /home/GTL/wxu/cs7630_g6/build/floor_graph/build/lib/floor_graph/__init__.py -> /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph
+[10.855s] byte-compiling /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph/viz_graph.py to viz_graph.cpython-310.pyc
+[10.941s] byte-compiling /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph/build_graph_test.py to build_graph_test.cpython-310.pyc
+[10.977s] byte-compiling /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph/build_graph.py to build_graph.cpython-310.pyc
+[11.024s] byte-compiling /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph/__init__.py to __init__.cpython-310.pyc
+[11.072s] running install_data
+[11.095s] creating /home/GTL/wxu/cs7630_g6/install/floor_graph/share/ament_index
+[11.111s] creating /home/GTL/wxu/cs7630_g6/install/floor_graph/share/ament_index/resource_index
+[11.131s] creating /home/GTL/wxu/cs7630_g6/install/floor_graph/share/ament_index/resource_index/packages
+[11.235s] copying resource/floor_graph -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/ament_index/resource_index/packages
+[11.410s] copying package.xml -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph
+[11.588s] creating /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph/graphs
+[11.648s] copying graphs/graph-test.picklez -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph/graphs
+[11.814s] copying graphs/graph.png -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph/graphs
+[12.002s] copying graphs/graph-ref.picklez -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph/graphs
+[12.149s] copying graphs/graph-ref.png -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph/graphs
+[12.302s] copying graphs/graph.picklez -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph/graphs
+[12.445s] copying graphs/graph-test.png -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph/graphs
+[12.586s] copying launch/floor_graph.launch.py -> /home/GTL/wxu/cs7630_g6/install/floor_graph/share/floor_graph
+[12.725s] running install_egg_info
+[12.789s] Copying ../../build/floor_graph/floor_graph.egg-info to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph-0.0.0-py3.10.egg-info
+[13.826s] running install_scripts
+[13.945s] Installing build_graph_node script to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/floor_graph
+[13.998s] Installing build_graph_test_node script to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/floor_graph
+[14.069s] Installing graph_viz_node script to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/floor_graph
+[14.088s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/floor_graph/install.log'
+[15.542s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/floor_graph' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/floor_graph/prefix_override:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/floor_graph build --build-base /home/GTL/wxu/cs7630_g6/build/floor_graph/build install --record /home/GTL/wxu/cs7630_g6/build/floor_graph/install.log --single-version-externally-managed

@@ -1,0 +1,15 @@
+{
+  "package_name": "task_manager_msgs",
+  "non_idl_tuples": [
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:srv/GetAllTaskStatus.srv",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:srv/StartTask.srv",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:srv/StopTask.srv",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:srv/GetTaskList.srv",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:msg/TaskDescription.msg",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:msg/TaskParameter.msg",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:msg/TaskStatus.msg",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:msg/TaskConfig.msg",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:msg/SyncStatus.msg",
+    "/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_msgs:msg/EncapsulatedMessage.msg"
+  ]
+}

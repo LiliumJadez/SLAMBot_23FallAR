@@ -1,0 +1,22 @@
+[0.532s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16
+[0.538s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.028s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.288s] -- Added test 'lint_cmake' to check CMake code style
+[2.565s] -- Added test 'xmllint' to check XML markup files
+[2.828s] -- Configuring done
+[3.066s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[3.066s]   Cannot find source file:
+[3.066s] 
+[3.066s]     src/my_node.cpp
+[3.066s] 
+[3.066s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.066s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.066s] 
+[3.066s] [0m
+[3.067s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[3.067s]   No SOURCES given to target: my_node
+[3.067s] 
+[3.067s] [0m
+[3.067s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.068s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.069s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16

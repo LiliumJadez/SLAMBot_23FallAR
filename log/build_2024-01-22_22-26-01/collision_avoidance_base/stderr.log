@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o: in function `pcl::PassThrough<pcl::PointXYZ>::applyFilter(std::vector<int, std::allocator<int> >&)':
+/usr/include/pcl-1.12/pcl/filters/passthrough.h:199: undefined reference to `pcl::PassThrough<pcl::PointXYZ>::applyFilterIndices(std::vector<int, std::allocator<int> >&)'
+/usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x48): undefined reference to `pcl::FilterIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o:(.data.rel.ro._ZTVN3pcl11PassThroughINS_8PointXYZEEE[_ZTVN3pcl11PassThroughINS_8PointXYZEEE]+0x48): undefined reference to `pcl::FilterIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+/usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x48): undefined reference to `pcl::VoxelGrid<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/collision_avoidance_base.dir/build.make:272: collision_avoidance_base] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/collision_avoidance_base.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

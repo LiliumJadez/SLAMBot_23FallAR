@@ -1,0 +1,77 @@
+[0.630s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/floor_nav': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16
+[1.184s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskStareAtFace[0m
+[1.482s] [ 65%] Built target floornav_TaskWanderFront
+[1.495s] [ 65%] [32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o[0m
+[1.495s] [ 65%] Built target floornav_TaskSetHeading
+[1.498s] [ 86%] Built target floornav_TaskSetMux
+[1.498s] [ 86%] Built target floornav_TaskWaitForROI
+[1.498s] [ 86%] Built target floornav_TaskAutoDock
+[1.498s] [ 86%] Built target floornav_TaskTrigger
+[1.498s] [ 86%] Built target floornav_TaskWander
+[1.498s] [ 86%] Built target floornav_TaskWaitForFace
+[1.499s] [ 89%] Built target floornav_TaskConstant
+[1.499s] [ 89%] Built target floornav_TaskGoTo
+[1.502s] [ 89%] Built target floornav_TaskNav2
+[1.503s] [ 89%] Built target floornav_TaskPlanTo
+[1.518s] [ 96%] Built target floornav_task_server
+[14.812s] [100%] [32m[1mLinking CXX shared library libfloornav_TaskStareAtFace.so[0m
+[21.023s] [100%] Built target floornav_TaskStareAtFace
+[21.259s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/floor_nav' returned '0': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16
+[21.528s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/floor_nav': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/floor_nav
+[21.540s] -- Install configuration: ""
+[21.560s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/floornav_task_server
+[22.334s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/floornav_task_server" to ""
+[22.341s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskAutoDock.so
+[22.523s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskAutoDock.so" to ""
+[22.529s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForROI.so
+[22.646s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForROI.so" to ""
+[22.652s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWander.so
+[22.795s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWander.so" to ""
+[22.802s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskSetHeading.so
+[22.906s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskSetHeading.so" to ""
+[22.913s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskPlanTo.so
+[23.406s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskPlanTo.so" to ""
+[23.412s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskGoTo.so
+[23.516s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskGoTo.so" to ""
+[23.523s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskConstant.so
+[23.656s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskConstant.so" to ""
+[23.664s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskTrigger.so
+[23.827s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskTrigger.so" to ""
+[23.835s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskSetMux.so
+[24.026s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskSetMux.so" to ""
+[24.032s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskNav2.so
+[24.218s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskNav2.so" to ""
+[24.224s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForFace.so
+[24.699s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWaitForFace.so" to ""
+[24.705s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWanderFront.so
+[24.854s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskWanderFront.so" to ""
+[24.865s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskStareAtFace.so
+[25.389s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/libfloornav_TaskStareAtFace.so" to ""
+[25.397s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav
+[25.404s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/launch_server.launch
+[25.413s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/graph_forever.py
+[25.421s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_goto.py
+[25.430s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_graph_2d.py
+[25.438s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_graph.py
+[25.446s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_graph-test.py
+[25.455s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_planto.py
+[25.464s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_set_heading.py
+[25.473s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_wander.py
+[25.481s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_wanderfront.py
+[25.518s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/test_task2.py
+[25.583s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/ament_index/resource_index/package_run_dependencies/floor_nav
+[25.597s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/ament_index/resource_index/parent_prefix_path/floor_nav
+[25.638s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/environment/ament_prefix_path.sh
+[25.649s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/environment/ament_prefix_path.dsv
+[25.687s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/environment/path.sh
+[25.700s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/environment/path.dsv
+[25.738s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/local_setup.bash
+[25.745s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/local_setup.sh
+[25.753s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/local_setup.zsh
+[25.762s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/local_setup.dsv
+[25.804s] -- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/package.dsv
+[25.843s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/ament_index/resource_index/packages/floor_nav
+[25.854s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/cmake/floor_navConfig.cmake
+[25.860s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/cmake/floor_navConfig-version.cmake
+[25.871s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/floor_nav/share/floor_nav/package.xml
+[25.884s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/floor_nav' returned '0': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/floor_nav

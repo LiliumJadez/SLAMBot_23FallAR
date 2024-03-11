@@ -1,0 +1,27 @@
+[3.929s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/face_detect_base': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/face_detect_base build --build-base /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/build install --record /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/install.log --single-version-externally-managed
+[4.321s] running egg_info
+[4.321s] writing ../build/face_detect_base/face_detect_base.egg-info/PKG-INFO
+[4.321s] writing dependency_links to ../build/face_detect_base/face_detect_base.egg-info/dependency_links.txt
+[4.321s] writing entry points to ../build/face_detect_base/face_detect_base.egg-info/entry_points.txt
+[4.321s] writing requirements to ../build/face_detect_base/face_detect_base.egg-info/requires.txt
+[4.350s] writing top-level names to ../build/face_detect_base/face_detect_base.egg-info/top_level.txt
+[4.487s] reading manifest file '../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'
+[4.509s] writing manifest file '../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'
+[4.549s] running build
+[4.549s] running build_py
+[4.563s] copying face_detect_base/face_detect_node.py -> /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/build/lib/face_detect_base
+[4.699s] running install
+[4.699s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.699s]   warnings.warn(
+[4.699s] running install_lib
+[4.723s] copying /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/build/lib/face_detect_base/face_detect_node.py -> /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages/face_detect_base
+[4.901s] byte-compiling /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages/face_detect_base/face_detect_node.py to face_detect_node.cpython-310.pyc
+[4.911s] running install_data
+[4.929s] copying package.xml -> /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base
+[5.108s] running install_egg_info
+[5.113s] removing '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info' (and everything under it)
+[5.186s] Copying ../build/face_detect_base/face_detect_base.egg-info to /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info
+[6.821s] running install_scripts
+[6.852s] Installing face_detect_node script to /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/face_detect_base
+[6.992s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/install.log'
+[9.375s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/face_detect_base' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/face_detect_base build --build-base /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/build install --record /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/install.log --single-version-externally-managed

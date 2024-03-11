@@ -1,0 +1,7 @@
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskWanderFront::iterate()[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:62:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmath[m[K’ has not been declared
+   62 |         double scale_factor = [01;31m[Kmath[m[K::pow(normalized_dist, 4);
+      |                               [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWanderFront.dir/build.make:76: CMakeFiles/floornav_TaskWanderFront.dir/tasks/TaskWanderFront.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/floornav_TaskWanderFront.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

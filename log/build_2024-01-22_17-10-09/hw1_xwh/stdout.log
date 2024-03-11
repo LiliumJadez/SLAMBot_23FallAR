@@ -1,0 +1,48 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/GTL/wxu/cs7630_g6/src/hw1_xwh/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/GTL/wxu/cs7630_g6/build/hw1_xwh
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[35m[1mConsolidate compiler generated dependencies of target joystick[0m
+[100%] Built target my_node
+[100%] Built target joystick
+-- Install configuration: ""
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node
+-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick
+-- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick" to ""
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/package_run_dependencies/hw1_xwh
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/parent_prefix_path/hw1_xwh
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.dsv
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.bash
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.sh
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.zsh
+-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.dsv
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/packages/hw1_xwh
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig.cmake
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig-version.cmake
+-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.xml

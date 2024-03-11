@@ -1,0 +1,27 @@
+[1.900s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/rover_driver_base': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/rover_driver_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_driver_base build --build-base /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build install --record /home/GTL/wxu/cs7630_g6/build/rover_driver_base/install.log --single-version-externally-managed
+[2.445s] running egg_info
+[2.447s] writing ../../build/rover_driver_base/rover_driver_base.egg-info/PKG-INFO
+[2.461s] writing dependency_links to ../../build/rover_driver_base/rover_driver_base.egg-info/dependency_links.txt
+[2.472s] writing entry points to ../../build/rover_driver_base/rover_driver_base.egg-info/entry_points.txt
+[2.483s] writing requirements to ../../build/rover_driver_base/rover_driver_base.egg-info/requires.txt
+[2.493s] writing top-level names to ../../build/rover_driver_base/rover_driver_base.egg-info/top_level.txt
+[2.566s] reading manifest file '../../build/rover_driver_base/rover_driver_base.egg-info/SOURCES.txt'
+[2.590s] writing manifest file '../../build/rover_driver_base/rover_driver_base.egg-info/SOURCES.txt'
+[2.596s] running build
+[2.596s] running build_py
+[2.613s] copying rover_driver_base/rover_kinematics.py -> /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base
+[2.647s] running install
+[2.647s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.647s]   warnings.warn(
+[2.647s] running install_lib
+[2.664s] copying /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base/rover_kinematics.py -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base
+[2.699s] byte-compiling /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base/rover_kinematics.py to rover_kinematics.cpython-310.pyc
+[2.739s] running install_data
+[2.769s] running install_egg_info
+[2.824s] removing '/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base-0.0.0-py3.10.egg-info' (and everything under it)
+[2.866s] Copying ../../build/rover_driver_base/rover_driver_base.egg-info to /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base-0.0.0-py3.10.egg-info
+[3.001s] running install_scripts
+[3.048s] Installing rover_command_node script to /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/rover_driver_base
+[3.063s] Installing rover_odom_node script to /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/rover_driver_base
+[3.077s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/rover_driver_base/install.log'
+[3.100s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/rover_driver_base' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/rover_driver_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_driver_base build --build-base /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build install --record /home/GTL/wxu/cs7630_g6/build/rover_driver_base/install.log --single-version-externally-managed

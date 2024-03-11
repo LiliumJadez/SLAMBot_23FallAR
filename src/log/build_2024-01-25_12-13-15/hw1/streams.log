@@ -1,0 +1,40 @@
+[6.159s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/hw1': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw1 build --build-base /home/GTL/wxu/cs7630_g6/src/build/hw1/build install --record /home/GTL/wxu/cs7630_g6/src/build/hw1/install.log --single-version-externally-managed
+[6.439s] running egg_info
+[6.439s] creating ../build/hw1/hw1.egg-info
+[6.448s] writing ../build/hw1/hw1.egg-info/PKG-INFO
+[6.516s] writing dependency_links to ../build/hw1/hw1.egg-info/dependency_links.txt
+[6.553s] writing entry points to ../build/hw1/hw1.egg-info/entry_points.txt
+[6.583s] writing requirements to ../build/hw1/hw1.egg-info/requires.txt
+[6.637s] writing top-level names to ../build/hw1/hw1.egg-info/top_level.txt
+[6.675s] writing manifest file '../build/hw1/hw1.egg-info/SOURCES.txt'
+[6.785s] reading manifest file '../build/hw1/hw1.egg-info/SOURCES.txt'
+[6.820s] adding license file 'LICENSE'
+[6.829s] writing manifest file '../build/hw1/hw1.egg-info/SOURCES.txt'
+[6.865s] running build
+[6.866s] running build_py
+[6.880s] creating /home/GTL/wxu/cs7630_g6/src/build/hw1/build
+[6.885s] creating /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib
+[6.906s] creating /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib/src
+[6.999s] copying src/stupid.py -> /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib/src
+[7.287s] copying src/joystick_listener.py -> /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib/src
+[7.445s] copying src/__init__.py -> /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib/src
+[7.526s] running install
+[7.526s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.526s]   warnings.warn(
+[7.526s] running install_lib
+[7.566s] creating /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/src
+[7.601s] copying /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib/src/stupid.py -> /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/src
+[7.729s] copying /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib/src/joystick_listener.py -> /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/src
+[7.948s] copying /home/GTL/wxu/cs7630_g6/src/build/hw1/build/lib/src/__init__.py -> /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/src
+[8.081s] byte-compiling /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/src/stupid.py to stupid.cpython-310.pyc
+[8.119s] byte-compiling /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/src/joystick_listener.py to joystick_listener.cpython-310.pyc
+[8.157s] byte-compiling /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/src/__init__.py to __init__.cpython-310.pyc
+[8.166s] running install_data
+[8.178s] copying package.xml -> /home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1
+[8.327s] running install_egg_info
+[8.413s] Copying ../build/hw1/hw1.egg-info to /home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info
+[9.555s] running install_scripts
+[9.592s] Installing joystick script to /home/GTL/wxu/cs7630_g6/src/install/hw1/bin
+[9.681s] Installing stupid script to /home/GTL/wxu/cs7630_g6/src/install/hw1/bin
+[9.747s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/src/build/hw1/install.log'
+[10.057s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/hw1' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw1 build --build-base /home/GTL/wxu/cs7630_g6/src/build/hw1/build install --record /home/GTL/wxu/cs7630_g6/src/build/hw1/install.log --single-version-externally-managed

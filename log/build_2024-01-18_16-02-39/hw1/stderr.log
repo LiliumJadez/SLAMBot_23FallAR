@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/GTL/hshi/cs7630_g6/src/hw1/src/joystick_listen.py": No such file or
+  directory.
+
+[0m

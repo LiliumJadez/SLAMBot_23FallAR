@@ -1,0 +1,46 @@
+[0.794s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/floor_nav': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16
+[1.599s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskWaitForFace[0m
+[2.054s] [ 77%] [32mBuilding CXX object CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o[0m
+[2.058s] [ 85%] Built target floornav_TaskNav2
+[2.063s] [ 85%] [32mBuilding CXX object CMakeFiles/floornav_TaskWanderFront.dir/tasks/TaskWanderFront.cpp.o[0m
+[2.063s] [ 85%] Built target floornav_TaskGoTo
+[2.068s] [ 88%] Built target floornav_TaskPlanTo
+[2.106s] [ 88%] Built target floornav_TaskWaitForROI
+[2.106s] [ 88%] Built target floornav_TaskSetHeading
+[2.108s] [ 88%] Built target floornav_TaskConstant
+[2.108s] [ 88%] Built target floornav_TaskAutoDock
+[2.130s] [ 92%] Built target floornav_TaskTrigger
+[2.130s] [ 92%] Built target floornav_TaskWander
+[2.135s] [ 92%] Built target floornav_TaskSetMux
+[2.142s] [ 92%] Built target floornav_task_server
+[6.797s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:[m[K In member function ‘[01m[Kvoid floor_nav::TaskWaitForFace::faceDetectionCallback(const SharedPtr&)[m[K’:
+[6.797s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:31:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kconfidences[m[K’
+[6.797s]    31 |     if (!msg->regions.empty() && !msg->[01;31m[Kconfidences[m[K.empty() && msg->confidences[0] >= detection_threshold) {
+[6.797s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[6.797s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:31:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kconfidences[m[K’
+[6.797s]    31 |     if (!msg->regions.empty() && !msg->confidences.empty() && msg->[01;31m[Kconfidences[m[K[0] >= detection_threshold) {
+[6.797s]       |                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[6.797s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.798s]                  from [01m[K/home/GTL/wxu/cs7630_g6/install/task_manager_lib/include/task_manager_lib/TaskInstance.h:12[m[K,
+[6.798s]                  from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:4[m[K,
+[6.798s]                  from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[6.798s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:32:122:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kconfidences[m[K’
+[6.798s]    32 |         RCLCPP_INFO(this->getNode()->get_logger(), "TaskWaitForFace: Face detected with sufficient confidence: %f", msg->[01;31m[Kconfidences[m[K[0]);
+[6.798s]       |                                                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[9.367s] gmake[2]: *** [CMakeFiles/floornav_TaskWaitForFace.dir/build.make:76: CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o] Error 1
+[9.368s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/floornav_TaskWaitForFace.dir/all] Error 2
+[9.368s] gmake[1]: *** Waiting for unfinished jobs....
+[10.083s] [ 96%] [32m[1mLinking CXX shared library libfloornav_TaskWanderFront.so[0m
+[14.726s] [ 96%] Built target floornav_TaskWanderFront
+[14.727s] gmake: *** [Makefile:146: all] Error 2
+[14.729s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/floor_nav' returned '2': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16

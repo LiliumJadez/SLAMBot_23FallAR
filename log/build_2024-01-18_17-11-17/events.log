@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000107] (hw1) JobQueued: {'identifier': 'hw1', 'dependencies': OrderedDict()}
+[0.000130] (hw1_xwh) JobQueued: {'identifier': 'hw1_xwh', 'dependencies': OrderedDict()}
+[0.000142] (hw1) JobStarted: {'identifier': 'hw1'}
+[0.075069] (-) TimerEvent: {}
+[0.095020] (hw1_xwh) JobStarted: {'identifier': 'hw1_xwh'}
+[0.176098] (-) TimerEvent: {}
+[0.276857] (-) TimerEvent: {}
+[0.284618] (hw1) JobProgress: {'identifier': 'hw1', 'progress': 'cmake'}
+[0.338340] (hw1) JobProgress: {'identifier': 'hw1', 'progress': 'build'}
+[0.340694] (hw1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/hshi/cs7630_g6/build/hw1', '--', '-j16', '-l16'], 'cwd': '/home/GTL/hshi/cs7630_g6/build/hw1', 'env': OrderedDict([('USER', 'hshi'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/hshi'), ('OLDPWD', '/home/GTL/hshi/cs7630_g6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '114946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/35440/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc124.georgiatech-metz.fr:@/tmp/.ICE-unix/114924,unix/gtlpc124.georgiatech-metz.fr:/tmp/.ICE-unix/114924'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64119176_46a8_4e8a_a5cf_bbdbb2163816'), ('XDG_RUNTIME_DIR', '/run/user/35440'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/35440/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/35440/keyring/ssh'), ('ROS_DOMAIN_ID', '74'), ('AMENT_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_35440'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/35440/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/hshi/cs7630_g6/build/hw1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble')]), 'shell': False}
+[0.604811] (-) TimerEvent: {}
+[0.605110] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'cmake'}
+[0.605191] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'build'}
+[0.605245] (hw1_xwh) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/hshi/cs7630_g6/build/hw1_xwh', '--', '-j16', '-l16'], 'cwd': '/home/GTL/hshi/cs7630_g6/build/hw1_xwh', 'env': OrderedDict([('USER', 'hshi'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/hshi'), ('OLDPWD', '/home/GTL/hshi/cs7630_g6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '114946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/35440/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc124.georgiatech-metz.fr:@/tmp/.ICE-unix/114924,unix/gtlpc124.georgiatech-metz.fr:/tmp/.ICE-unix/114924'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64119176_46a8_4e8a_a5cf_bbdbb2163816'), ('XDG_RUNTIME_DIR', '/run/user/35440'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/35440/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/35440/keyring/ssh'), ('ROS_DOMAIN_ID', '74'), ('AMENT_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_35440'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/35440/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/hshi/cs7630_g6/build/hw1_xwh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble')]), 'shell': False}
+[0.817507] (-) TimerEvent: {}
+[0.817778] (hw1) CommandEnded: {'returncode': 0}
+[0.818482] (hw1) JobProgress: {'identifier': 'hw1', 'progress': 'install'}
+[0.818555] (hw1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/hshi/cs7630_g6/build/hw1'], 'cwd': '/home/GTL/hshi/cs7630_g6/build/hw1', 'env': OrderedDict([('USER', 'hshi'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/hshi'), ('OLDPWD', '/home/GTL/hshi/cs7630_g6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '114946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/35440/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc124.georgiatech-metz.fr:@/tmp/.ICE-unix/114924,unix/gtlpc124.georgiatech-metz.fr:/tmp/.ICE-unix/114924'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64119176_46a8_4e8a_a5cf_bbdbb2163816'), ('XDG_RUNTIME_DIR', '/run/user/35440'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/35440/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/35440/keyring/ssh'), ('ROS_DOMAIN_ID', '74'), ('AMENT_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_35440'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/35440/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/hshi/cs7630_g6/build/hw1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble')]), 'shell': False}
+[0.819375] (hw1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.819604] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/lib/hw1/joystick_listener.py\n'}
+[0.819787] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/lib/hw1/stupid.py\n'}
+[0.819955] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/package_run_dependencies/hw1\n'}
+[0.820116] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/parent_prefix_path/hw1\n'}
+[0.820276] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/ament_prefix_path.sh\n'}
+[0.820438] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/ament_prefix_path.dsv\n'}
+[0.820596] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/path.sh\n'}
+[0.820775] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/path.dsv\n'}
+[0.820933] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.bash\n'}
+[0.821090] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.sh\n'}
+[0.821249] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.zsh\n'}
+[0.821410] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.dsv\n'}
+[0.821573] (hw1) StdoutLine: {'line': b'-- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.dsv\n'}
+[0.901460] (hw1_xwh) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.917635] (-) TimerEvent: {}
+[0.960624] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/packages/hw1\n'}
+[0.961348] (hw1_xwh) CommandEnded: {'returncode': 0}
+[0.968163] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/cmake/hw1Config.cmake\n'}
+[0.972120] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/cmake/hw1Config-version.cmake\n'}
+[0.975871] (hw1) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.xml\n'}
+[0.998196] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'install'}
+[0.998322] (hw1_xwh) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/hshi/cs7630_g6/build/hw1_xwh'], 'cwd': '/home/GTL/hshi/cs7630_g6/build/hw1_xwh', 'env': OrderedDict([('USER', 'hshi'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/hshi'), ('OLDPWD', '/home/GTL/hshi/cs7630_g6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '114946'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/35440/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hshi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc124.georgiatech-metz.fr:@/tmp/.ICE-unix/114924,unix/gtlpc124.georgiatech-metz.fr:/tmp/.ICE-unix/114924'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/64119176_46a8_4e8a_a5cf_bbdbb2163816'), ('XDG_RUNTIME_DIR', '/run/user/35440'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/35440/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/35440/keyring/ssh'), ('ROS_DOMAIN_ID', '74'), ('AMENT_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_35440'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/35440/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/hshi/cs7630_g6/build/hw1_xwh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/hshi/cs7630_g6/install/hw1_xwh:/home/GTL/hshi/cs7630_g6/install/hw1:/opt/ros/humble')]), 'shell': False}
+[1.008218] (hw1_xwh) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.017726] (-) TimerEvent: {}
+[1.020253] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node\n'}
+[1.030140] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/package_run_dependencies/hw1_xwh\n'}
+[1.037544] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/parent_prefix_path/hw1_xwh\n'}
+[1.047242] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.sh\n'}
+[1.055790] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.dsv\n'}
+[1.061962] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.sh\n'}
+[1.065993] (hw1) CommandEnded: {'returncode': 0}
+[1.081891] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.dsv\n'}
+[1.090049] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.bash\n'}
+[1.111459] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.sh\n'}
+[1.117889] (-) TimerEvent: {}
+[1.140245] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.zsh\n'}
+[1.195762] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.dsv\n'}
+[1.216405] (hw1_xwh) StdoutLine: {'line': b'-- Installing: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.dsv\n'}
+[1.217966] (-) TimerEvent: {}
+[1.318294] (-) TimerEvent: {}
+[1.396048] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/packages/hw1_xwh\n'}
+[1.408919] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig.cmake\n'}
+[1.418460] (-) TimerEvent: {}
+[1.420895] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig-version.cmake\n'}
+[1.443551] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.xml\n'}
+[1.518706] (-) TimerEvent: {}
+[1.619325] (-) TimerEvent: {}
+[1.719823] (-) TimerEvent: {}
+[1.820446] (hw1_xwh) CommandEnded: {'returncode': 0}
+[1.823102] (-) TimerEvent: {}
+[1.923455] (-) TimerEvent: {}
+[2.023811] (-) TimerEvent: {}
+[2.125062] (-) TimerEvent: {}
+[2.225647] (-) TimerEvent: {}
+[2.326252] (-) TimerEvent: {}
+[2.426809] (-) TimerEvent: {}
+[2.527439] (-) TimerEvent: {}
+[2.628075] (-) TimerEvent: {}
+[2.728707] (-) TimerEvent: {}
+[2.829315] (-) TimerEvent: {}
+[2.929896] (-) TimerEvent: {}
+[3.030460] (-) TimerEvent: {}
+[3.085040] (hw1) JobEnded: {'identifier': 'hw1', 'rc': 0}
+[3.182676] (-) TimerEvent: {}
+[3.283195] (-) TimerEvent: {}
+[3.383812] (-) TimerEvent: {}
+[3.484384] (-) TimerEvent: {}
+[3.585034] (-) TimerEvent: {}
+[3.686012] (-) TimerEvent: {}
+[3.786636] (-) TimerEvent: {}
+[3.887262] (-) TimerEvent: {}
+[3.892957] (hw1_xwh) JobEnded: {'identifier': 'hw1_xwh', 'rc': 0}
+[3.968007] (-) EventReactorShutdown: {}

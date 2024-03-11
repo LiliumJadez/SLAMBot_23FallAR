@@ -1,0 +1,8 @@
+setup.py
+msg_pkg/__init__.py
+msg_pkg.egg-info/PKG-INFO
+msg_pkg.egg-info/SOURCES.txt
+msg_pkg.egg-info/dependency_links.txt
+msg_pkg.egg-info/top_level.txt
+msg_pkg/msg/__init__.py
+msg_pkg/msg/_regions_of_interest_array.py

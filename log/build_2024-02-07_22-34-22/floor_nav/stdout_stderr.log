@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target floornav_task_server[0m
+[  3%] [32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskSetHeading.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskNav2.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskPlanTo.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWander.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskGoTo.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWanderFront.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskSetMux.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWaitForROI.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskAutoDock.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWaitForFace.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskTrigger.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskConstant.so[0m
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:[m[K In member function ‘[01m[Kvoid floor_nav::TaskStareAtFace::faceCallback(msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:45:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfaces[m[K’
+   45 |     if (msg->[01;31m[Kfaces[m[K.empty()){
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:49:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfaces[m[K’
+   49 |     face_roi =msg->[01;31m[Kfaces[m[K[0];
+      |                    [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskStareAtFace.dir/build.make:76: CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/floornav_TaskStareAtFace.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 55%] Built target floornav_TaskWaitForROI
+[ 58%] Built target floornav_TaskTrigger
+[ 62%] Built target floornav_TaskGoTo
+[ 65%] Built target floornav_TaskWander
+[ 68%] Built target floornav_TaskSetHeading
+[ 72%] Built target floornav_TaskWaitForFace
+[ 75%] Built target floornav_TaskPlanTo
+[ 79%] Built target floornav_TaskConstant
+[ 82%] Built target floornav_TaskSetMux
+[ 86%] [32m[1mLinking CXX executable floornav_task_server[0m
+[ 89%] Built target floornav_TaskWanderFront
+[ 96%] Built target floornav_TaskNav2
+[ 96%] Built target floornav_TaskAutoDock
+[ 96%] Built target floornav_task_server
+gmake: *** [Makefile:146: all] Error 2

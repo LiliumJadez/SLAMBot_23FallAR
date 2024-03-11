@@ -1,0 +1,38 @@
+[0.428s] Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16
+[1.168s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.187s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.188s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.204s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.205s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.208s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.435s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.675s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.712s] -- Added test 'lint_cmake' to check CMake code style
+[2.730s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.952s] -- Added test 'xmllint' to check XML markup files
+[3.274s] -- Configuring done
+[4.382s] -- Generating done
+[4.830s] -- Build files have been written to: /home/GTL/hshi/cs7630_g6/build/hw1
+[4.879s] Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16
+[4.925s] Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1
+[4.938s] -- Install configuration: ""
+[4.965s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/lib/hw1/joystick_listener.py
+[4.973s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/lib/hw1/stupid.py
+[5.006s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/package_run_dependencies/hw1
+[5.182s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/parent_prefix_path/hw1
+[5.327s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/ament_prefix_path.sh
+[5.342s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/ament_prefix_path.dsv
+[5.519s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/path.sh
+[5.533s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/path.dsv
+[5.782s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.bash
+[5.794s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.sh
+[5.809s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.zsh
+[5.817s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.dsv
+[6.072s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.dsv
+[6.334s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/packages/hw1
+[6.353s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/cmake/hw1Config.cmake
+[6.372s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/cmake/hw1Config-version.cmake
+[6.390s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.xml
+[6.606s] Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1

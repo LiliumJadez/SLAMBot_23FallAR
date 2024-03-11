@@ -1,0 +1,51 @@
+[7.965s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/button_server': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/button_server/prefix_override:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/button_server build --build-base /home/GTL/wxu/cs7630_g6/build/button_server/build install --record /home/GTL/wxu/cs7630_g6/build/button_server/install.log --single-version-externally-managed
+[8.776s] running egg_info
+[8.776s] creating ../../../../build/button_server/button_server.egg-info
+[8.776s] writing ../../../../build/button_server/button_server.egg-info/PKG-INFO
+[9.102s] writing dependency_links to ../../../../build/button_server/button_server.egg-info/dependency_links.txt
+[9.102s] writing entry points to ../../../../build/button_server/button_server.egg-info/entry_points.txt
+[9.102s] writing requirements to ../../../../build/button_server/button_server.egg-info/requires.txt
+[9.102s] writing top-level names to ../../../../build/button_server/button_server.egg-info/top_level.txt
+[9.102s] writing manifest file '../../../../build/button_server/button_server.egg-info/SOURCES.txt'
+[9.103s] reading manifest file '../../../../build/button_server/button_server.egg-info/SOURCES.txt'
+[9.122s] writing manifest file '../../../../build/button_server/button_server.egg-info/SOURCES.txt'
+[9.167s] running build
+[9.167s] running build_py
+[9.170s] creating /home/GTL/wxu/cs7630_g6/build/button_server/build
+[9.174s] creating /home/GTL/wxu/cs7630_g6/build/button_server/build/lib
+[9.188s] creating /home/GTL/wxu/cs7630_g6/build/button_server/build/lib/button_server
+[9.219s] copying button_server/ButtonServer3.py -> /home/GTL/wxu/cs7630_g6/build/button_server/build/lib/button_server
+[9.326s] copying button_server/__init__.py -> /home/GTL/wxu/cs7630_g6/build/button_server/build/lib/button_server
+[9.524s] copying button_server/requesthdl3.py -> /home/GTL/wxu/cs7630_g6/build/button_server/build/lib/button_server
+[9.711s] running build_scripts
+[9.713s] creating /home/GTL/wxu/cs7630_g6/build/button_server/build/scripts-3.10
+[9.768s] copying and adjusting nodes/button_server_node -> /home/GTL/wxu/cs7630_g6/build/button_server/build/scripts-3.10
+[9.833s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.834s]   warnings.warn(
+[9.834s] running install
+[9.834s] running install_lib
+[9.911s] creating /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server
+[9.932s] copying /home/GTL/wxu/cs7630_g6/build/button_server/build/lib/button_server/ButtonServer3.py -> /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server
+[10.083s] copying /home/GTL/wxu/cs7630_g6/build/button_server/build/lib/button_server/__init__.py -> /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server
+[10.474s] copying /home/GTL/wxu/cs7630_g6/build/button_server/build/lib/button_server/requesthdl3.py -> /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server
+[10.765s] byte-compiling /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server/ButtonServer3.py to ButtonServer3.cpython-310.pyc
+[10.880s] byte-compiling /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server/__init__.py to __init__.cpython-310.pyc
+[10.901s] byte-compiling /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server/requesthdl3.py to requesthdl3.cpython-310.pyc
+[10.999s] running install_data
+[11.019s] creating /home/GTL/wxu/cs7630_g6/install/button_server/share/ament_index
+[11.025s] creating /home/GTL/wxu/cs7630_g6/install/button_server/share/ament_index/resource_index
+[11.099s] creating /home/GTL/wxu/cs7630_g6/install/button_server/share/ament_index/resource_index/packages
+[11.130s] copying resource/button_server -> /home/GTL/wxu/cs7630_g6/install/button_server/share/ament_index/resource_index/packages
+[11.274s] copying package.xml -> /home/GTL/wxu/cs7630_g6/install/button_server/share/button_server
+[11.457s] creating /home/GTL/wxu/cs7630_g6/install/button_server/share/button_server/launch
+[11.504s] copying launch/button_server.launch -> /home/GTL/wxu/cs7630_g6/install/button_server/share/button_server/launch
+[11.721s] creating /home/GTL/wxu/cs7630_g6/install/button_server/share/button_server/lib
+[11.785s] copying lib/jquery-3.6.4.min.js -> /home/GTL/wxu/cs7630_g6/install/button_server/share/button_server/lib
+[11.972s] running install_egg_info
+[12.151s] Copying ../../../../build/button_server/button_server.egg-info to /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server-0.0.0-py3.10.egg-info
+[13.385s] running install_scripts
+[13.544s] creating /home/GTL/wxu/cs7630_g6/install/button_server/lib/button_server
+[13.572s] copying /home/GTL/wxu/cs7630_g6/build/button_server/build/scripts-3.10/button_server_node -> /home/GTL/wxu/cs7630_g6/install/button_server/lib/button_server
+[13.720s] changing mode of /home/GTL/wxu/cs7630_g6/install/button_server/lib/button_server/button_server_node to 775
+[13.760s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/button_server/install.log'
+[14.462s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/button_server' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/button_server/prefix_override:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/button_server build --build-base /home/GTL/wxu/cs7630_g6/build/button_server/build install --record /home/GTL/wxu/cs7630_g6/build/button_server/install.log --single-version-externally-managed

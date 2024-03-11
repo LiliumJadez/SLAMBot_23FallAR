@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (hw1) JobQueued: {'identifier': 'hw1', 'dependencies': OrderedDict()}
+[0.000470] (hw1_xwh) JobQueued: {'identifier': 'hw1_xwh', 'dependencies': OrderedDict()}
+[0.000522] (vrep4_helpers) JobQueued: {'identifier': 'vrep4_helpers', 'dependencies': OrderedDict()}
+[0.000567] (hw1) JobStarted: {'identifier': 'hw1'}
+[0.032897] (-) TimerEvent: {}
+[0.133389] (-) TimerEvent: {}
+[0.167834] (hw1_xwh) JobStarted: {'identifier': 'hw1_xwh'}
+[0.233616] (-) TimerEvent: {}
+[0.247201] (vrep4_helpers) JobStarted: {'identifier': 'vrep4_helpers'}
+[0.333851] (-) TimerEvent: {}
+[0.434346] (-) TimerEvent: {}
+[0.534625] (-) TimerEvent: {}
+[0.635054] (-) TimerEvent: {}
+[0.735657] (-) TimerEvent: {}
+[0.739077] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'cmake'}
+[0.788759] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'build'}
+[0.791087] (hw1_xwh) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/hw1_xwh', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '455265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29cbafc1_31e5_4af0_8f71_3bc29bc864b6'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.159835] (-) TimerEvent: {}
+[1.160167] (vrep4_helpers) JobProgress: {'identifier': 'vrep4_helpers', 'progress': 'cmake'}
+[1.160263] (hw1_xwh) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/GTL/wxu/cs7630_g6/build/hw1_xwh/CMakeCache.txt is different than the directory /home/GTL/hshi/cs7630_g6/build/hw1_xwh where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[1.160549] (vrep4_helpers) Command: {'cmd': ['/usr/bin/cmake', '/home/GTL/wxu/cs7630_g6/src/vrep4_helpers', '-DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/vrep4_helpers'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '455265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29cbafc1_31e5_4af0_8f71_3bc29bc864b6'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.371145] (-) TimerEvent: {}
+[1.371233] (hw1_xwh) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.429791] (hw1_xwh) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[1.429906] (hw1_xwh) StderrLine: {'line': b'  Operation not permitted\n'}
+[1.429944] (hw1_xwh) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.429985] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:24 (stamp)\n'}
+[1.430016] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.430048] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.430078] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.430108] (hw1_xwh) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[1.430138] (hw1_xwh) StderrLine: {'line': b'\n'}
+[1.430168] (hw1_xwh) StderrLine: {'line': b'\x1b[0m\n'}
+[1.471251] (-) TimerEvent: {}
+[1.472448] (hw1_xwh) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.472551] (hw1_xwh) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[1.472596] (hw1_xwh) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[1.472635] (hw1_xwh) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[1.478994] (hw1_xwh) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[1.479108] (hw1_xwh) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[1.479150] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[1.479185] (hw1_xwh) StderrLine: {'line': b'  /home/GTL/hshi/cs7630_g6/build/hw1_xwh/ament_cmake_package_templates/templates.cmake)\n'}
+[1.479219] (hw1_xwh) StderrLine: {'line': b'  returned error code 1\n'}
+[1.479253] (hw1_xwh) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.479287] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.479324] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.479357] (hw1_xwh) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.479391] (hw1_xwh) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[1.479426] (hw1_xwh) StderrLine: {'line': b'\n'}
+[1.479462] (hw1_xwh) StderrLine: {'line': b'\x1b[0m\n'}
+[1.485078] (hw1_xwh) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.485174] (hw1_xwh) StdoutLine: {'line': b'See also "/home/GTL/hshi/cs7630_g6/build/hw1_xwh/CMakeFiles/CMakeOutput.log".\n'}
+[1.551004] (vrep4_helpers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.556661] (hw1_xwh) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.559363] (hw1_xwh) CommandEnded: {'returncode': 2}
+[1.571375] (-) TimerEvent: {}
+[1.671638] (-) TimerEvent: {}
+[1.771970] (-) TimerEvent: {}
+[1.872556] (-) TimerEvent: {}
+[1.972979] (-) TimerEvent: {}
+[1.973220] (vrep4_helpers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.073182] (-) TimerEvent: {}
+[2.162608] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.173651] (-) TimerEvent: {}
+[2.265435] (hw1_xwh) JobEnded: {'identifier': 'hw1_xwh', 'rc': 2}
+[2.304653] (-) TimerEvent: {}
+[2.305001] (hw1) JobEnded: {'identifier': 'hw1', 'rc': 'SIGINT'}
+[2.404839] (-) TimerEvent: {}
+[2.505424] (-) TimerEvent: {}
+[2.606038] (-) TimerEvent: {}
+[2.706669] (-) TimerEvent: {}
+[2.807254] (-) TimerEvent: {}
+[2.907854] (-) TimerEvent: {}
+[3.008569] (-) TimerEvent: {}
+[3.109194] (-) TimerEvent: {}
+[3.209765] (-) TimerEvent: {}
+[3.310340] (-) TimerEvent: {}
+[3.410912] (-) TimerEvent: {}
+[3.511460] (-) TimerEvent: {}
+[3.539606] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.579004] (vrep4_helpers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.579554] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.580436] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.611668] (-) TimerEvent: {}
+[3.712260] (-) TimerEvent: {}
+[3.725568] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.812426] (-) TimerEvent: {}
+[3.912966] (-) TimerEvent: {}
+[4.013496] (-) TimerEvent: {}
+[4.114062] (-) TimerEvent: {}
+[4.214656] (-) TimerEvent: {}
+[4.315250] (-) TimerEvent: {}
+[4.415873] (-) TimerEvent: {}
+[4.516469] (-) TimerEvent: {}
+[4.617033] (-) TimerEvent: {}
+[4.717559] (-) TimerEvent: {}
+[4.818137] (-) TimerEvent: {}
+[4.918700] (-) TimerEvent: {}
+[5.019237] (-) TimerEvent: {}
+[5.072318] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.113496] (vrep4_helpers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.114265] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.115494] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.119394] (-) TimerEvent: {}
+[5.219857] (-) TimerEvent: {}
+[5.292804] (vrep4_helpers) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[5.292992] (vrep4_helpers) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[5.293075] (vrep4_helpers) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[5.293145] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[5.293210] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[5.293276] (vrep4_helpers) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[5.293341] (vrep4_helpers) StderrLine: {'line': b'  any of the following names:\n'}
+[5.293406] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[5.293468] (vrep4_helpers) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[5.293537] (vrep4_helpers) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[5.293600] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[5.293662] (vrep4_helpers) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[5.293724] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[5.293789] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[5.293853] (vrep4_helpers) StderrLine: {'line': b'  has been installed.\n'}
+[5.293916] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[5.293978] (vrep4_helpers) StderrLine: {'line': b'\x1b[0m\n'}
+[5.298264] (vrep4_helpers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.298473] (vrep4_helpers) StdoutLine: {'line': b'See also "/home/GTL/wxu/cs7630_g6/build/vrep4_helpers/CMakeFiles/CMakeOutput.log".\n'}
+[5.320052] (-) TimerEvent: {}
+[5.381234] (vrep4_helpers) JobEnded: {'identifier': 'vrep4_helpers', 'rc': 'SIGINT'}
+[5.419043] (-) EventReactorShutdown: {}

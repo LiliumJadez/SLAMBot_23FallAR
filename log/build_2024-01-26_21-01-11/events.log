@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000443] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000492] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000529] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000564] (-) JobUnselected: {'identifier': 'floor_nav'}
+[0.000601] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000637] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000670] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000704] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000737] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000770] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000803] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000835] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000868] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000901] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000942] (keyboard_teleop) JobQueued: {'identifier': 'keyboard_teleop', 'dependencies': OrderedDict()}
+[0.000988] (keyboard_teleop) JobStarted: {'identifier': 'keyboard_teleop'}
+[0.021746] (-) TimerEvent: {}
+[0.122359] (-) TimerEvent: {}
+[0.222977] (-) TimerEvent: {}
+[0.323299] (-) TimerEvent: {}
+[0.423706] (-) TimerEvent: {}
+[0.524139] (-) TimerEvent: {}
+[0.624349] (-) TimerEvent: {}
+[0.724604] (-) TimerEvent: {}
+[0.825055] (-) TimerEvent: {}
+[0.925361] (-) TimerEvent: {}
+[1.025862] (-) TimerEvent: {}
+[1.126387] (-) TimerEvent: {}
+[1.226833] (-) TimerEvent: {}
+[1.327411] (-) TimerEvent: {}
+[1.428728] (-) TimerEvent: {}
+[1.529015] (-) TimerEvent: {}
+[1.629259] (-) TimerEvent: {}
+[1.729527] (-) TimerEvent: {}
+[1.829781] (-) TimerEvent: {}
+[1.857918] (keyboard_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_teleop', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/keyboard_teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/keyboard_teleop', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '847567', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '3', 'PATH': '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc105.georgiatech-metz.fr:@/tmp/.ICE-unix/391702,unix/gtlpc105.georgiatech-metz.fr:/tmp/.ICE-unix/391702', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07f4a128_373c_47e9_8626_15bf82cdc9f8', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.4584', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '55', 'AMENT_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/keyboard_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/keyboard_teleop/prefix_override:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base'}, 'shell': False}
+[2.059962] (-) TimerEvent: {}
+[2.160253] (-) TimerEvent: {}
+[2.260692] (-) TimerEvent: {}
+[2.361220] (-) TimerEvent: {}
+[2.433298] (keyboard_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[2.434404] (keyboard_teleop) StdoutLine: {'line': b'creating ../../build/keyboard_teleop/keyboard_teleop.egg-info\n'}
+[2.440971] (keyboard_teleop) StdoutLine: {'line': b'writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO\n'}
+[2.461432] (-) TimerEvent: {}
+[2.532007] (keyboard_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt\n'}
+[2.561624] (-) TimerEvent: {}
+[2.572999] (keyboard_teleop) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt\n'}
+[2.606464] (keyboard_teleop) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt\n'}
+[2.656437] (keyboard_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt\n'}
+[2.661845] (-) TimerEvent: {}
+[2.688090] (keyboard_teleop) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'\n"}
+[2.761975] (-) TimerEvent: {}
+[2.770029] (keyboard_teleop) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'\n"}
+[2.784812] (keyboard_teleop) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'\n"}
+[2.813211] (keyboard_teleop) StdoutLine: {'line': b'running build\n'}
+[2.813407] (keyboard_teleop) StdoutLine: {'line': b'running build_py\n'}
+[2.815379] (keyboard_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build\n'}
+[2.818253] (keyboard_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib\n'}
+[2.823494] (keyboard_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib/keyboard_teleop\n'}
+[2.834744] (keyboard_teleop) StdoutLine: {'line': b'copying keyboard_teleop/teleop.py -> /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib/keyboard_teleop\n'}
+[2.862202] (-) TimerEvent: {}
+[2.962849] (-) TimerEvent: {}
+[2.980211] (keyboard_teleop) StdoutLine: {'line': b'copying keyboard_teleop/__init__.py -> /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib/keyboard_teleop\n'}
+[3.032026] (keyboard_teleop) StdoutLine: {'line': b'copying keyboard_teleop/keyboard_joy.py -> /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib/keyboard_teleop\n'}
+[3.062953] (-) TimerEvent: {}
+[3.163545] (-) TimerEvent: {}
+[3.202345] (keyboard_teleop) StdoutLine: {'line': b'running install\n'}
+[3.202947] (keyboard_teleop) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.203175] (keyboard_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.203618] (keyboard_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[3.219189] (keyboard_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop\n'}
+[3.247433] (keyboard_teleop) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib/keyboard_teleop/teleop.py -> /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop\n'}
+[3.263724] (-) TimerEvent: {}
+[3.353720] (keyboard_teleop) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib/keyboard_teleop/__init__.py -> /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop\n'}
+[3.363972] (-) TimerEvent: {}
+[3.414591] (keyboard_teleop) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/keyboard_teleop/build/lib/keyboard_teleop/keyboard_joy.py -> /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop\n'}
+[3.464252] (-) TimerEvent: {}
+[3.564731] (-) TimerEvent: {}
+[3.613273] (keyboard_teleop) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/teleop.py to teleop.cpython-310.pyc\n'}
+[3.635034] (keyboard_teleop) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/__init__.py to __init__.cpython-310.pyc\n'}
+[3.645424] (keyboard_teleop) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/keyboard_joy.py to keyboard_joy.cpython-310.pyc\n'}
+[3.656827] (keyboard_teleop) StdoutLine: {'line': b'running install_data\n'}
+[3.661946] (keyboard_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/share/ament_index\n'}
+[3.664856] (-) TimerEvent: {}
+[3.677859] (keyboard_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/share/ament_index/resource_index\n'}
+[3.688869] (keyboard_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/share/ament_index/resource_index/packages\n'}
+[3.702722] (keyboard_teleop) StdoutLine: {'line': b'copying resource/keyboard_teleop -> /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/share/ament_index/resource_index/packages\n'}
+[3.763574] (keyboard_teleop) StdoutLine: {'line': b'copying package.xml -> /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/share/keyboard_teleop\n'}
+[3.765029] (-) TimerEvent: {}
+[3.849642] (keyboard_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.863744] (keyboard_teleop) StdoutLine: {'line': b'Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info\n'}
+[3.865118] (-) TimerEvent: {}
+[3.965575] (-) TimerEvent: {}
+[4.066032] (-) TimerEvent: {}
+[4.166487] (-) TimerEvent: {}
+[4.267085] (-) TimerEvent: {}
+[4.367575] (-) TimerEvent: {}
+[4.468054] (-) TimerEvent: {}
+[4.568564] (-) TimerEvent: {}
+[4.669082] (-) TimerEvent: {}
+[4.769665] (-) TimerEvent: {}
+[4.802163] (keyboard_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[4.869901] (-) TimerEvent: {}
+[4.947559] (keyboard_teleop) StdoutLine: {'line': b'Installing keyboard_joystick_node script to /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/keyboard_teleop\n'}
+[4.970121] (-) TimerEvent: {}
+[5.070686] (-) TimerEvent: {}
+[5.171084] (-) TimerEvent: {}
+[5.271680] (-) TimerEvent: {}
+[5.372194] (-) TimerEvent: {}
+[5.472750] (-) TimerEvent: {}
+[5.573126] (-) TimerEvent: {}
+[5.673607] (-) TimerEvent: {}
+[5.774200] (-) TimerEvent: {}
+[5.874784] (-) TimerEvent: {}
+[5.975393] (-) TimerEvent: {}
+[6.075830] (-) TimerEvent: {}
+[6.176189] (-) TimerEvent: {}
+[6.276749] (-) TimerEvent: {}
+[6.377158] (-) TimerEvent: {}
+[6.477652] (-) TimerEvent: {}
+[6.535020] (keyboard_teleop) StdoutLine: {'line': b'Installing keyboard_teleop_node script to /home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/keyboard_teleop\n'}
+[6.577852] (-) TimerEvent: {}
+[6.678238] (-) TimerEvent: {}
+[6.745932] (keyboard_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/keyboard_teleop/install.log'\n"}
+[6.778387] (-) TimerEvent: {}
+[6.810594] (keyboard_teleop) CommandEnded: {'returncode': 0}
+[6.878565] (-) TimerEvent: {}
+[6.979030] (-) TimerEvent: {}
+[7.079483] (-) TimerEvent: {}
+[7.179820] (-) TimerEvent: {}
+[7.280188] (-) TimerEvent: {}
+[7.380846] (-) TimerEvent: {}
+[7.481381] (-) TimerEvent: {}
+[7.581943] (-) TimerEvent: {}
+[7.607786] (keyboard_teleop) JobEnded: {'identifier': 'keyboard_teleop', 'rc': 0}
+[7.645839] (-) EventReactorShutdown: {}

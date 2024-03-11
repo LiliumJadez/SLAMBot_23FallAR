@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'ar_loc_base'}
+[0.000338] (-) JobUnselected: {'identifier': 'ar_mapping_base'}
+[0.000350] (-) JobUnselected: {'identifier': 'ar_slam_base'}
+[0.000360] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000369] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000379] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000388] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000403] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000411] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000420] (-) JobUnselected: {'identifier': 'keyboard_teleop'}
+[0.000429] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000437] (-) JobUnselected: {'identifier': 'rover_driver_base'}
+[0.000445] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000454] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000463] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000471] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000480] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000488] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000496] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000512] (floor_nav) JobQueued: {'identifier': 'floor_nav', 'dependencies': OrderedDict([('msg_pkg', '/home/GTL/wxu/cs7630_g6/install/msg_pkg'), ('task_manager_msgs', '/home/GTL/wxu/cs7630_g6/install/task_manager_msgs'), ('task_manager_lib', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib'), ('task_manager_nav2', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2')])}
+[0.000528] (floor_nav) JobStarted: {'identifier': 'floor_nav'}
+[0.094254] (-) TimerEvent: {}
+[0.194528] (-) TimerEvent: {}
+[0.294806] (-) TimerEvent: {}
+[0.395042] (-) TimerEvent: {}
+[0.486198] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'cmake'}
+[0.495128] (-) TimerEvent: {}
+[0.598128] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'build'}
+[0.598190] (-) TimerEvent: {}
+[0.608144] (floor_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/floor_nav', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/floor_nav', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '327529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc113.georgiatech-metz.fr:@/tmp/.ICE-unix/326374,unix/gtlpc113.georgiatech-metz.fr:/tmp/.ICE-unix/326374'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d35d2d3d_f3f2_4f1a_8455_8189c0515a98'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '63'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/floor_nav'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble')]), 'shell': False}
+[0.698270] (-) TimerEvent: {}
+[0.798526] (-) TimerEvent: {}
+[0.898769] (-) TimerEvent: {}
+[0.999011] (-) TimerEvent: {}
+[1.099248] (-) TimerEvent: {}
+[1.199501] (-) TimerEvent: {}
+[1.220577] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskStareAtFace\x1b[0m\n'}
+[1.299665] (-) TimerEvent: {}
+[1.399921] (-) TimerEvent: {}
+[1.489823] (floor_nav) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o\x1b[0m\n'}
+[1.500047] (-) TimerEvent: {}
+[1.564883] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskConstant\n'}
+[1.567837] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskSetMux\n'}
+[1.567985] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskTrigger\n'}
+[1.568056] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskWaitForROI\n'}
+[1.568107] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskWander\n'}
+[1.568156] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskSetHeading\n'}
+[1.568232] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskWaitForFace\n'}
+[1.568279] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskGoTo\n'}
+[1.568948] (floor_nav) StdoutLine: {'line': b'[ 89%] Built target floornav_TaskWanderFront\n'}
+[1.569012] (floor_nav) StdoutLine: {'line': b'[ 89%] Built target floornav_TaskPlanTo\n'}
+[1.570499] (floor_nav) StdoutLine: {'line': b'[ 89%] Built target floornav_TaskNav2\n'}
+[1.571637] (floor_nav) StdoutLine: {'line': b'[ 89%] Built target floornav_TaskAutoDock\n'}
+[1.587488] (floor_nav) StdoutLine: {'line': b'[ 96%] Built target floornav_task_server\n'}
+[1.600126] (-) TimerEvent: {}
+[1.700357] (-) TimerEvent: {}
+[1.800668] (-) TimerEvent: {}
+[1.900944] (-) TimerEvent: {}
+[2.001220] (-) TimerEvent: {}
+[2.101493] (-) TimerEvent: {}
+[2.201764] (-) TimerEvent: {}
+[2.302090] (-) TimerEvent: {}
+[2.402326] (-) TimerEvent: {}
+[2.502558] (-) TimerEvent: {}
+[2.602781] (-) TimerEvent: {}
+[2.703028] (-) TimerEvent: {}
+[2.803284] (-) TimerEvent: {}
+[2.903546] (-) TimerEvent: {}
+[3.003843] (-) TimerEvent: {}
+[3.104138] (-) TimerEvent: {}
+[3.204379] (-) TimerEvent: {}
+[3.304639] (-) TimerEvent: {}
+[3.404898] (-) TimerEvent: {}
+[3.505126] (-) TimerEvent: {}
+[3.605341] (-) TimerEvent: {}
+[3.705585] (-) TimerEvent: {}
+[3.805817] (-) TimerEvent: {}
+[3.906072] (-) TimerEvent: {}
+[4.006307] (-) TimerEvent: {}
+[4.106551] (-) TimerEvent: {}
+[4.206792] (-) TimerEvent: {}
+[4.307014] (-) TimerEvent: {}
+[4.407262] (-) TimerEvent: {}
+[4.507520] (-) TimerEvent: {}
+[4.607762] (-) TimerEvent: {}
+[4.708026] (-) TimerEvent: {}
+[4.808294] (-) TimerEvent: {}
+[4.908522] (-) TimerEvent: {}
+[5.008742] (-) TimerEvent: {}
+[5.108994] (-) TimerEvent: {}
+[5.209248] (-) TimerEvent: {}
+[5.309515] (-) TimerEvent: {}
+[5.409747] (-) TimerEvent: {}
+[5.509999] (-) TimerEvent: {}
+[5.610270] (-) TimerEvent: {}
+[5.710535] (-) TimerEvent: {}
+[5.810760] (-) TimerEvent: {}
+[5.910981] (-) TimerEvent: {}
+[5.912399] (floor_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual task_manager_lib::TaskIndicator TaskStareAtFace::iterate()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.912562] (floor_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:46:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kface_roi\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.912633] (floor_nav) StderrLine: {'line': b'   46 |             uint32_t face_center_x = \x1b[01;31m\x1b[Kface_roi\x1b[m\x1b[K.x_offset + (face_roi.width / 2);\n'}
+[5.912690] (floor_nav) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.921461] (floor_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TaskStareAtFace::faceCallback(msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.921609] (floor_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:73:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kface_roi\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.921671] (floor_nav) StderrLine: {'line': b'   73 |         \x1b[01;31m\x1b[Kface_roi\x1b[m\x1b[K = msg->regions[0]; // Update the face_roi with the detected face\n'}
+[5.921725] (floor_nav) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.011115] (-) TimerEvent: {}
+[6.111356] (-) TimerEvent: {}
+[6.211633] (-) TimerEvent: {}
+[6.311929] (-) TimerEvent: {}
+[6.412193] (-) TimerEvent: {}
+[6.512466] (-) TimerEvent: {}
+[6.612757] (-) TimerEvent: {}
+[6.713018] (-) TimerEvent: {}
+[6.813297] (-) TimerEvent: {}
+[6.913580] (-) TimerEvent: {}
+[7.013912] (-) TimerEvent: {}
+[7.114233] (-) TimerEvent: {}
+[7.214519] (-) TimerEvent: {}
+[7.314801] (-) TimerEvent: {}
+[7.415094] (-) TimerEvent: {}
+[7.515403] (-) TimerEvent: {}
+[7.615710] (-) TimerEvent: {}
+[7.716020] (-) TimerEvent: {}
+[7.777544] (floor_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/floornav_TaskStareAtFace.dir/build.make:76: CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o] Error 1\n'}
+[7.782357] (floor_nav) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/floornav_TaskStareAtFace.dir/all] Error 2\n'}
+[7.782446] (floor_nav) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.784571] (floor_nav) CommandEnded: {'returncode': 2}
+[7.816135] (-) TimerEvent: {}
+[7.916357] (-) TimerEvent: {}
+[8.016739] (-) TimerEvent: {}
+[8.117049] (-) TimerEvent: {}
+[8.217472] (-) TimerEvent: {}
+[8.317710] (-) TimerEvent: {}
+[8.417986] (-) TimerEvent: {}
+[8.518258] (-) TimerEvent: {}
+[8.618514] (-) TimerEvent: {}
+[8.713171] (floor_nav) JobEnded: {'identifier': 'floor_nav', 'rc': 2}
+[8.723135] (-) TimerEvent: {}
+[8.723592] (-) EventReactorShutdown: {}

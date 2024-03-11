@@ -1,0 +1,29 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/image_flip.dir/src/image_flip.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/clock_repeat.dir/src/clock_repeat.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable image_flip[0m
+[ 75%] Built target image_flip
+[100%] [32m[1mLinking CXX executable clock_repeat[0m
+[100%] Built target clock_repeat
+-- Install configuration: ""
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/vrep4_helpers/image_flip
+-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/vrep4_helpers/image_flip" to ""
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/vrep4_helpers/clock_repeat
+-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/vrep4_helpers/clock_repeat" to ""
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/kinect_pc.launch.py
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/kinect_pc_min.launch.py
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/ament_index/resource_index/package_run_dependencies/vrep4_helpers
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/ament_index/resource_index/parent_prefix_path/vrep4_helpers
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/environment/path.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/environment/path.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/local_setup.bash
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/local_setup.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/local_setup.zsh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/local_setup.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/ament_index/resource_index/packages/vrep4_helpers
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig.cmake
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig-version.cmake
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.xml

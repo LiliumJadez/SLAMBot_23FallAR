@@ -1,0 +1,27 @@
+[1.420s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/face_detect_base': AMENT_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/msg_pkg LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_detect_base build --build-base /home/GTL/wxu/cs7630_g6/build/face_detect_base/build install --record /home/GTL/wxu/cs7630_g6/build/face_detect_base/install.log --single-version-externally-managed
+[1.532s] running egg_info
+[1.534s] writing ../../build/face_detect_base/face_detect_base.egg-info/PKG-INFO
+[1.568s] writing dependency_links to ../../build/face_detect_base/face_detect_base.egg-info/dependency_links.txt
+[1.605s] writing entry points to ../../build/face_detect_base/face_detect_base.egg-info/entry_points.txt
+[1.645s] writing requirements to ../../build/face_detect_base/face_detect_base.egg-info/requires.txt
+[1.678s] writing top-level names to ../../build/face_detect_base/face_detect_base.egg-info/top_level.txt
+[1.775s] reading manifest file '../../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'
+[1.800s] writing manifest file '../../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'
+[1.819s] running build
+[1.819s] running build_py
+[1.831s] copying face_detect_base/face_detect_node.py -> /home/GTL/wxu/cs7630_g6/build/face_detect_base/build/lib/face_detect_base
+[1.944s] running install
+[1.944s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.944s]   warnings.warn(
+[1.945s] running install_lib
+[1.988s] copying /home/GTL/wxu/cs7630_g6/build/face_detect_base/build/lib/face_detect_base/face_detect_node.py -> /home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages/face_detect_base
+[2.098s] byte-compiling /home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages/face_detect_base/face_detect_node.py to face_detect_node.cpython-310.pyc
+[2.113s] running install_data
+[2.131s] copying package.xml -> /home/GTL/wxu/cs7630_g6/install/face_detect_base/share/face_detect_base
+[2.231s] running install_egg_info
+[2.232s] removing '/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info' (and everything under it)
+[2.299s] Copying ../../build/face_detect_base/face_detect_base.egg-info to /home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info
+[3.074s] running install_scripts
+[3.119s] Installing face_detect_node script to /home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/face_detect_base
+[3.157s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/face_detect_base/install.log'
+[3.253s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/face_detect_base' returned '0': AMENT_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/msg_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/msg_pkg LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/face_detect_base build --build-base /home/GTL/wxu/cs7630_g6/build/face_detect_base/build install --record /home/GTL/wxu/cs7630_g6/build/face_detect_base/install.log --single-version-externally-managed

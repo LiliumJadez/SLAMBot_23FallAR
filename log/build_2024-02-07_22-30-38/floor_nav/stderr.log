@@ -1,0 +1,9 @@
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.h:7:10:[m[K [01;31m[Kfatal error: [m[Kmsg_pkg/regions_of_interest_array.hpp: No such file or directory
+    7 | #include [01;31m[K"msg_pkg/regions_of_interest_array.hpp"[m[K  // Include the RegionsOfInterestArray message definition
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/floornav_TaskStareAtFace.dir/build.make:76: CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/floornav_TaskStareAtFace.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

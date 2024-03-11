@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target floornav_TaskGoToPose[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/floornav_TaskGoToPose.dir/tasks/TaskGoToPose.cpp.o[0m
+[ 70%] Built target floornav_TaskPlanTo
+[ 70%] Built target floornav_TaskAutoDock
+[ 70%] Built target floornav_TaskWaitForFace
+[ 70%] Built target floornav_TaskWaitForROI
+[ 70%] Built target floornav_TaskTrigger
+[ 70%] Built target floornav_TaskNav2
+[ 80%] Built target floornav_TaskWander
+[ 80%] Built target floornav_TaskConstant
+[ 87%] Built target floornav_TaskGoTo
+[ 93%] Built target floornav_TaskWanderFront
+[ 93%] Built target floornav_TaskSetHeading
+[ 93%] Built target floornav_task_server
+[ 93%] Built target floornav_TaskSetMux
+[ 96%] [32m[1mLinking CXX shared library libfloornav_TaskStareAtFace.so[0m
+[ 96%] Built target floornav_TaskStareAtFace

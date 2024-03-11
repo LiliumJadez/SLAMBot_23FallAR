@@ -1,0 +1,24 @@
+[14.770s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/button_server': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/button_server/prefix_override:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/button_server build --build-base /home/GTL/wxu/cs7630_g6/build/button_server/build install --record /home/GTL/wxu/cs7630_g6/build/button_server/install.log --single-version-externally-managed
+[15.687s] running egg_info
+[15.687s] writing ../../../../build/button_server/button_server.egg-info/PKG-INFO
+[15.687s] writing dependency_links to ../../../../build/button_server/button_server.egg-info/dependency_links.txt
+[15.687s] writing entry points to ../../../../build/button_server/button_server.egg-info/entry_points.txt
+[15.688s] writing requirements to ../../../../build/button_server/button_server.egg-info/requires.txt
+[15.706s] writing top-level names to ../../../../build/button_server/button_server.egg-info/top_level.txt
+[15.798s] reading manifest file '../../../../build/button_server/button_server.egg-info/SOURCES.txt'
+[15.861s] writing manifest file '../../../../build/button_server/button_server.egg-info/SOURCES.txt'
+[15.884s] running build
+[15.884s] running build_py
+[15.930s] running build_scripts
+[15.936s] running install
+[15.936s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.936s]   warnings.warn(
+[15.936s] running install_lib
+[15.979s] running install_data
+[16.013s] running install_egg_info
+[16.014s] removing '/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server-0.0.0-py3.10.egg-info' (and everything under it)
+[16.107s] Copying ../../../../build/button_server/button_server.egg-info to /home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages/button_server-0.0.0-py3.10.egg-info
+[17.624s] running install_scripts
+[17.688s] changing mode of /home/GTL/wxu/cs7630_g6/install/button_server/lib/button_server/button_server_node to 775
+[17.736s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/button_server/install.log'
+[19.372s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/button_server' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/button_server/prefix_override:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/button_server build --build-base /home/GTL/wxu/cs7630_g6/build/button_server/build install --record /home/GTL/wxu/cs7630_g6/build/button_server/install.log --single-version-externally-managed

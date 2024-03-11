@@ -1,0 +1,8 @@
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:6:10:[m[K [01;31m[Kfatal error: [m[Kmsg_pkg/msg/face_array.hpp: No such file or directory
+    6 | #include [01;31m[K"msg_pkg/msg/face_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/floornav_TaskWaitForFace.dir/build.make:76: CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/floornav_TaskWaitForFace.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

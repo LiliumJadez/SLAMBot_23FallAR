@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000377] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000392] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000404] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000414] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000425] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000435] (-) JobUnselected: {'identifier': 'keyboard_teleop'}
+[0.000446] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000456] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000466] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000477] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000488] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000499] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000509] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000520] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000533] (floor_nav) JobQueued: {'identifier': 'floor_nav', 'dependencies': OrderedDict([('task_manager_msgs', '/home/GTL/wxu/cs7630_g6/install/task_manager_msgs'), ('task_manager_lib', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib'), ('task_manager_nav2', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2')])}
+[0.000553] (floor_nav) JobStarted: {'identifier': 'floor_nav'}
+[0.053387] (-) TimerEvent: {}
+[0.153629] (-) TimerEvent: {}
+[0.253885] (-) TimerEvent: {}
+[0.354237] (-) TimerEvent: {}
+[0.454526] (-) TimerEvent: {}
+[0.554918] (-) TimerEvent: {}
+[0.559371] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'cmake'}
+[0.655081] (-) TimerEvent: {}
+[0.755598] (-) TimerEvent: {}
+[0.801965] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'build'}
+[0.810407] (floor_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/floor_nav', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/floor_nav', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu/cs7630_g6/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3062'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc104.georgiatech-metz.fr:@/tmp/.ICE-unix/3039,unix/gtlpc104.georgiatech-metz.fr:/tmp/.ICE-unix/3039'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb80ee97_2fea_4588_a40d_0af3b13a7b77'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '54'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/floor_nav'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble')]), 'shell': False}
+[1.086820] (-) TimerEvent: {}
+[1.187063] (-) TimerEvent: {}
+[1.287564] (-) TimerEvent: {}
+[1.376016] (floor_nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.387655] (-) TimerEvent: {}
+[1.487888] (-) TimerEvent: {}
+[1.588195] (-) TimerEvent: {}
+[1.688674] (-) TimerEvent: {}
+[1.789173] (-) TimerEvent: {}
+[1.889648] (-) TimerEvent: {}
+[1.964120] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.989811] (-) TimerEvent: {}
+[2.090250] (-) TimerEvent: {}
+[2.118034] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.120647] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.127620] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.190344] (-) TimerEvent: {}
+[2.290584] (-) TimerEvent: {}
+[2.295546] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.319832] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.390723] (-) TimerEvent: {}
+[2.429328] (floor_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.451975] (floor_nav) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.479974] (floor_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.490838] (-) TimerEvent: {}
+[2.591215] (-) TimerEvent: {}
+[2.592631] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.650061] (floor_nav) StdoutLine: {'line': b'-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.674172] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_msgs: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/share/task_manager_msgs/cmake)\n'}
+[2.691356] (-) TimerEvent: {}
+[2.791610] (-) TimerEvent: {}
+[2.891963] (-) TimerEvent: {}
+[2.930376] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_lib: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_lib/share/task_manager_lib/cmake)\n'}
+[2.987645] (floor_nav) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.992058] (-) TimerEvent: {}
+[3.064141] (floor_nav) StdoutLine: {'line': b'-- Found topic_tools_interfaces: 1.1.1 (/opt/ros/humble/share/topic_tools_interfaces/cmake)\n'}
+[3.085062] (floor_nav) StdoutLine: {'line': b'-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)\n'}
+[3.092165] (-) TimerEvent: {}
+[3.158772] (floor_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.176755] (floor_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.181918] (floor_nav) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.192258] (-) TimerEvent: {}
+[3.292713] (-) TimerEvent: {}
+[3.393328] (-) TimerEvent: {}
+[3.493942] (-) TimerEvent: {}
+[3.594421] (-) TimerEvent: {}
+[3.694899] (-) TimerEvent: {}
+[3.795472] (-) TimerEvent: {}
+[3.895998] (-) TimerEvent: {}
+[3.996467] (-) TimerEvent: {}
+[4.096773] (-) TimerEvent: {}
+[4.197279] (-) TimerEvent: {}
+[4.297779] (-) TimerEvent: {}
+[4.398028] (-) TimerEvent: {}
+[4.498299] (-) TimerEvent: {}
+[4.598574] (-) TimerEvent: {}
+[4.698865] (-) TimerEvent: {}
+[4.799316] (-) TimerEvent: {}
+[4.899784] (-) TimerEvent: {}
+[5.000038] (-) TimerEvent: {}
+[5.100309] (-) TimerEvent: {}
+[5.200573] (-) TimerEvent: {}
+[5.246795] (floor_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.247961] (floor_nav) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[5.300698] (-) TimerEvent: {}
+[5.326986] (floor_nav) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.332764] (floor_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.400831] (-) TimerEvent: {}
+[5.482396] (floor_nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.485659] (floor_nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.486581] (floor_nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.501027] (-) TimerEvent: {}
+[5.521187] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_nav2: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_nav2/share/task_manager_nav2/cmake)\n'}
+[5.601162] (-) TimerEvent: {}
+[5.701423] (-) TimerEvent: {}
+[5.801702] (-) TimerEvent: {}
+[5.901938] (-) TimerEvent: {}
+[6.002151] (-) TimerEvent: {}
+[6.102366] (-) TimerEvent: {}
+[6.167856] (floor_nav) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (find_package):\n'}
+[6.167987] (floor_nav) StderrLine: {'line': b'  By not providing "Findmy_custom_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[6.168029] (floor_nav) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[6.168065] (floor_nav) StderrLine: {'line': b'  "my_custom_msgs", but CMake did not find one.\n'}
+[6.168097] (floor_nav) StderrLine: {'line': b'\n'}
+[6.168129] (floor_nav) StderrLine: {'line': b'  Could not find a package configuration file provided by "my_custom_msgs"\n'}
+[6.168161] (floor_nav) StderrLine: {'line': b'  with any of the following names:\n'}
+[6.168192] (floor_nav) StderrLine: {'line': b'\n'}
+[6.168222] (floor_nav) StderrLine: {'line': b'    my_custom_msgsConfig.cmake\n'}
+[6.168252] (floor_nav) StderrLine: {'line': b'    my_custom_msgs-config.cmake\n'}
+[6.168282] (floor_nav) StderrLine: {'line': b'\n'}
+[6.168311] (floor_nav) StderrLine: {'line': b'  Add the installation prefix of "my_custom_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[6.168346] (floor_nav) StderrLine: {'line': b'  "my_custom_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[6.168385] (floor_nav) StderrLine: {'line': b'  "my_custom_msgs" provides a separate development package or SDK, be sure it\n'}
+[6.168426] (floor_nav) StderrLine: {'line': b'  has been installed.\n'}
+[6.168477] (floor_nav) StderrLine: {'line': b'\n'}
+[6.168511] (floor_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[6.180192] (floor_nav) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.180271] (floor_nav) StdoutLine: {'line': b'See also "/home/GTL/wxu/cs7630_g6/build/floor_nav/CMakeFiles/CMakeOutput.log".\n'}
+[6.202540] (-) TimerEvent: {}
+[6.303018] (-) TimerEvent: {}
+[6.403488] (-) TimerEvent: {}
+[6.490225] (floor_nav) StderrLine: {'line': b'gmake: *** [Makefile:704: cmake_check_build_system] Error 1\n'}
+[6.492308] (floor_nav) CommandEnded: {'returncode': 2}
+[6.503539] (-) TimerEvent: {}
+[6.603739] (-) TimerEvent: {}
+[6.704006] (-) TimerEvent: {}
+[6.804438] (-) TimerEvent: {}
+[6.904717] (-) TimerEvent: {}
+[7.004926] (-) TimerEvent: {}
+[7.105191] (-) TimerEvent: {}
+[7.205583] (-) TimerEvent: {}
+[7.305881] (-) TimerEvent: {}
+[7.406226] (-) TimerEvent: {}
+[7.478631] (floor_nav) JobEnded: {'identifier': 'floor_nav', 'rc': 2}
+[7.507635] (-) TimerEvent: {}
+[7.507897] (-) EventReactorShutdown: {}

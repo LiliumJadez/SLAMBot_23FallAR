@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (hw1) JobQueued: {'identifier': 'hw1', 'dependencies': OrderedDict()}
+[0.000207] (hw1_xwh) JobQueued: {'identifier': 'hw1_xwh', 'dependencies': OrderedDict()}
+[0.000224] (vrep4_helpers) JobQueued: {'identifier': 'vrep4_helpers', 'dependencies': OrderedDict()}
+[0.000239] (hw1) JobStarted: {'identifier': 'hw1'}
+[0.067731] (-) TimerEvent: {}
+[0.168302] (-) TimerEvent: {}
+[0.192952] (hw1_xwh) JobStarted: {'identifier': 'hw1_xwh'}
+[0.270319] (-) TimerEvent: {}
+[0.272143] (vrep4_helpers) JobStarted: {'identifier': 'vrep4_helpers'}
+[0.370548] (-) TimerEvent: {}
+[0.471028] (-) TimerEvent: {}
+[0.571306] (-) TimerEvent: {}
+[0.671640] (-) TimerEvent: {}
+[0.772103] (-) TimerEvent: {}
+[0.802392] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'cmake'}
+[0.836243] (hw1_xwh) Command: {'cmd': ['/usr/bin/cmake', '/home/GTL/wxu/cs7630_g6/src/hw1_xwh', '-DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/hw1_xwh'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/hw1_xwh', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '455265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29cbafc1_31e5_4af0_8f71_3bc29bc864b6'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.129719] (-) TimerEvent: {}
+[1.130029] (vrep4_helpers) JobProgress: {'identifier': 'vrep4_helpers', 'progress': 'cmake'}
+[1.130104] (vrep4_helpers) Command: {'cmd': ['/usr/bin/cmake', '/home/GTL/wxu/cs7630_g6/src/vrep4_helpers', '-DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/vrep4_helpers'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '455265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29cbafc1_31e5_4af0_8f71_3bc29bc864b6'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.495638] (-) TimerEvent: {}
+[1.556953] (hw1_xwh) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.595761] (-) TimerEvent: {}
+[1.641727] (vrep4_helpers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.696203] (hw1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/hw1', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/hw1/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/hw1/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/hw1', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/wxu', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '455265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '3', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/29cbafc1_31e5_4af0_8f71_3bc29bc864b6', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '53', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/hw1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:'}, 'shell': False}
+[1.903261] (-) TimerEvent: {}
+[1.956173] (hw1_xwh) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.003385] (-) TimerEvent: {}
+[2.004972] (hw1) StdoutLine: {'line': b'running egg_info\n'}
+[2.006357] (hw1) StdoutLine: {'line': b'creating ../../build/hw1/src.egg-info\n'}
+[2.018195] (hw1) StdoutLine: {'line': b'writing ../../build/hw1/src.egg-info/PKG-INFO\n'}
+[2.031948] (vrep4_helpers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.103527] (-) TimerEvent: {}
+[2.109873] (hw1) StdoutLine: {'line': b'writing dependency_links to ../../build/hw1/src.egg-info/dependency_links.txt\n'}
+[2.175770] (hw1_xwh) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.203762] (-) TimerEvent: {}
+[2.304374] (-) TimerEvent: {}
+[2.405008] (-) TimerEvent: {}
+[2.505622] (-) TimerEvent: {}
+[2.606172] (-) TimerEvent: {}
+[2.706764] (-) TimerEvent: {}
+[2.807389] (-) TimerEvent: {}
+[2.907992] (-) TimerEvent: {}
+[3.008617] (-) TimerEvent: {}
+[3.063768] (hw1) StdoutLine: {'line': b'writing entry points to ../../build/hw1/src.egg-info/entry_points.txt\n'}
+[3.108812] (-) TimerEvent: {}
+[3.159187] (hw1) StdoutLine: {'line': b'writing requirements to ../../build/hw1/src.egg-info/requires.txt\n'}
+[3.188225] (hw1) StdoutLine: {'line': b'writing top-level names to ../../build/hw1/src.egg-info/top_level.txt\n'}
+[3.208847] (-) TimerEvent: {}
+[3.227890] (hw1) StdoutLine: {'line': b"writing manifest file '../../build/hw1/src.egg-info/SOURCES.txt'\n"}
+[3.239315] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.308934] (-) TimerEvent: {}
+[3.316994] (hw1) StdoutLine: {'line': b"reading manifest file '../../build/hw1/src.egg-info/SOURCES.txt'\n"}
+[3.358235] (hw1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.366885] (hw1) StdoutLine: {'line': b"writing manifest file '../../build/hw1/src.egg-info/SOURCES.txt'\n"}
+[3.402839] (hw1) StdoutLine: {'line': b'running build\n'}
+[3.403204] (hw1) StdoutLine: {'line': b'running build_py\n'}
+[3.409078] (-) TimerEvent: {}
+[3.409583] (hw1) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/hw1/build\n'}
+[3.418269] (hw1) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/hw1/build/lib\n'}
+[3.444104] (hw1) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/hw1/build/lib/src\n'}
+[3.463903] (hw1) StdoutLine: {'line': b'copying src/stupid.py -> /home/GTL/wxu/cs7630_g6/build/hw1/build/lib/src\n'}
+[3.509177] (-) TimerEvent: {}
+[3.574382] (hw1) StdoutLine: {'line': b'copying src/joystick_listener.py -> /home/GTL/wxu/cs7630_g6/build/hw1/build/lib/src\n'}
+[3.609364] (-) TimerEvent: {}
+[3.666956] (hw1) StdoutLine: {'line': b'copying src/__init__.py -> /home/GTL/wxu/cs7630_g6/build/hw1/build/lib/src\n'}
+[3.709508] (-) TimerEvent: {}
+[3.758734] (hw1) StdoutLine: {'line': b'running install\n'}
+[3.759356] (hw1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.759666] (hw1) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.759973] (hw1) StdoutLine: {'line': b'running install_lib\n'}
+[3.809665] (-) TimerEvent: {}
+[3.815748] (hw1) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src\n'}
+[3.841912] (hw1) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/hw1/build/lib/src/stupid.py -> /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src\n'}
+[3.909863] (-) TimerEvent: {}
+[3.997413] (hw1) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/hw1/build/lib/src/joystick_listener.py -> /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src\n'}
+[4.010013] (-) TimerEvent: {}
+[4.099056] (hw1) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/hw1/build/lib/src/__init__.py -> /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src\n'}
+[4.110223] (-) TimerEvent: {}
+[4.210719] (-) TimerEvent: {}
+[4.232082] (hw1) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src/stupid.py to stupid.cpython-310.pyc\n'}
+[4.280664] (hw1) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src/joystick_listener.py to joystick_listener.cpython-310.pyc\n'}
+[4.296404] (hw1) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src/__init__.py to __init__.cpython-310.pyc\n'}
+[4.311008] (-) TimerEvent: {}
+[4.324037] (hw1) StdoutLine: {'line': b'running install_data\n'}
+[4.337494] (hw1) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/hw1/share/src\n'}
+[4.354149] (hw1) StdoutLine: {'line': b'copying package.xml -> /home/GTL/wxu/cs7630_g6/install/hw1/share/src\n'}
+[4.411193] (-) TimerEvent: {}
+[4.446452] (hw1) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.457584] (hw1) StdoutLine: {'line': b'Copying ../../build/hw1/src.egg-info to /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/src-0.0.0-py3.10.egg-info\n'}
+[4.511332] (-) TimerEvent: {}
+[4.611719] (-) TimerEvent: {}
+[4.712249] (-) TimerEvent: {}
+[4.812542] (-) TimerEvent: {}
+[4.910137] (hw1_xwh) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.912718] (-) TimerEvent: {}
+[4.949925] (hw1_xwh) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.950089] (hw1_xwh) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.950345] (hw1_xwh) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.012858] (-) TimerEvent: {}
+[5.032362] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.073009] (hw1_xwh) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.081802] (vrep4_helpers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.081958] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.082220] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.112902] (-) TimerEvent: {}
+[5.192322] (hw1) StdoutLine: {'line': b'running install_scripts\n'}
+[5.213061] (-) TimerEvent: {}
+[5.215570] (hw1) StdoutLine: {'line': b'Installing joystick script to /home/GTL/wxu/cs7630_g6/install/hw1/bin\n'}
+[5.267846] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.300392] (hw1) StdoutLine: {'line': b'Installing stupid script to /home/GTL/wxu/cs7630_g6/install/hw1/bin\n'}
+[5.313308] (-) TimerEvent: {}
+[5.379707] (hw1) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/hw1/install.log'\n"}
+[5.413512] (-) TimerEvent: {}
+[5.450356] (hw1) CommandEnded: {'returncode': 0}
+[5.513602] (-) TimerEvent: {}
+[5.613945] (-) TimerEvent: {}
+[5.714334] (-) TimerEvent: {}
+[5.815043] (-) TimerEvent: {}
+[5.915611] (-) TimerEvent: {}
+[6.016217] (-) TimerEvent: {}
+[6.116818] (-) TimerEvent: {}
+[6.217391] (-) TimerEvent: {}
+[6.317985] (-) TimerEvent: {}
+[6.418562] (-) TimerEvent: {}
+[6.441992] (hw1) JobEnded: {'identifier': 'hw1', 'rc': 0}
+[6.518775] (-) TimerEvent: {}
+[6.619345] (-) TimerEvent: {}
+[6.719968] (-) TimerEvent: {}
+[6.820482] (-) TimerEvent: {}
+[6.832943] (hw1_xwh) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.854286] (hw1_xwh) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.854473] (hw1_xwh) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.854746] (hw1_xwh) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.920672] (-) TimerEvent: {}
+[6.988900] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.012149] (hw1_xwh) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[7.012331] (hw1_xwh) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[7.012411] (hw1_xwh) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[7.012482] (hw1_xwh) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[7.012549] (hw1_xwh) StderrLine: {'line': b'\n'}
+[7.012623] (hw1_xwh) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[7.012707] (hw1_xwh) StderrLine: {'line': b'  any of the following names:\n'}
+[7.012769] (hw1_xwh) StderrLine: {'line': b'\n'}
+[7.012840] (hw1_xwh) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[7.012902] (hw1_xwh) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[7.012965] (hw1_xwh) StderrLine: {'line': b'\n'}
+[7.013026] (hw1_xwh) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[7.013088] (hw1_xwh) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[7.013162] (hw1_xwh) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[7.013240] (hw1_xwh) StderrLine: {'line': b'  has been installed.\n'}
+[7.013321] (hw1_xwh) StderrLine: {'line': b'\n'}
+[7.013391] (hw1_xwh) StderrLine: {'line': b'\x1b[0m\n'}
+[7.017282] (hw1_xwh) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.017475] (hw1_xwh) StdoutLine: {'line': b'See also "/home/GTL/wxu/cs7630_g6/build/hw1_xwh/CMakeFiles/CMakeOutput.log".\n'}
+[7.020745] (-) TimerEvent: {}
+[7.035331] (vrep4_helpers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.036122] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.037526] (vrep4_helpers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.101863] (hw1_xwh) CommandEnded: {'returncode': 1}
+[7.120886] (-) TimerEvent: {}
+[7.176393] (vrep4_helpers) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[7.176477] (vrep4_helpers) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[7.176513] (vrep4_helpers) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[7.176543] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[7.176573] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[7.176607] (vrep4_helpers) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[7.176637] (vrep4_helpers) StderrLine: {'line': b'  any of the following names:\n'}
+[7.176673] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[7.176700] (vrep4_helpers) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[7.176728] (vrep4_helpers) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[7.176755] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[7.176783] (vrep4_helpers) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[7.176810] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[7.176838] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[7.176865] (vrep4_helpers) StderrLine: {'line': b'  has been installed.\n'}
+[7.176892] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[7.176920] (vrep4_helpers) StderrLine: {'line': b'\x1b[0m\n'}
+[7.185580] (vrep4_helpers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.185767] (vrep4_helpers) StdoutLine: {'line': b'See also "/home/GTL/wxu/cs7630_g6/build/vrep4_helpers/CMakeFiles/CMakeOutput.log".\n'}
+[7.221033] (-) TimerEvent: {}
+[7.321536] (-) TimerEvent: {}
+[7.422081] (-) TimerEvent: {}
+[7.429418] (hw1_xwh) JobEnded: {'identifier': 'hw1_xwh', 'rc': 1}
+[7.463494] (vrep4_helpers) JobEnded: {'identifier': 'vrep4_helpers', 'rc': 'SIGINT'}
+[7.498945] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+[0.898s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base -- -j16 -l16
+[1.093s] [100%] Built target collision_avoidance_base
+[1.141s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base -- -j16 -l16
+[1.195s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base
+[1.209s] -- Install configuration: ""
+[1.222s] -- Installing: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base
+[1.229s] [31mCMake Error at cmake_install.cmake:52 (file):
+[1.229s]   file INSTALL cannot copy file
+[1.229s]   "/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base/collision_avoidance_base"
+[1.229s]   to
+[1.229s]   "/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base":
+[1.229s]   No such file or directory.
+[1.229s] 
+[1.229s] [0m
+[1.232s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base

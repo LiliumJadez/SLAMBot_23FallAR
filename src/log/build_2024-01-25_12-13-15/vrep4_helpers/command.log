@@ -1,0 +1,1 @@
+Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/vrep4_helpers -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers

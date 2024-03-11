@@ -1,0 +1,1122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000234] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000246] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000262] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000272] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000281] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000290] (-) JobUnselected: {'identifier': 'keyboard_teleop'}
+[0.000299] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000307] (-) JobUnselected: {'identifier': 'rover_driver_base'}
+[0.000316] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000324] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000332] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000341] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000349] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000357] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000365] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000375] (floor_nav) JobQueued: {'identifier': 'floor_nav', 'dependencies': OrderedDict([('msg_pkg', '/home/GTL/wxu/cs7630_g6/install/msg_pkg'), ('task_manager_msgs', '/home/GTL/wxu/cs7630_g6/install/task_manager_msgs'), ('task_manager_lib', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib'), ('task_manager_nav2', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2')])}
+[0.000393] (floor_nav) JobStarted: {'identifier': 'floor_nav'}
+[0.094859] (-) TimerEvent: {}
+[0.195118] (-) TimerEvent: {}
+[0.295337] (-) TimerEvent: {}
+[0.311393] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'cmake'}
+[0.398701] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'build'}
+[0.398755] (-) TimerEvent: {}
+[0.405830] (floor_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/floor_nav', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/floor_nav', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '327529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc113.georgiatech-metz.fr:@/tmp/.ICE-unix/326374,unix/gtlpc113.georgiatech-metz.fr:/tmp/.ICE-unix/326374'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d35d2d3d_f3f2_4f1a_8455_8189c0515a98'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '63'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/floor_nav'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble')]), 'shell': False}
+[0.498867] (-) TimerEvent: {}
+[0.599036] (-) TimerEvent: {}
+[0.699233] (-) TimerEvent: {}
+[0.737790] (floor_nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.799348] (-) TimerEvent: {}
+[0.899671] (-) TimerEvent: {}
+[0.999874] (-) TimerEvent: {}
+[1.008579] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.075648] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.077199] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.080750] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.099936] (-) TimerEvent: {}
+[1.188993] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.200080] (-) TimerEvent: {}
+[1.256162] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.300138] (-) TimerEvent: {}
+[1.355702] (floor_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.373078] (floor_nav) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.400213] (-) TimerEvent: {}
+[1.404052] (floor_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.496174] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.500277] (-) TimerEvent: {}
+[1.549614] (floor_nav) StdoutLine: {'line': b'-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.585704] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_msgs: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/share/task_manager_msgs/cmake)\n'}
+[1.600414] (-) TimerEvent: {}
+[1.700933] (-) TimerEvent: {}
+[1.801384] (-) TimerEvent: {}
+[1.901855] (-) TimerEvent: {}
+[2.002417] (-) TimerEvent: {}
+[2.044382] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_lib: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_lib/share/task_manager_lib/cmake)\n'}
+[2.102471] (-) TimerEvent: {}
+[2.107455] (floor_nav) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.182697] (floor_nav) StdoutLine: {'line': b'-- Found topic_tools_interfaces: 1.1.1 (/opt/ros/humble/share/topic_tools_interfaces/cmake)\n'}
+[2.201920] (floor_nav) StdoutLine: {'line': b'-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)\n'}
+[2.202547] (-) TimerEvent: {}
+[2.277849] (floor_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.290988] (floor_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.294155] (floor_nav) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.302628] (-) TimerEvent: {}
+[2.402836] (-) TimerEvent: {}
+[2.503332] (-) TimerEvent: {}
+[2.603531] (-) TimerEvent: {}
+[2.703760] (-) TimerEvent: {}
+[2.803981] (-) TimerEvent: {}
+[2.904193] (-) TimerEvent: {}
+[3.004413] (-) TimerEvent: {}
+[3.104657] (-) TimerEvent: {}
+[3.173954] (floor_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.174972] (floor_nav) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.204757] (-) TimerEvent: {}
+[3.252433] (floor_nav) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.257106] (floor_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.304855] (-) TimerEvent: {}
+[3.404048] (floor_nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[3.404934] (-) TimerEvent: {}
+[3.406498] (floor_nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.407309] (floor_nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.446051] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_nav2: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_nav2/share/task_manager_nav2/cmake)\n'}
+[3.505042] (-) TimerEvent: {}
+[3.605254] (-) TimerEvent: {}
+[3.703209] (floor_nav) StdoutLine: {'line': b'-- Found msg_pkg: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake)\n'}
+[3.705312] (-) TimerEvent: {}
+[3.805573] (-) TimerEvent: {}
+[3.906104] (-) TimerEvent: {}
+[4.006526] (-) TimerEvent: {}
+[4.106770] (-) TimerEvent: {}
+[4.207012] (-) TimerEvent: {}
+[4.307287] (-) TimerEvent: {}
+[4.407528] (-) TimerEvent: {}
+[4.507771] (-) TimerEvent: {}
+[4.608015] (-) TimerEvent: {}
+[4.708261] (-) TimerEvent: {}
+[4.808471] (-) TimerEvent: {}
+[4.908704] (-) TimerEvent: {}
+[5.008931] (-) TimerEvent: {}
+[5.109163] (-) TimerEvent: {}
+[5.209402] (-) TimerEvent: {}
+[5.309642] (-) TimerEvent: {}
+[5.409879] (-) TimerEvent: {}
+[5.510098] (-) TimerEvent: {}
+[5.610334] (-) TimerEvent: {}
+[5.710570] (-) TimerEvent: {}
+[5.810805] (-) TimerEvent: {}
+[5.911037] (-) TimerEvent: {}
+[6.011281] (-) TimerEvent: {}
+[6.111516] (-) TimerEvent: {}
+[6.211754] (-) TimerEvent: {}
+[6.312033] (-) TimerEvent: {}
+[6.412249] (-) TimerEvent: {}
+[6.512497] (-) TimerEvent: {}
+[6.612737] (-) TimerEvent: {}
+[6.712971] (-) TimerEvent: {}
+[6.813205] (-) TimerEvent: {}
+[6.913438] (-) TimerEvent: {}
+[7.013666] (-) TimerEvent: {}
+[7.113895] (-) TimerEvent: {}
+[7.214161] (-) TimerEvent: {}
+[7.314393] (-) TimerEvent: {}
+[7.414622] (-) TimerEvent: {}
+[7.514859] (-) TimerEvent: {}
+[7.615088] (-) TimerEvent: {}
+[7.715319] (-) TimerEvent: {}
+[7.815537] (-) TimerEvent: {}
+[7.915763] (-) TimerEvent: {}
+[8.015991] (-) TimerEvent: {}
+[8.116246] (-) TimerEvent: {}
+[8.216470] (-) TimerEvent: {}
+[8.316739] (-) TimerEvent: {}
+[8.416995] (-) TimerEvent: {}
+[8.517241] (-) TimerEvent: {}
+[8.586217] (floor_nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.617457] (-) TimerEvent: {}
+[8.717782] (-) TimerEvent: {}
+[8.818147] (-) TimerEvent: {}
+[8.918392] (-) TimerEvent: {}
+[9.018624] (-) TimerEvent: {}
+[9.118819] (-) TimerEvent: {}
+[9.219059] (-) TimerEvent: {}
+[9.319264] (-) TimerEvent: {}
+[9.419472] (-) TimerEvent: {}
+[9.519657] (-) TimerEvent: {}
+[9.573038] (floor_nav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.584979] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/GTL/wxu/cs7630_g6/src/floor_nav/include\n'}
+[9.585078] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.619742] (-) TimerEvent: {}
+[9.673396] (floor_nav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.719840] (-) TimerEvent: {}
+[9.820174] (-) TimerEvent: {}
+[9.920654] (-) TimerEvent: {}
+[10.021229] (-) TimerEvent: {}
+[10.121794] (-) TimerEvent: {}
+[10.222361] (-) TimerEvent: {}
+[10.322921] (-) TimerEvent: {}
+[10.423519] (-) TimerEvent: {}
+[10.524098] (-) TimerEvent: {}
+[10.624592] (-) TimerEvent: {}
+[10.725075] (-) TimerEvent: {}
+[10.825673] (-) TimerEvent: {}
+[10.926115] (-) TimerEvent: {}
+[10.950904] (floor_nav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.026209] (-) TimerEvent: {}
+[11.061110] (floor_nav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.126312] (-) TimerEvent: {}
+[11.226534] (-) TimerEvent: {}
+[11.326708] (-) TimerEvent: {}
+[11.426967] (-) TimerEvent: {}
+[11.527226] (-) TimerEvent: {}
+[11.627468] (-) TimerEvent: {}
+[11.727648] (-) TimerEvent: {}
+[11.822732] (floor_nav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.822855] (floor_nav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.827734] (-) TimerEvent: {}
+[11.910932] (floor_nav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.927820] (-) TimerEvent: {}
+[11.951290] (floor_nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.027975] (-) TimerEvent: {}
+[12.128294] (-) TimerEvent: {}
+[12.228786] (-) TimerEvent: {}
+[12.329359] (-) TimerEvent: {}
+[12.429927] (-) TimerEvent: {}
+[12.530501] (-) TimerEvent: {}
+[12.631062] (-) TimerEvent: {}
+[12.731624] (-) TimerEvent: {}
+[12.832119] (-) TimerEvent: {}
+[12.932616] (-) TimerEvent: {}
+[13.032879] (-) TimerEvent: {}
+[13.133113] (-) TimerEvent: {}
+[13.233378] (-) TimerEvent: {}
+[13.333663] (-) TimerEvent: {}
+[13.433943] (-) TimerEvent: {}
+[13.534335] (-) TimerEvent: {}
+[13.634760] (-) TimerEvent: {}
+[13.735244] (-) TimerEvent: {}
+[13.835510] (-) TimerEvent: {}
+[13.935724] (-) TimerEvent: {}
+[14.035945] (-) TimerEvent: {}
+[14.136193] (-) TimerEvent: {}
+[14.236453] (-) TimerEvent: {}
+[14.336894] (-) TimerEvent: {}
+[14.437114] (-) TimerEvent: {}
+[14.537327] (-) TimerEvent: {}
+[14.637665] (-) TimerEvent: {}
+[14.737887] (-) TimerEvent: {}
+[14.838122] (-) TimerEvent: {}
+[14.938405] (-) TimerEvent: {}
+[15.038872] (-) TimerEvent: {}
+[15.139150] (-) TimerEvent: {}
+[15.239353] (-) TimerEvent: {}
+[15.339549] (-) TimerEvent: {}
+[15.439726] (-) TimerEvent: {}
+[15.540062] (-) TimerEvent: {}
+[15.640474] (-) TimerEvent: {}
+[15.740707] (-) TimerEvent: {}
+[15.840966] (-) TimerEvent: {}
+[15.941309] (-) TimerEvent: {}
+[16.041872] (-) TimerEvent: {}
+[16.142430] (-) TimerEvent: {}
+[16.242953] (-) TimerEvent: {}
+[16.343362] (-) TimerEvent: {}
+[16.443593] (-) TimerEvent: {}
+[16.543792] (-) TimerEvent: {}
+[16.643996] (-) TimerEvent: {}
+[16.744183] (-) TimerEvent: {}
+[16.844369] (-) TimerEvent: {}
+[16.944568] (-) TimerEvent: {}
+[17.044783] (-) TimerEvent: {}
+[17.144988] (-) TimerEvent: {}
+[17.245200] (-) TimerEvent: {}
+[17.345412] (-) TimerEvent: {}
+[17.445623] (-) TimerEvent: {}
+[17.545829] (-) TimerEvent: {}
+[17.646034] (-) TimerEvent: {}
+[17.746235] (-) TimerEvent: {}
+[17.846535] (-) TimerEvent: {}
+[17.946971] (-) TimerEvent: {}
+[18.047138] (-) TimerEvent: {}
+[18.147347] (-) TimerEvent: {}
+[18.247562] (-) TimerEvent: {}
+[18.347784] (-) TimerEvent: {}
+[18.448009] (-) TimerEvent: {}
+[18.548340] (-) TimerEvent: {}
+[18.648508] (-) TimerEvent: {}
+[18.748701] (-) TimerEvent: {}
+[18.849107] (-) TimerEvent: {}
+[18.949529] (-) TimerEvent: {}
+[19.049750] (-) TimerEvent: {}
+[19.150021] (-) TimerEvent: {}
+[19.250432] (-) TimerEvent: {}
+[19.350658] (-) TimerEvent: {}
+[19.450886] (-) TimerEvent: {}
+[19.547397] (floor_nav) StdoutLine: {'line': b'-- Generating done\n'}
+[19.550960] (-) TimerEvent: {}
+[19.651101] (-) TimerEvent: {}
+[19.751264] (-) TimerEvent: {}
+[19.851446] (-) TimerEvent: {}
+[19.951688] (-) TimerEvent: {}
+[19.988035] (floor_nav) StdoutLine: {'line': b'-- Build files have been written to: /home/GTL/wxu/cs7630_g6/build/floor_nav\n'}
+[20.051796] (-) TimerEvent: {}
+[20.152023] (-) TimerEvent: {}
+[20.228998] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskWanderFront\x1b[0m\n'}
+[20.231278] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskWaitForFace\x1b[0m\n'}
+[20.244840] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskWander\x1b[0m\n'}
+[20.251573] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskSetMux\x1b[0m\n'}
+[20.252094] (-) TimerEvent: {}
+[20.253785] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskAutoDock\x1b[0m\n'}
+[20.258264] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskGoTo\x1b[0m\n'}
+[20.259368] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskConstant\x1b[0m\n'}
+[20.352205] (-) TimerEvent: {}
+[20.371357] (floor_nav) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o\x1b[0m\n'}
+[20.372105] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskWaitForROI\x1b[0m\n'}
+[20.372446] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskPlanTo\x1b[0m\n'}
+[20.372624] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskSetHeading\x1b[0m\n'}
+[20.373295] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskTrigger\x1b[0m\n'}
+[20.374427] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_task_server\x1b[0m\n'}
+[20.374493] (floor_nav) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target floornav_TaskNav2\x1b[0m\n'}
+[20.452305] (-) TimerEvent: {}
+[20.552605] (-) TimerEvent: {}
+[20.652818] (-) TimerEvent: {}
+[20.698051] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskPlanTo.so\x1b[0m\n'}
+[20.698278] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskConstant.so\x1b[0m\n'}
+[20.698376] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskWaitForROI.so\x1b[0m\n'}
+[20.698433] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskGoTo.so\x1b[0m\n'}
+[20.698488] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskSetHeading.so\x1b[0m\n'}
+[20.698546] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskSetMux.so\x1b[0m\n'}
+[20.699025] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskWander.so\x1b[0m\n'}
+[20.700421] (floor_nav) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskTrigger.so\x1b[0m\n'}
+[20.706458] (floor_nav) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskNav2.so\x1b[0m\n'}
+[20.706658] (floor_nav) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskAutoDock.so\x1b[0m\n'}
+[20.715896] (floor_nav) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskWanderFront.so\x1b[0m\n'}
+[20.723058] (floor_nav) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libfloornav_TaskWaitForFace.so\x1b[0m\n'}
+[20.752930] (-) TimerEvent: {}
+[20.766459] (floor_nav) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o\x1b[0m\n'}
+[20.771054] (floor_nav) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o\x1b[0m\n'}
+[20.853020] (-) TimerEvent: {}
+[20.953273] (-) TimerEvent: {}
+[21.053557] (-) TimerEvent: {}
+[21.153791] (-) TimerEvent: {}
+[21.254108] (-) TimerEvent: {}
+[21.354660] (-) TimerEvent: {}
+[21.455239] (-) TimerEvent: {}
+[21.555914] (-) TimerEvent: {}
+[21.656936] (-) TimerEvent: {}
+[21.758133] (-) TimerEvent: {}
+[21.859313] (-) TimerEvent: {}
+[21.960675] (-) TimerEvent: {}
+[22.062476] (-) TimerEvent: {}
+[22.164811] (-) TimerEvent: {}
+[22.268248] (-) TimerEvent: {}
+[22.370492] (-) TimerEvent: {}
+[22.474398] (-) TimerEvent: {}
+[22.576371] (-) TimerEvent: {}
+[22.680201] (-) TimerEvent: {}
+[22.782255] (-) TimerEvent: {}
+[22.885081] (-) TimerEvent: {}
+[22.986791] (-) TimerEvent: {}
+[23.089408] (-) TimerEvent: {}
+[23.190756] (-) TimerEvent: {}
+[23.293173] (-) TimerEvent: {}
+[23.395647] (-) TimerEvent: {}
+[23.497406] (-) TimerEvent: {}
+[23.599008] (-) TimerEvent: {}
+[23.700392] (-) TimerEvent: {}
+[23.802754] (-) TimerEvent: {}
+[23.905136] (-) TimerEvent: {}
+[24.006986] (-) TimerEvent: {}
+[24.109495] (-) TimerEvent: {}
+[24.211938] (-) TimerEvent: {}
+[24.313837] (-) TimerEvent: {}
+[24.415889] (-) TimerEvent: {}
+[24.517329] (-) TimerEvent: {}
+[24.618574] (-) TimerEvent: {}
+[24.721097] (-) TimerEvent: {}
+[24.823523] (-) TimerEvent: {}
+[24.924787] (-) TimerEvent: {}
+[25.026121] (-) TimerEvent: {}
+[25.127676] (-) TimerEvent: {}
+[25.230098] (-) TimerEvent: {}
+[25.332139] (-) TimerEvent: {}
+[25.441002] (-) TimerEvent: {}
+[25.543216] (-) TimerEvent: {}
+[25.645412] (-) TimerEvent: {}
+[25.747383] (-) TimerEvent: {}
+[25.749745] (floor_nav) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:2\x1b[m\x1b[K:\n'}
+[25.750640] (floor_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_pkg/regions_of_interest_array.hpp: No such file or directory\n'}
+[25.752436] (floor_nav) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"msg_pkg/regions_of_interest_array.hpp"\x1b[m\x1b[K  // Include the RegionsOfInterestArray message definition\n'}
+[25.752754] (floor_nav) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[25.752901] (floor_nav) StderrLine: {'line': b'compilation terminated.\n'}
+[25.822180] (floor_nav) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/floornav_TaskStareAtFace.dir/build.make:76: CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o] Error 1\n'}
+[25.846977] (floor_nav) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/floornav_TaskStareAtFace.dir/all] Error 2\n'}
+[25.847723] (-) TimerEvent: {}
+[25.848465] (floor_nav) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[25.948112] (-) TimerEvent: {}
+[26.050052] (-) TimerEvent: {}
+[26.151456] (-) TimerEvent: {}
+[26.252984] (-) TimerEvent: {}
+[26.354790] (-) TimerEvent: {}
+[26.457136] (-) TimerEvent: {}
+[26.559467] (-) TimerEvent: {}
+[26.661515] (-) TimerEvent: {}
+[26.763733] (-) TimerEvent: {}
+[26.865575] (-) TimerEvent: {}
+[26.967887] (-) TimerEvent: {}
+[27.069861] (-) TimerEvent: {}
+[27.172688] (-) TimerEvent: {}
+[27.274386] (-) TimerEvent: {}
+[27.376336] (-) TimerEvent: {}
+[27.478243] (-) TimerEvent: {}
+[27.580015] (-) TimerEvent: {}
+[27.681596] (-) TimerEvent: {}
+[27.783876] (-) TimerEvent: {}
+[27.889717] (-) TimerEvent: {}
+[27.991618] (-) TimerEvent: {}
+[28.093966] (-) TimerEvent: {}
+[28.196445] (-) TimerEvent: {}
+[28.298681] (-) TimerEvent: {}
+[28.400991] (-) TimerEvent: {}
+[28.503863] (-) TimerEvent: {}
+[28.605990] (-) TimerEvent: {}
+[28.708002] (-) TimerEvent: {}
+[28.809574] (-) TimerEvent: {}
+[28.911415] (-) TimerEvent: {}
+[29.013775] (-) TimerEvent: {}
+[29.115862] (-) TimerEvent: {}
+[29.218465] (-) TimerEvent: {}
+[29.320710] (-) TimerEvent: {}
+[29.423334] (-) TimerEvent: {}
+[29.525311] (-) TimerEvent: {}
+[29.627677] (-) TimerEvent: {}
+[29.729330] (-) TimerEvent: {}
+[29.830406] (-) TimerEvent: {}
+[29.931965] (-) TimerEvent: {}
+[30.033415] (-) TimerEvent: {}
+[30.139233] (-) TimerEvent: {}
+[30.242028] (-) TimerEvent: {}
+[30.343688] (-) TimerEvent: {}
+[30.445962] (-) TimerEvent: {}
+[30.547576] (-) TimerEvent: {}
+[30.649859] (-) TimerEvent: {}
+[30.751758] (-) TimerEvent: {}
+[30.853571] (-) TimerEvent: {}
+[30.955832] (-) TimerEvent: {}
+[31.057245] (-) TimerEvent: {}
+[31.158679] (-) TimerEvent: {}
+[31.261824] (-) TimerEvent: {}
+[31.363999] (-) TimerEvent: {}
+[31.466843] (-) TimerEvent: {}
+[31.568486] (-) TimerEvent: {}
+[31.669751] (-) TimerEvent: {}
+[31.771604] (-) TimerEvent: {}
+[31.873596] (-) TimerEvent: {}
+[31.975241] (-) TimerEvent: {}
+[32.081701] (-) TimerEvent: {}
+[32.183430] (-) TimerEvent: {}
+[32.287325] (-) TimerEvent: {}
+[32.390282] (-) TimerEvent: {}
+[32.493354] (-) TimerEvent: {}
+[32.595354] (-) TimerEvent: {}
+[32.698073] (-) TimerEvent: {}
+[32.799992] (-) TimerEvent: {}
+[32.902292] (-) TimerEvent: {}
+[33.005004] (-) TimerEvent: {}
+[33.106688] (-) TimerEvent: {}
+[33.208798] (-) TimerEvent: {}
+[33.312085] (-) TimerEvent: {}
+[33.413940] (-) TimerEvent: {}
+[33.517317] (-) TimerEvent: {}
+[33.619022] (-) TimerEvent: {}
+[33.720619] (-) TimerEvent: {}
+[33.822251] (-) TimerEvent: {}
+[33.923960] (-) TimerEvent: {}
+[34.025316] (-) TimerEvent: {}
+[34.127108] (-) TimerEvent: {}
+[34.234286] (-) TimerEvent: {}
+[34.341109] (-) TimerEvent: {}
+[34.442752] (-) TimerEvent: {}
+[34.543974] (-) TimerEvent: {}
+[34.645333] (-) TimerEvent: {}
+[34.746505] (-) TimerEvent: {}
+[34.847901] (-) TimerEvent: {}
+[34.949726] (-) TimerEvent: {}
+[35.050700] (-) TimerEvent: {}
+[35.151518] (-) TimerEvent: {}
+[35.252812] (-) TimerEvent: {}
+[35.354234] (-) TimerEvent: {}
+[35.455560] (-) TimerEvent: {}
+[35.556920] (-) TimerEvent: {}
+[35.658238] (-) TimerEvent: {}
+[35.759304] (-) TimerEvent: {}
+[35.860563] (-) TimerEvent: {}
+[35.961805] (-) TimerEvent: {}
+[36.063213] (-) TimerEvent: {}
+[36.164375] (-) TimerEvent: {}
+[36.265662] (-) TimerEvent: {}
+[36.366928] (-) TimerEvent: {}
+[36.469921] (-) TimerEvent: {}
+[36.571315] (-) TimerEvent: {}
+[36.673009] (-) TimerEvent: {}
+[36.774846] (-) TimerEvent: {}
+[36.876761] (-) TimerEvent: {}
+[36.978312] (-) TimerEvent: {}
+[37.080306] (-) TimerEvent: {}
+[37.181566] (-) TimerEvent: {}
+[37.283104] (-) TimerEvent: {}
+[37.386481] (-) TimerEvent: {}
+[37.488017] (-) TimerEvent: {}
+[37.589007] (-) TimerEvent: {}
+[37.690138] (-) TimerEvent: {}
+[37.791057] (-) TimerEvent: {}
+[37.892897] (-) TimerEvent: {}
+[37.994419] (-) TimerEvent: {}
+[38.096574] (-) TimerEvent: {}
+[38.197880] (-) TimerEvent: {}
+[38.299464] (-) TimerEvent: {}
+[38.400727] (-) TimerEvent: {}
+[38.501652] (-) TimerEvent: {}
+[38.602781] (-) TimerEvent: {}
+[38.704329] (-) TimerEvent: {}
+[38.806021] (-) TimerEvent: {}
+[38.907812] (-) TimerEvent: {}
+[39.009727] (-) TimerEvent: {}
+[39.112022] (-) TimerEvent: {}
+[39.213539] (-) TimerEvent: {}
+[39.315405] (-) TimerEvent: {}
+[39.417524] (-) TimerEvent: {}
+[39.519324] (-) TimerEvent: {}
+[39.620942] (-) TimerEvent: {}
+[39.722773] (-) TimerEvent: {}
+[39.824374] (-) TimerEvent: {}
+[39.926055] (-) TimerEvent: {}
+[40.028261] (-) TimerEvent: {}
+[40.129836] (-) TimerEvent: {}
+[40.231842] (-) TimerEvent: {}
+[40.333770] (-) TimerEvent: {}
+[40.435848] (-) TimerEvent: {}
+[40.537329] (-) TimerEvent: {}
+[40.638666] (-) TimerEvent: {}
+[40.739790] (-) TimerEvent: {}
+[40.854345] (-) TimerEvent: {}
+[40.955842] (-) TimerEvent: {}
+[41.057686] (-) TimerEvent: {}
+[41.159948] (-) TimerEvent: {}
+[41.262108] (-) TimerEvent: {}
+[41.364022] (-) TimerEvent: {}
+[41.466107] (-) TimerEvent: {}
+[41.567353] (-) TimerEvent: {}
+[41.668539] (-) TimerEvent: {}
+[41.769936] (-) TimerEvent: {}
+[41.871981] (-) TimerEvent: {}
+[41.973330] (-) TimerEvent: {}
+[42.074760] (-) TimerEvent: {}
+[42.176222] (-) TimerEvent: {}
+[42.278059] (-) TimerEvent: {}
+[42.401415] (-) TimerEvent: {}
+[42.519428] (-) TimerEvent: {}
+[42.621398] (-) TimerEvent: {}
+[42.724258] (-) TimerEvent: {}
+[42.826111] (-) TimerEvent: {}
+[42.928060] (-) TimerEvent: {}
+[43.030240] (-) TimerEvent: {}
+[43.131124] (-) TimerEvent: {}
+[43.245560] (-) TimerEvent: {}
+[43.354999] (-) TimerEvent: {}
+[43.473677] (-) TimerEvent: {}
+[43.575027] (-) TimerEvent: {}
+[43.676047] (-) TimerEvent: {}
+[43.777391] (-) TimerEvent: {}
+[43.880284] (-) TimerEvent: {}
+[43.981293] (-) TimerEvent: {}
+[44.082711] (-) TimerEvent: {}
+[44.184067] (-) TimerEvent: {}
+[44.287880] (-) TimerEvent: {}
+[44.395446] (-) TimerEvent: {}
+[44.497990] (-) TimerEvent: {}
+[44.601320] (-) TimerEvent: {}
+[44.703310] (-) TimerEvent: {}
+[44.805342] (-) TimerEvent: {}
+[44.907069] (-) TimerEvent: {}
+[45.008620] (-) TimerEvent: {}
+[45.110303] (-) TimerEvent: {}
+[45.212616] (-) TimerEvent: {}
+[45.314064] (-) TimerEvent: {}
+[45.415517] (-) TimerEvent: {}
+[45.517550] (-) TimerEvent: {}
+[45.620280] (-) TimerEvent: {}
+[45.722779] (-) TimerEvent: {}
+[45.824604] (-) TimerEvent: {}
+[45.926407] (-) TimerEvent: {}
+[46.027717] (-) TimerEvent: {}
+[46.128866] (-) TimerEvent: {}
+[46.230077] (-) TimerEvent: {}
+[46.331619] (-) TimerEvent: {}
+[46.432914] (-) TimerEvent: {}
+[46.534755] (-) TimerEvent: {}
+[46.636300] (-) TimerEvent: {}
+[46.737456] (-) TimerEvent: {}
+[46.846019] (-) TimerEvent: {}
+[46.946844] (-) TimerEvent: {}
+[47.047991] (-) TimerEvent: {}
+[47.148887] (-) TimerEvent: {}
+[47.250147] (-) TimerEvent: {}
+[47.351561] (-) TimerEvent: {}
+[47.452584] (-) TimerEvent: {}
+[47.553753] (-) TimerEvent: {}
+[47.665874] (-) TimerEvent: {}
+[47.768129] (-) TimerEvent: {}
+[47.870253] (-) TimerEvent: {}
+[47.971281] (-) TimerEvent: {}
+[48.072509] (-) TimerEvent: {}
+[48.173619] (-) TimerEvent: {}
+[48.275123] (-) TimerEvent: {}
+[48.376370] (-) TimerEvent: {}
+[48.489972] (-) TimerEvent: {}
+[48.610809] (-) TimerEvent: {}
+[48.719068] (-) TimerEvent: {}
+[48.828936] (-) TimerEvent: {}
+[48.931281] (-) TimerEvent: {}
+[49.032136] (-) TimerEvent: {}
+[49.132820] (-) TimerEvent: {}
+[49.233589] (-) TimerEvent: {}
+[49.334959] (-) TimerEvent: {}
+[49.436384] (-) TimerEvent: {}
+[49.538635] (-) TimerEvent: {}
+[49.640347] (-) TimerEvent: {}
+[49.741164] (-) TimerEvent: {}
+[49.841975] (-) TimerEvent: {}
+[49.942766] (-) TimerEvent: {}
+[50.047408] (-) TimerEvent: {}
+[50.148604] (-) TimerEvent: {}
+[50.249667] (-) TimerEvent: {}
+[50.351721] (-) TimerEvent: {}
+[50.453228] (-) TimerEvent: {}
+[50.554471] (-) TimerEvent: {}
+[50.655721] (-) TimerEvent: {}
+[50.757950] (-) TimerEvent: {}
+[50.859314] (-) TimerEvent: {}
+[50.961390] (-) TimerEvent: {}
+[51.063311] (-) TimerEvent: {}
+[51.164816] (-) TimerEvent: {}
+[51.266441] (-) TimerEvent: {}
+[51.368074] (-) TimerEvent: {}
+[51.470159] (-) TimerEvent: {}
+[51.571953] (-) TimerEvent: {}
+[51.673806] (-) TimerEvent: {}
+[51.776007] (-) TimerEvent: {}
+[51.877200] (-) TimerEvent: {}
+[51.979320] (-) TimerEvent: {}
+[52.080611] (-) TimerEvent: {}
+[52.182050] (-) TimerEvent: {}
+[52.283244] (-) TimerEvent: {}
+[52.384573] (-) TimerEvent: {}
+[52.485940] (-) TimerEvent: {}
+[52.587608] (-) TimerEvent: {}
+[52.689238] (-) TimerEvent: {}
+[52.791688] (-) TimerEvent: {}
+[52.892799] (-) TimerEvent: {}
+[52.994256] (-) TimerEvent: {}
+[53.096060] (-) TimerEvent: {}
+[53.197442] (-) TimerEvent: {}
+[53.298609] (-) TimerEvent: {}
+[53.400138] (-) TimerEvent: {}
+[53.502890] (-) TimerEvent: {}
+[53.604583] (-) TimerEvent: {}
+[53.705381] (-) TimerEvent: {}
+[53.806346] (-) TimerEvent: {}
+[53.908526] (-) TimerEvent: {}
+[54.010197] (-) TimerEvent: {}
+[54.111478] (-) TimerEvent: {}
+[54.213001] (-) TimerEvent: {}
+[54.314277] (-) TimerEvent: {}
+[54.415469] (-) TimerEvent: {}
+[54.516727] (-) TimerEvent: {}
+[54.618045] (-) TimerEvent: {}
+[54.718795] (-) TimerEvent: {}
+[54.820263] (-) TimerEvent: {}
+[54.921162] (-) TimerEvent: {}
+[55.022261] (-) TimerEvent: {}
+[55.123431] (-) TimerEvent: {}
+[55.224277] (-) TimerEvent: {}
+[55.325165] (-) TimerEvent: {}
+[55.425980] (-) TimerEvent: {}
+[55.526745] (-) TimerEvent: {}
+[55.627711] (-) TimerEvent: {}
+[55.729071] (-) TimerEvent: {}
+[55.830757] (-) TimerEvent: {}
+[55.932087] (-) TimerEvent: {}
+[56.034439] (-) TimerEvent: {}
+[56.135709] (-) TimerEvent: {}
+[56.236902] (-) TimerEvent: {}
+[56.337967] (-) TimerEvent: {}
+[56.439470] (-) TimerEvent: {}
+[56.540410] (-) TimerEvent: {}
+[56.641541] (-) TimerEvent: {}
+[56.742757] (-) TimerEvent: {}
+[56.844581] (-) TimerEvent: {}
+[56.945780] (-) TimerEvent: {}
+[57.048174] (-) TimerEvent: {}
+[57.149769] (-) TimerEvent: {}
+[57.251180] (-) TimerEvent: {}
+[57.352468] (-) TimerEvent: {}
+[57.453666] (-) TimerEvent: {}
+[57.554714] (-) TimerEvent: {}
+[57.656558] (-) TimerEvent: {}
+[57.757776] (-) TimerEvent: {}
+[57.859232] (-) TimerEvent: {}
+[57.960498] (-) TimerEvent: {}
+[58.062715] (-) TimerEvent: {}
+[58.164112] (-) TimerEvent: {}
+[58.265239] (-) TimerEvent: {}
+[58.365852] (-) TimerEvent: {}
+[58.466906] (-) TimerEvent: {}
+[58.568858] (-) TimerEvent: {}
+[58.670788] (-) TimerEvent: {}
+[58.772178] (-) TimerEvent: {}
+[58.873957] (-) TimerEvent: {}
+[58.975516] (-) TimerEvent: {}
+[59.077340] (-) TimerEvent: {}
+[59.180043] (-) TimerEvent: {}
+[59.282026] (-) TimerEvent: {}
+[59.383111] (-) TimerEvent: {}
+[59.484317] (-) TimerEvent: {}
+[59.586267] (-) TimerEvent: {}
+[59.687841] (-) TimerEvent: {}
+[59.789727] (-) TimerEvent: {}
+[59.891992] (-) TimerEvent: {}
+[59.993694] (-) TimerEvent: {}
+[60.095638] (-) TimerEvent: {}
+[60.197527] (-) TimerEvent: {}
+[60.298853] (-) TimerEvent: {}
+[60.399977] (-) TimerEvent: {}
+[60.501254] (-) TimerEvent: {}
+[60.603458] (-) TimerEvent: {}
+[60.704975] (-) TimerEvent: {}
+[60.806609] (-) TimerEvent: {}
+[60.908302] (-) TimerEvent: {}
+[61.009485] (-) TimerEvent: {}
+[61.111924] (-) TimerEvent: {}
+[61.213327] (-) TimerEvent: {}
+[61.314853] (-) TimerEvent: {}
+[61.416335] (-) TimerEvent: {}
+[61.517442] (-) TimerEvent: {}
+[61.618928] (-) TimerEvent: {}
+[61.720907] (-) TimerEvent: {}
+[61.822194] (-) TimerEvent: {}
+[61.924037] (-) TimerEvent: {}
+[62.025335] (-) TimerEvent: {}
+[62.126730] (-) TimerEvent: {}
+[62.227928] (-) TimerEvent: {}
+[62.329419] (-) TimerEvent: {}
+[62.430208] (-) TimerEvent: {}
+[62.531426] (-) TimerEvent: {}
+[62.634052] (-) TimerEvent: {}
+[62.735209] (-) TimerEvent: {}
+[62.836600] (-) TimerEvent: {}
+[62.938529] (-) TimerEvent: {}
+[63.039851] (-) TimerEvent: {}
+[63.140616] (-) TimerEvent: {}
+[63.241490] (-) TimerEvent: {}
+[63.344093] (-) TimerEvent: {}
+[63.445031] (-) TimerEvent: {}
+[63.546073] (-) TimerEvent: {}
+[63.647031] (-) TimerEvent: {}
+[63.748747] (-) TimerEvent: {}
+[63.850205] (-) TimerEvent: {}
+[63.952154] (-) TimerEvent: {}
+[64.053617] (-) TimerEvent: {}
+[64.155320] (-) TimerEvent: {}
+[64.256902] (-) TimerEvent: {}
+[64.357907] (-) TimerEvent: {}
+[64.458751] (-) TimerEvent: {}
+[64.560965] (-) TimerEvent: {}
+[64.662667] (-) TimerEvent: {}
+[64.764013] (-) TimerEvent: {}
+[64.865104] (-) TimerEvent: {}
+[64.966653] (-) TimerEvent: {}
+[65.068158] (-) TimerEvent: {}
+[65.169565] (-) TimerEvent: {}
+[65.270522] (-) TimerEvent: {}
+[65.371531] (-) TimerEvent: {}
+[65.473078] (-) TimerEvent: {}
+[65.574304] (-) TimerEvent: {}
+[65.675570] (-) TimerEvent: {}
+[65.776571] (-) TimerEvent: {}
+[65.877943] (-) TimerEvent: {}
+[65.979905] (-) TimerEvent: {}
+[66.081086] (-) TimerEvent: {}
+[66.182740] (-) TimerEvent: {}
+[66.284468] (-) TimerEvent: {}
+[66.385792] (-) TimerEvent: {}
+[66.486728] (-) TimerEvent: {}
+[66.588266] (-) TimerEvent: {}
+[66.689864] (-) TimerEvent: {}
+[66.791834] (-) TimerEvent: {}
+[66.893307] (-) TimerEvent: {}
+[66.994932] (-) TimerEvent: {}
+[67.097002] (-) TimerEvent: {}
+[67.198910] (-) TimerEvent: {}
+[67.300540] (-) TimerEvent: {}
+[67.401651] (-) TimerEvent: {}
+[67.503326] (-) TimerEvent: {}
+[67.604956] (-) TimerEvent: {}
+[67.707408] (-) TimerEvent: {}
+[67.808847] (-) TimerEvent: {}
+[67.910160] (-) TimerEvent: {}
+[68.011663] (-) TimerEvent: {}
+[68.113065] (-) TimerEvent: {}
+[68.215928] (-) TimerEvent: {}
+[68.317728] (-) TimerEvent: {}
+[68.419211] (-) TimerEvent: {}
+[68.520505] (-) TimerEvent: {}
+[68.621737] (-) TimerEvent: {}
+[68.723489] (-) TimerEvent: {}
+[68.824621] (-) TimerEvent: {}
+[68.926188] (-) TimerEvent: {}
+[69.028181] (-) TimerEvent: {}
+[69.130186] (-) TimerEvent: {}
+[69.232569] (-) TimerEvent: {}
+[69.334335] (-) TimerEvent: {}
+[69.435654] (-) TimerEvent: {}
+[69.536715] (-) TimerEvent: {}
+[69.638121] (-) TimerEvent: {}
+[69.739593] (-) TimerEvent: {}
+[69.841788] (-) TimerEvent: {}
+[69.943062] (-) TimerEvent: {}
+[70.045004] (-) TimerEvent: {}
+[70.146355] (-) TimerEvent: {}
+[70.248046] (-) TimerEvent: {}
+[70.349245] (-) TimerEvent: {}
+[70.450266] (-) TimerEvent: {}
+[70.551901] (-) TimerEvent: {}
+[70.653799] (-) TimerEvent: {}
+[70.755420] (-) TimerEvent: {}
+[70.856582] (-) TimerEvent: {}
+[70.957896] (-) TimerEvent: {}
+[71.059831] (-) TimerEvent: {}
+[71.161098] (-) TimerEvent: {}
+[71.263166] (-) TimerEvent: {}
+[71.364586] (-) TimerEvent: {}
+[71.465769] (-) TimerEvent: {}
+[71.567243] (-) TimerEvent: {}
+[71.668832] (-) TimerEvent: {}
+[71.771225] (-) TimerEvent: {}
+[71.873216] (-) TimerEvent: {}
+[71.974999] (-) TimerEvent: {}
+[72.077733] (-) TimerEvent: {}
+[72.179533] (-) TimerEvent: {}
+[72.281033] (-) TimerEvent: {}
+[72.382419] (-) TimerEvent: {}
+[72.483637] (-) TimerEvent: {}
+[72.584932] (-) TimerEvent: {}
+[72.685960] (-) TimerEvent: {}
+[72.787310] (-) TimerEvent: {}
+[72.888587] (-) TimerEvent: {}
+[72.989708] (-) TimerEvent: {}
+[73.091500] (-) TimerEvent: {}
+[73.192692] (-) TimerEvent: {}
+[73.294383] (-) TimerEvent: {}
+[73.395395] (-) TimerEvent: {}
+[73.496408] (-) TimerEvent: {}
+[73.597760] (-) TimerEvent: {}
+[73.699049] (-) TimerEvent: {}
+[73.800376] (-) TimerEvent: {}
+[73.901523] (-) TimerEvent: {}
+[74.003483] (-) TimerEvent: {}
+[74.105195] (-) TimerEvent: {}
+[74.206354] (-) TimerEvent: {}
+[74.309266] (-) TimerEvent: {}
+[74.410442] (-) TimerEvent: {}
+[74.511655] (-) TimerEvent: {}
+[74.613136] (-) TimerEvent: {}
+[74.714743] (-) TimerEvent: {}
+[74.816023] (-) TimerEvent: {}
+[74.917883] (-) TimerEvent: {}
+[75.019643] (-) TimerEvent: {}
+[75.121783] (-) TimerEvent: {}
+[75.223204] (-) TimerEvent: {}
+[75.324527] (-) TimerEvent: {}
+[75.425514] (-) TimerEvent: {}
+[75.526503] (-) TimerEvent: {}
+[75.627365] (-) TimerEvent: {}
+[75.728373] (-) TimerEvent: {}
+[75.829437] (-) TimerEvent: {}
+[75.930476] (-) TimerEvent: {}
+[76.031288] (-) TimerEvent: {}
+[76.132444] (-) TimerEvent: {}
+[76.233612] (-) TimerEvent: {}
+[76.334945] (-) TimerEvent: {}
+[76.435819] (-) TimerEvent: {}
+[76.536636] (-) TimerEvent: {}
+[76.638112] (-) TimerEvent: {}
+[76.740432] (-) TimerEvent: {}
+[76.841579] (-) TimerEvent: {}
+[76.943558] (-) TimerEvent: {}
+[77.045092] (-) TimerEvent: {}
+[77.146832] (-) TimerEvent: {}
+[77.248158] (-) TimerEvent: {}
+[77.349868] (-) TimerEvent: {}
+[77.451108] (-) TimerEvent: {}
+[77.552774] (-) TimerEvent: {}
+[77.654466] (-) TimerEvent: {}
+[77.755861] (-) TimerEvent: {}
+[77.857578] (-) TimerEvent: {}
+[77.958993] (-) TimerEvent: {}
+[78.060588] (-) TimerEvent: {}
+[78.162917] (-) TimerEvent: {}
+[78.264483] (-) TimerEvent: {}
+[78.367565] (-) TimerEvent: {}
+[78.468968] (-) TimerEvent: {}
+[78.570680] (-) TimerEvent: {}
+[78.672215] (-) TimerEvent: {}
+[78.774193] (-) TimerEvent: {}
+[78.875486] (-) TimerEvent: {}
+[78.977060] (-) TimerEvent: {}
+[79.077977] (-) TimerEvent: {}
+[79.179156] (-) TimerEvent: {}
+[79.280361] (-) TimerEvent: {}
+[79.382548] (-) TimerEvent: {}
+[79.483753] (-) TimerEvent: {}
+[79.585220] (-) TimerEvent: {}
+[79.686194] (-) TimerEvent: {}
+[79.787270] (-) TimerEvent: {}
+[79.889157] (-) TimerEvent: {}
+[79.990157] (-) TimerEvent: {}
+[80.091576] (-) TimerEvent: {}
+[80.192802] (-) TimerEvent: {}
+[80.294251] (-) TimerEvent: {}
+[80.396277] (-) TimerEvent: {}
+[80.497686] (-) TimerEvent: {}
+[80.598415] (-) TimerEvent: {}
+[80.700075] (-) TimerEvent: {}
+[80.801240] (-) TimerEvent: {}
+[80.902226] (-) TimerEvent: {}
+[81.003936] (-) TimerEvent: {}
+[81.106239] (-) TimerEvent: {}
+[81.210841] (-) TimerEvent: {}
+[81.312117] (-) TimerEvent: {}
+[81.413754] (-) TimerEvent: {}
+[81.515132] (-) TimerEvent: {}
+[81.616382] (-) TimerEvent: {}
+[81.717482] (-) TimerEvent: {}
+[81.818082] (-) TimerEvent: {}
+[81.918937] (-) TimerEvent: {}
+[82.020038] (-) TimerEvent: {}
+[82.120700] (-) TimerEvent: {}
+[82.221574] (-) TimerEvent: {}
+[82.322451] (-) TimerEvent: {}
+[82.423978] (-) TimerEvent: {}
+[82.525242] (-) TimerEvent: {}
+[82.626428] (-) TimerEvent: {}
+[82.727694] (-) TimerEvent: {}
+[82.829592] (-) TimerEvent: {}
+[82.931164] (-) TimerEvent: {}
+[83.032762] (-) TimerEvent: {}
+[83.133526] (-) TimerEvent: {}
+[83.234438] (-) TimerEvent: {}
+[83.335245] (-) TimerEvent: {}
+[83.435989] (-) TimerEvent: {}
+[83.537434] (-) TimerEvent: {}
+[83.639037] (-) TimerEvent: {}
+[83.740741] (-) TimerEvent: {}
+[83.842194] (-) TimerEvent: {}
+[83.943281] (-) TimerEvent: {}
+[84.044752] (-) TimerEvent: {}
+[84.145952] (-) TimerEvent: {}
+[84.247216] (-) TimerEvent: {}
+[84.348167] (-) TimerEvent: {}
+[84.449633] (-) TimerEvent: {}
+[84.550781] (-) TimerEvent: {}
+[84.652037] (-) TimerEvent: {}
+[84.753250] (-) TimerEvent: {}
+[84.854712] (-) TimerEvent: {}
+[84.955817] (-) TimerEvent: {}
+[85.056903] (-) TimerEvent: {}
+[85.157488] (-) TimerEvent: {}
+[85.258099] (-) TimerEvent: {}
+[85.358810] (-) TimerEvent: {}
+[85.459537] (-) TimerEvent: {}
+[85.560108] (-) TimerEvent: {}
+[85.560845] (floor_nav) StdoutLine: {'line': b'[ 55%] Built target floornav_TaskConstant\n'}
+[85.660311] (-) TimerEvent: {}
+[85.760946] (-) TimerEvent: {}
+[85.861649] (-) TimerEvent: {}
+[85.962484] (-) TimerEvent: {}
+[86.063342] (-) TimerEvent: {}
+[86.164002] (-) TimerEvent: {}
+[86.264714] (-) TimerEvent: {}
+[86.365358] (-) TimerEvent: {}
+[86.466183] (-) TimerEvent: {}
+[86.566767] (-) TimerEvent: {}
+[86.667514] (-) TimerEvent: {}
+[86.768485] (-) TimerEvent: {}
+[86.799887] (floor_nav) StdoutLine: {'line': b'[ 58%] Built target floornav_TaskSetHeading\n'}
+[86.868596] (-) TimerEvent: {}
+[86.969113] (-) TimerEvent: {}
+[87.069549] (-) TimerEvent: {}
+[87.170053] (-) TimerEvent: {}
+[87.270622] (-) TimerEvent: {}
+[87.371265] (-) TimerEvent: {}
+[87.443587] (floor_nav) StdoutLine: {'line': b'[ 62%] Built target floornav_TaskWaitForFace\n'}
+[87.471423] (-) TimerEvent: {}
+[87.572062] (-) TimerEvent: {}
+[87.672772] (-) TimerEvent: {}
+[87.773495] (-) TimerEvent: {}
+[87.874081] (-) TimerEvent: {}
+[87.974782] (-) TimerEvent: {}
+[88.075411] (-) TimerEvent: {}
+[88.176189] (-) TimerEvent: {}
+[88.276864] (-) TimerEvent: {}
+[88.377445] (-) TimerEvent: {}
+[88.478111] (-) TimerEvent: {}
+[88.578758] (-) TimerEvent: {}
+[88.679330] (-) TimerEvent: {}
+[88.779987] (-) TimerEvent: {}
+[88.880680] (-) TimerEvent: {}
+[88.981235] (-) TimerEvent: {}
+[89.081923] (-) TimerEvent: {}
+[89.182622] (-) TimerEvent: {}
+[89.283203] (-) TimerEvent: {}
+[89.365291] (floor_nav) StdoutLine: {'line': b'[ 65%] Built target floornav_TaskWander\n'}
+[89.383396] (-) TimerEvent: {}
+[89.484116] (-) TimerEvent: {}
+[89.584744] (-) TimerEvent: {}
+[89.685385] (-) TimerEvent: {}
+[89.785998] (-) TimerEvent: {}
+[89.886753] (-) TimerEvent: {}
+[89.987287] (-) TimerEvent: {}
+[90.087813] (-) TimerEvent: {}
+[90.188892] (-) TimerEvent: {}
+[90.289586] (-) TimerEvent: {}
+[90.390434] (-) TimerEvent: {}
+[90.491178] (-) TimerEvent: {}
+[90.591852] (-) TimerEvent: {}
+[90.692534] (-) TimerEvent: {}
+[90.793155] (-) TimerEvent: {}
+[90.893754] (-) TimerEvent: {}
+[90.994248] (-) TimerEvent: {}
+[91.067819] (floor_nav) StdoutLine: {'line': b'[ 68%] Built target floornav_TaskGoTo\n'}
+[91.094456] (-) TimerEvent: {}
+[91.195103] (-) TimerEvent: {}
+[91.295763] (-) TimerEvent: {}
+[91.340382] (floor_nav) StdoutLine: {'line': b'[ 72%] Built target floornav_TaskWaitForROI\n'}
+[91.395950] (-) TimerEvent: {}
+[91.480314] (floor_nav) StdoutLine: {'line': b'[ 75%] Built target floornav_TaskTrigger\n'}
+[91.496060] (-) TimerEvent: {}
+[91.596461] (-) TimerEvent: {}
+[91.696866] (-) TimerEvent: {}
+[91.797197] (-) TimerEvent: {}
+[91.806853] (floor_nav) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable floornav_task_server\x1b[0m\n'}
+[91.897360] (-) TimerEvent: {}
+[91.997728] (-) TimerEvent: {}
+[92.098047] (-) TimerEvent: {}
+[92.198407] (-) TimerEvent: {}
+[92.241999] (floor_nav) StdoutLine: {'line': b'[ 82%] Built target floornav_TaskWanderFront\n'}
+[92.298552] (-) TimerEvent: {}
+[92.398910] (-) TimerEvent: {}
+[92.489322] (floor_nav) StdoutLine: {'line': b'[ 86%] Built target floornav_TaskPlanTo\n'}
+[92.499021] (-) TimerEvent: {}
+[92.526848] (floor_nav) StdoutLine: {'line': b'[ 89%] Built target floornav_TaskSetMux\n'}
+[92.599172] (-) TimerEvent: {}
+[92.699498] (-) TimerEvent: {}
+[92.799876] (-) TimerEvent: {}
+[92.900244] (-) TimerEvent: {}
+[93.000669] (-) TimerEvent: {}
+[93.101140] (-) TimerEvent: {}
+[93.201593] (-) TimerEvent: {}
+[93.301877] (-) TimerEvent: {}
+[93.402177] (-) TimerEvent: {}
+[93.502465] (-) TimerEvent: {}
+[93.602773] (-) TimerEvent: {}
+[93.703178] (-) TimerEvent: {}
+[93.803601] (-) TimerEvent: {}
+[93.829532] (floor_nav) StdoutLine: {'line': b'[ 93%] Built target floornav_TaskNav2\n'}
+[93.903714] (-) TimerEvent: {}
+[94.003957] (-) TimerEvent: {}
+[94.104206] (-) TimerEvent: {}
+[94.204427] (-) TimerEvent: {}
+[94.253509] (floor_nav) StdoutLine: {'line': b'[ 96%] Built target floornav_TaskAutoDock\n'}
+[94.304550] (-) TimerEvent: {}
+[94.404830] (-) TimerEvent: {}
+[94.505100] (-) TimerEvent: {}
+[94.605373] (-) TimerEvent: {}
+[94.705653] (-) TimerEvent: {}
+[94.805926] (-) TimerEvent: {}
+[94.906197] (-) TimerEvent: {}
+[95.006466] (-) TimerEvent: {}
+[95.106736] (-) TimerEvent: {}
+[95.207000] (-) TimerEvent: {}
+[95.307248] (-) TimerEvent: {}
+[95.407512] (-) TimerEvent: {}
+[95.507800] (-) TimerEvent: {}
+[95.608044] (-) TimerEvent: {}
+[95.708301] (-) TimerEvent: {}
+[95.808564] (-) TimerEvent: {}
+[95.908793] (-) TimerEvent: {}
+[96.009038] (-) TimerEvent: {}
+[96.109307] (-) TimerEvent: {}
+[96.209575] (-) TimerEvent: {}
+[96.309829] (-) TimerEvent: {}
+[96.410093] (-) TimerEvent: {}
+[96.510330] (-) TimerEvent: {}
+[96.610560] (-) TimerEvent: {}
+[96.710823] (-) TimerEvent: {}
+[96.811099] (-) TimerEvent: {}
+[96.911338] (-) TimerEvent: {}
+[97.011576] (-) TimerEvent: {}
+[97.111842] (-) TimerEvent: {}
+[97.212076] (-) TimerEvent: {}
+[97.312323] (-) TimerEvent: {}
+[97.412572] (-) TimerEvent: {}
+[97.512819] (-) TimerEvent: {}
+[97.613092] (-) TimerEvent: {}
+[97.713387] (-) TimerEvent: {}
+[97.813670] (-) TimerEvent: {}
+[97.913919] (-) TimerEvent: {}
+[98.014180] (-) TimerEvent: {}
+[98.114408] (-) TimerEvent: {}
+[98.214677] (-) TimerEvent: {}
+[98.314957] (-) TimerEvent: {}
+[98.415189] (-) TimerEvent: {}
+[98.515450] (-) TimerEvent: {}
+[98.615705] (-) TimerEvent: {}
+[98.715958] (-) TimerEvent: {}
+[98.816203] (-) TimerEvent: {}
+[98.916451] (-) TimerEvent: {}
+[99.016721] (-) TimerEvent: {}
+[99.116987] (-) TimerEvent: {}
+[99.217233] (-) TimerEvent: {}
+[99.317457] (-) TimerEvent: {}
+[99.417697] (-) TimerEvent: {}
+[99.517966] (-) TimerEvent: {}
+[99.618265] (-) TimerEvent: {}
+[99.718516] (-) TimerEvent: {}
+[99.818786] (-) TimerEvent: {}
+[99.919055] (-) TimerEvent: {}
+[100.019321] (-) TimerEvent: {}
+[100.119603] (-) TimerEvent: {}
+[100.219889] (-) TimerEvent: {}
+[100.320182] (-) TimerEvent: {}
+[100.420456] (-) TimerEvent: {}
+[100.520711] (-) TimerEvent: {}
+[100.620974] (-) TimerEvent: {}
+[100.721212] (-) TimerEvent: {}
+[100.821438] (-) TimerEvent: {}
+[100.921647] (-) TimerEvent: {}
+[101.021891] (-) TimerEvent: {}
+[101.122093] (-) TimerEvent: {}
+[101.222316] (-) TimerEvent: {}
+[101.274667] (floor_nav) StdoutLine: {'line': b'[ 96%] Built target floornav_task_server\n'}
+[101.275919] (floor_nav) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[101.278087] (floor_nav) CommandEnded: {'returncode': 2}
+[101.322410] (-) TimerEvent: {}
+[101.422633] (-) TimerEvent: {}
+[101.522814] (-) TimerEvent: {}
+[101.623001] (-) TimerEvent: {}
+[101.723691] (-) TimerEvent: {}
+[101.809254] (floor_nav) JobEnded: {'identifier': 'floor_nav', 'rc': 2}
+[101.819881] (-) EventReactorShutdown: {}

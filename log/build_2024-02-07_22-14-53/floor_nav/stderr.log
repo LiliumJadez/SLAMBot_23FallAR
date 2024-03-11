@@ -1,0 +1,10 @@
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:7:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kfloor_nav::TaskWaitForFace::TaskWaitForFace(task_manager_lib::TaskDefinitionPtr, task_manager_lib::TaskEnvironmentPtr)[m[K’
+    7 | [01;31m[KTaskWaitForFace[m[K::TaskWaitForFace(task_manager_lib::TaskDefinitionPtr def, task_manager_lib::TaskEnvironmentPtr env)
+      | [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:29:5:[m[K [01;36m[Knote: [m[K‘[01m[Kfloor_nav::TaskWaitForFace::TaskWaitForFace(task_manager_lib::TaskDefinitionPtr, task_manager_lib::TaskEnvironmentPtr)[m[K’ previously defined here
+   29 |     [01;36m[KTaskWaitForFace[m[K(TaskDefinitionPtr def, TaskEnvironmentPtr env) : Parent(def,env) {}
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWaitForFace.dir/build.make:76: CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/floornav_TaskWaitForFace.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

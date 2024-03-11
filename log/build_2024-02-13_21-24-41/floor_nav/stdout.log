@@ -1,0 +1,17 @@
+[ 90%] Built target floornav_TaskWaitForFace
+[ 90%] Built target floornav_TaskSetHeading
+[ 90%] Built target floornav_TaskWander
+[ 90%] Built target floornav_TaskWaitForROI
+[ 90%] Built target floornav_TaskWanderFront
+[ 90%] Built target floornav_TaskTrigger
+[ 90%] Built target floornav_TaskGoTo
+[ 90%] Built target floornav_TaskSetMux
+[ 90%] Built target floornav_TaskGoToPose
+[ 90%] Built target floornav_TaskPlanTo
+[ 90%] Built target floornav_TaskStareAtFace
+[ 90%] Built target floornav_TaskNav2
+[ 90%] Built target floornav_TaskAutoDock
+[ 90%] Built target floornav_TaskConstant
+[100%] Built target floornav_task_server
+-- Install configuration: ""
+-- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/floornav_task_server

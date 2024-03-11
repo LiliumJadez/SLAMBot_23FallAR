@@ -1,0 +1,13 @@
+[ 62%] [32mBuilding CXX object CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o[0m
+[ 77%] Built target floornav_TaskPlanTo
+[ 81%] Built target floornav_TaskWander
+[ 85%] Built target floornav_TaskConstant
+[ 85%] Built target floornav_TaskGoTo
+[ 85%] Built target floornav_TaskTrigger
+[ 85%] Built target floornav_TaskSetHeading
+[ 85%] Built target floornav_TaskWanderFront
+[ 85%] Built target floornav_TaskAutoDock
+[ 85%] Built target floornav_TaskWaitForROI
+[ 88%] Built target floornav_TaskNav2
+[ 88%] Built target floornav_TaskSetMux
+[ 96%] Built target floornav_task_server

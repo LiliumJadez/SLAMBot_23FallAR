@@ -1,0 +1,32 @@
+[1.123s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers': /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/vrep4_helpers -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/vrep4_helpers
+[1.303s] -- The C compiler identification is GNU 11.4.0
+[1.726s] -- The CXX compiler identification is GNU 11.4.0
+[1.915s] -- Detecting C compiler ABI info
+[3.292s] -- Detecting C compiler ABI info - done
+[3.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.332s] -- Detecting C compile features
+[3.333s] -- Detecting C compile features - done
+[3.478s] -- Detecting CXX compiler ABI info
+[4.825s] -- Detecting CXX compiler ABI info - done
+[4.866s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.867s] -- Detecting CXX compile features
+[4.868s] -- Detecting CXX compile features - done
+[5.045s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[5.045s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[5.045s]   has asked CMake to find a package configuration file provided by
+[5.045s]   "ament_cmake", but CMake did not find one.
+[5.046s] 
+[5.046s]   Could not find a package configuration file provided by "ament_cmake" with
+[5.046s]   any of the following names:
+[5.046s] 
+[5.046s]     ament_cmakeConfig.cmake
+[5.046s]     ament_cmake-config.cmake
+[5.046s] 
+[5.046s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[5.046s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[5.046s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[5.046s]   has been installed.
+[5.046s] 
+[5.046s] [0m
+[5.051s] -- Configuring incomplete, errors occurred!
+[5.051s] See also "/home/GTL/wxu/cs7630_g6/build/vrep4_helpers/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,25 @@
+[13.834s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/floor_graph': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/floor_graph/prefix_override:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/floor_graph build --build-base /home/GTL/wxu/cs7630_g6/build/floor_graph/build install --record /home/GTL/wxu/cs7630_g6/build/floor_graph/install.log --single-version-externally-managed
+[14.185s] running egg_info
+[14.186s] writing ../../build/floor_graph/floor_graph.egg-info/PKG-INFO
+[14.186s] writing dependency_links to ../../build/floor_graph/floor_graph.egg-info/dependency_links.txt
+[14.186s] writing entry points to ../../build/floor_graph/floor_graph.egg-info/entry_points.txt
+[14.186s] writing requirements to ../../build/floor_graph/floor_graph.egg-info/requires.txt
+[14.186s] writing top-level names to ../../build/floor_graph/floor_graph.egg-info/top_level.txt
+[14.298s] reading manifest file '../../build/floor_graph/floor_graph.egg-info/SOURCES.txt'
+[14.360s] writing manifest file '../../build/floor_graph/floor_graph.egg-info/SOURCES.txt'
+[14.382s] running build
+[14.382s] running build_py
+[14.434s] running install
+[14.434s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.434s]   warnings.warn(
+[14.434s] running install_lib
+[14.487s] running install_data
+[14.529s] running install_egg_info
+[14.530s] removing '/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph-0.0.0-py3.10.egg-info' (and everything under it)
+[14.661s] Copying ../../build/floor_graph/floor_graph.egg-info to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages/floor_graph-0.0.0-py3.10.egg-info
+[16.107s] running install_scripts
+[16.175s] Installing build_graph_node script to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/floor_graph
+[16.285s] Installing build_graph_test_node script to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/floor_graph
+[16.362s] Installing graph_viz_node script to /home/GTL/wxu/cs7630_g6/install/floor_graph/lib/floor_graph
+[16.434s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/floor_graph/install.log'
+[22.413s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/floor_graph' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/floor_graph/prefix_override:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/floor_graph build --build-base /home/GTL/wxu/cs7630_g6/build/floor_graph/build install --record /home/GTL/wxu/cs7630_g6/build/floor_graph/install.log --single-version-externally-managed

@@ -1,0 +1,9 @@
+digraph G {
+"world" -> "bubbleRob"[label=" Broadcaster: default_authority\nAverage rate: 9.067\nBuffer length: 4.853\nMost recent transform: 1707864349.323904\nOldest transform: 1707864344.471181\n"];
+"bubbleRob" -> "Vision_sensor"[label=" Broadcaster: default_authority\nAverage rate: 9.067\nBuffer length: 4.853\nMost recent transform: 1707864349.323904\nOldest transform: 1707864344.471181\n"];
+"bubbleRob" -> "Hokuyo_sensor"[label=" Broadcaster: default_authority\nAverage rate: 9.067\nBuffer length: 4.853\nMost recent transform: 1707864349.323904\nOldest transform: 1707864344.471181\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1707864349.4404073"[ shape=plaintext ] ;
+}->"world";
+}

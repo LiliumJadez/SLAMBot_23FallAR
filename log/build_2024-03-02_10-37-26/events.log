@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000442] (-) JobUnselected: {'identifier': 'ar_mapping_base'}
+[0.000482] (-) JobUnselected: {'identifier': 'ar_slam_base'}
+[0.000500] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000514] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000528] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000542] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000557] (-) JobUnselected: {'identifier': 'floor_nav'}
+[0.000568] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000581] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000592] (-) JobUnselected: {'identifier': 'keyboard_teleop'}
+[0.000602] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000614] (-) JobUnselected: {'identifier': 'rover_driver_base'}
+[0.000625] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000636] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000647] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000657] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000670] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000682] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000695] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000723] (ar_loc_base) JobQueued: {'identifier': 'ar_loc_base', 'dependencies': OrderedDict([('rover_driver_base', '/home/GTL/wxu/cs7630_g6/install/rover_driver_base')])}
+[0.000751] (ar_loc_base) JobStarted: {'identifier': 'ar_loc_base'}
+[0.086809] (-) TimerEvent: {}
+[0.187241] (-) TimerEvent: {}
+[0.287485] (-) TimerEvent: {}
+[0.387785] (-) TimerEvent: {}
+[0.488023] (-) TimerEvent: {}
+[0.588284] (-) TimerEvent: {}
+[0.688519] (-) TimerEvent: {}
+[0.788800] (-) TimerEvent: {}
+[0.889752] (-) TimerEvent: {}
+[0.990148] (-) TimerEvent: {}
+[1.090530] (-) TimerEvent: {}
+[1.190801] (-) TimerEvent: {}
+[1.291050] (-) TimerEvent: {}
+[1.391373] (-) TimerEvent: {}
+[1.491679] (-) TimerEvent: {}
+[1.592014] (-) TimerEvent: {}
+[1.692336] (-) TimerEvent: {}
+[1.792568] (-) TimerEvent: {}
+[1.892829] (-) TimerEvent: {}
+[1.993077] (-) TimerEvent: {}
+[2.093336] (-) TimerEvent: {}
+[2.193562] (-) TimerEvent: {}
+[2.293999] (-) TimerEvent: {}
+[2.394274] (-) TimerEvent: {}
+[2.494491] (-) TimerEvent: {}
+[2.594712] (-) TimerEvent: {}
+[2.694930] (-) TimerEvent: {}
+[2.795120] (-) TimerEvent: {}
+[2.895309] (-) TimerEvent: {}
+[2.995594] (-) TimerEvent: {}
+[3.096254] (-) TimerEvent: {}
+[3.196557] (-) TimerEvent: {}
+[3.296767] (-) TimerEvent: {}
+[3.397024] (-) TimerEvent: {}
+[3.497275] (-) TimerEvent: {}
+[3.597515] (-) TimerEvent: {}
+[3.697752] (-) TimerEvent: {}
+[3.798249] (-) TimerEvent: {}
+[3.856471] (ar_loc_base) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ar_loc_base', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/ar_loc_base/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/ar_loc_base/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/ar_loc_base', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/wxu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '125428', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc101.georgiatech-metz.fr:@/tmp/.ICE-unix/125406,unix/gtlpc101.georgiatech-metz.fr:/tmp/.ICE-unix/125406', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4de9b679_3a28_41ca_8fb0_2487da547ae1', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '51', 'AMENT_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/ar_slam_base:/home/GTL/wxu/cs7630_g6/install/ar_loc_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/button_server:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base:/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/ar_loc_base', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/ar_loc_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/ar_slam_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base'}, 'shell': False}
+[3.899810] (-) TimerEvent: {}
+[3.999992] (-) TimerEvent: {}
+[4.100235] (-) TimerEvent: {}
+[4.200466] (-) TimerEvent: {}
+[4.300759] (-) TimerEvent: {}
+[4.400987] (-) TimerEvent: {}
+[4.501451] (-) TimerEvent: {}
+[4.602340] (-) TimerEvent: {}
+[4.702663] (-) TimerEvent: {}
+[4.780644] (ar_loc_base) StdoutLine: {'line': b'running egg_info\n'}
+[4.782550] (ar_loc_base) StdoutLine: {'line': b'writing ../../build/ar_loc_base/ar_loc_base.egg-info/PKG-INFO\n'}
+[4.802772] (-) TimerEvent: {}
+[4.803852] (ar_loc_base) StdoutLine: {'line': b'writing dependency_links to ../../build/ar_loc_base/ar_loc_base.egg-info/dependency_links.txt\n'}
+[4.819245] (ar_loc_base) StdoutLine: {'line': b'writing entry points to ../../build/ar_loc_base/ar_loc_base.egg-info/entry_points.txt\n'}
+[4.837146] (ar_loc_base) StdoutLine: {'line': b'writing requirements to ../../build/ar_loc_base/ar_loc_base.egg-info/requires.txt\n'}
+[4.851955] (ar_loc_base) StdoutLine: {'line': b'writing top-level names to ../../build/ar_loc_base/ar_loc_base.egg-info/top_level.txt\n'}
+[4.902896] (-) TimerEvent: {}
+[4.973295] (ar_loc_base) StdoutLine: {'line': b"reading manifest file '../../build/ar_loc_base/ar_loc_base.egg-info/SOURCES.txt'\n"}
+[5.003037] (-) TimerEvent: {}
+[5.005828] (ar_loc_base) StdoutLine: {'line': b"writing manifest file '../../build/ar_loc_base/ar_loc_base.egg-info/SOURCES.txt'\n"}
+[5.013944] (ar_loc_base) StdoutLine: {'line': b'running build\n'}
+[5.014099] (ar_loc_base) StdoutLine: {'line': b'running build_py\n'}
+[5.065032] (ar_loc_base) StdoutLine: {'line': b'copying ar_loc_base/rover_kf.py -> /home/GTL/wxu/cs7630_g6/build/ar_loc_base/build/lib/ar_loc_base\n'}
+[5.096298] (ar_loc_base) StdoutLine: {'line': b'running install\n'}
+[5.096446] (ar_loc_base) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.096494] (ar_loc_base) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.096550] (ar_loc_base) StdoutLine: {'line': b'running install_lib\n'}
+[5.103116] (-) TimerEvent: {}
+[5.165504] (ar_loc_base) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/ar_loc_base/build/lib/ar_loc_base/rover_kf.py -> /home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages/ar_loc_base\n'}
+[5.203328] (-) TimerEvent: {}
+[5.286940] (ar_loc_base) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages/ar_loc_base/rover_kf.py to rover_kf.cpython-310.pyc\n'}
+[5.303516] (-) TimerEvent: {}
+[5.343583] (ar_loc_base) StdoutLine: {'line': b'running install_data\n'}
+[5.384929] (ar_loc_base) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.403579] (-) TimerEvent: {}
+[5.413525] (ar_loc_base) StdoutLine: {'line': b"removing '/home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages/ar_loc_base-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.487161] (ar_loc_base) StdoutLine: {'line': b'Copying ../../build/ar_loc_base/ar_loc_base.egg-info to /home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages/ar_loc_base-0.0.0-py3.10.egg-info\n'}
+[5.503700] (-) TimerEvent: {}
+[5.603964] (-) TimerEvent: {}
+[5.687301] (ar_loc_base) StdoutLine: {'line': b'running install_scripts\n'}
+[5.704063] (-) TimerEvent: {}
+[5.804289] (-) TimerEvent: {}
+[5.891360] (ar_loc_base) StdoutLine: {'line': b'Installing ar_loc_node script to /home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/ar_loc_base\n'}
+[5.904411] (-) TimerEvent: {}
+[5.933634] (ar_loc_base) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/ar_loc_base/install.log'\n"}
+[5.966426] (ar_loc_base) CommandEnded: {'returncode': 0}
+[6.004611] (-) TimerEvent: {}
+[6.105316] (-) TimerEvent: {}
+[6.205612] (-) TimerEvent: {}
+[6.305838] (-) TimerEvent: {}
+[6.400997] (ar_loc_base) JobEnded: {'identifier': 'ar_loc_base', 'rc': 0}
+[6.419886] (-) TimerEvent: {}
+[6.420243] (-) EventReactorShutdown: {}

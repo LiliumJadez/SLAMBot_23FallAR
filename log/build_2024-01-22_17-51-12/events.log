@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000129] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000142] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000157] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000170] (collision_avoidance_base) JobQueued: {'identifier': 'collision_avoidance_base', 'dependencies': OrderedDict()}
+[0.000184] (collision_avoidance_base) JobStarted: {'identifier': 'collision_avoidance_base'}
+[0.030402] (-) TimerEvent: {}
+[0.095274] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'cmake'}
+[0.130496] (-) TimerEvent: {}
+[0.132799] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'build'}
+[0.133416] (collision_avoidance_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '463441'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ced4a32_f5e7_4e2d_bf07_76b09d5c349a'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.275'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble')]), 'shell': False}
+[0.285775] (-) TimerEvent: {}
+[0.370761] (collision_avoidance_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o\x1b[0m\n'}
+[0.385927] (-) TimerEvent: {}
+[0.486191] (-) TimerEvent: {}
+[0.586438] (-) TimerEvent: {}
+[0.686703] (-) TimerEvent: {}
+[0.786972] (-) TimerEvent: {}
+[0.887237] (-) TimerEvent: {}
+[0.987513] (-) TimerEvent: {}
+[1.087778] (-) TimerEvent: {}
+[1.188043] (-) TimerEvent: {}
+[1.288317] (-) TimerEvent: {}
+[1.388592] (-) TimerEvent: {}
+[1.488837] (-) TimerEvent: {}
+[1.589095] (-) TimerEvent: {}
+[1.689343] (-) TimerEvent: {}
+[1.789603] (-) TimerEvent: {}
+[1.889881] (-) TimerEvent: {}
+[1.990204] (-) TimerEvent: {}
+[2.090473] (-) TimerEvent: {}
+[2.190777] (-) TimerEvent: {}
+[2.291091] (-) TimerEvent: {}
+[2.391378] (-) TimerEvent: {}
+[2.491675] (-) TimerEvent: {}
+[2.591964] (-) TimerEvent: {}
+[2.692238] (-) TimerEvent: {}
+[2.792501] (-) TimerEvent: {}
+[2.892782] (-) TimerEvent: {}
+[2.993021] (-) TimerEvent: {}
+[3.093275] (-) TimerEvent: {}
+[3.193533] (-) TimerEvent: {}
+[3.293803] (-) TimerEvent: {}
+[3.394077] (-) TimerEvent: {}
+[3.494348] (-) TimerEvent: {}
+[3.594640] (-) TimerEvent: {}
+[3.694907] (-) TimerEvent: {}
+[3.795188] (-) TimerEvent: {}
+[3.895517] (-) TimerEvent: {}
+[3.995797] (-) TimerEvent: {}
+[4.096055] (-) TimerEvent: {}
+[4.196331] (-) TimerEvent: {}
+[4.296610] (-) TimerEvent: {}
+[4.396861] (-) TimerEvent: {}
+[4.497122] (-) TimerEvent: {}
+[4.597384] (-) TimerEvent: {}
+[4.697658] (-) TimerEvent: {}
+[4.797931] (-) TimerEvent: {}
+[4.898215] (-) TimerEvent: {}
+[4.998499] (-) TimerEvent: {}
+[5.098781] (-) TimerEvent: {}
+[5.199097] (-) TimerEvent: {}
+[5.299414] (-) TimerEvent: {}
+[5.399789] (-) TimerEvent: {}
+[5.500067] (-) TimerEvent: {}
+[5.600353] (-) TimerEvent: {}
+[5.700634] (-) TimerEvent: {}
+[5.800884] (-) TimerEvent: {}
+[5.901146] (-) TimerEvent: {}
+[6.001413] (-) TimerEvent: {}
+[6.101689] (-) TimerEvent: {}
+[6.201967] (-) TimerEvent: {}
+[6.302245] (-) TimerEvent: {}
+[6.402517] (-) TimerEvent: {}
+[6.502821] (-) TimerEvent: {}
+[6.603111] (-) TimerEvent: {}
+[6.703418] (-) TimerEvent: {}
+[6.803697] (-) TimerEvent: {}
+[6.904069] (-) TimerEvent: {}
+[7.004347] (-) TimerEvent: {}
+[7.104616] (-) TimerEvent: {}
+[7.204885] (-) TimerEvent: {}
+[7.305129] (-) TimerEvent: {}
+[7.405398] (-) TimerEvent: {}
+[7.505670] (-) TimerEvent: {}
+[7.605945] (-) TimerEvent: {}
+[7.706214] (-) TimerEvent: {}
+[7.806500] (-) TimerEvent: {}
+[7.906766] (-) TimerEvent: {}
+[8.007047] (-) TimerEvent: {}
+[8.107315] (-) TimerEvent: {}
+[8.207589] (-) TimerEvent: {}
+[8.307858] (-) TimerEvent: {}
+[8.408146] (-) TimerEvent: {}
+[8.508426] (-) TimerEvent: {}
+[8.608721] (-) TimerEvent: {}
+[8.708970] (-) TimerEvent: {}
+[8.809237] (-) TimerEvent: {}
+[8.909496] (-) TimerEvent: {}
+[9.009768] (-) TimerEvent: {}
+[9.110006] (-) TimerEvent: {}
+[9.210229] (-) TimerEvent: {}
+[9.310481] (-) TimerEvent: {}
+[9.410758] (-) TimerEvent: {}
+[9.511028] (-) TimerEvent: {}
+[9.611315] (-) TimerEvent: {}
+[9.711627] (-) TimerEvent: {}
+[9.811927] (-) TimerEvent: {}
+[9.912193] (-) TimerEvent: {}
+[10.012447] (-) TimerEvent: {}
+[10.112739] (-) TimerEvent: {}
+[10.212970] (-) TimerEvent: {}
+[10.313218] (-) TimerEvent: {}
+[10.413464] (-) TimerEvent: {}
+[10.513730] (-) TimerEvent: {}
+[10.613992] (-) TimerEvent: {}
+[10.714245] (-) TimerEvent: {}
+[10.814517] (-) TimerEvent: {}
+[10.914785] (-) TimerEvent: {}
+[11.015048] (-) TimerEvent: {}
+[11.115312] (-) TimerEvent: {}
+[11.215552] (-) TimerEvent: {}
+[11.315833] (-) TimerEvent: {}
+[11.416095] (-) TimerEvent: {}
+[11.516356] (-) TimerEvent: {}
+[11.616627] (-) TimerEvent: {}
+[11.716867] (-) TimerEvent: {}
+[11.817151] (-) TimerEvent: {}
+[11.917392] (-) TimerEvent: {}
+[12.017648] (-) TimerEvent: {}
+[12.117924] (-) TimerEvent: {}
+[12.218186] (-) TimerEvent: {}
+[12.318474] (-) TimerEvent: {}
+[12.418764] (-) TimerEvent: {}
+[12.519074] (-) TimerEvent: {}
+[12.619456] (-) TimerEvent: {}
+[12.719863] (-) TimerEvent: {}
+[12.820153] (-) TimerEvent: {}
+[12.920441] (-) TimerEvent: {}
+[13.020732] (-) TimerEvent: {}
+[13.120996] (-) TimerEvent: {}
+[13.221284] (-) TimerEvent: {}
+[13.321573] (-) TimerEvent: {}
+[13.421855] (-) TimerEvent: {}
+[13.522141] (-) TimerEvent: {}
+[13.622433] (-) TimerEvent: {}
+[13.722719] (-) TimerEvent: {}
+[13.823002] (-) TimerEvent: {}
+[13.923278] (-) TimerEvent: {}
+[14.023553] (-) TimerEvent: {}
+[14.123832] (-) TimerEvent: {}
+[14.224096] (-) TimerEvent: {}
+[14.324343] (-) TimerEvent: {}
+[14.424617] (-) TimerEvent: {}
+[14.524862] (-) TimerEvent: {}
+[14.625117] (-) TimerEvent: {}
+[14.725376] (-) TimerEvent: {}
+[14.825632] (-) TimerEvent: {}
+[14.925878] (-) TimerEvent: {}
+[15.026142] (-) TimerEvent: {}
+[15.126387] (-) TimerEvent: {}
+[15.226669] (-) TimerEvent: {}
+[15.326953] (-) TimerEvent: {}
+[15.427259] (-) TimerEvent: {}
+[15.527523] (-) TimerEvent: {}
+[15.627795] (-) TimerEvent: {}
+[15.728066] (-) TimerEvent: {}
+[15.828321] (-) TimerEvent: {}
+[15.928588] (-) TimerEvent: {}
+[16.028847] (-) TimerEvent: {}
+[16.129117] (-) TimerEvent: {}
+[16.229377] (-) TimerEvent: {}
+[16.329642] (-) TimerEvent: {}
+[16.429909] (-) TimerEvent: {}
+[16.530157] (-) TimerEvent: {}
+[16.630405] (-) TimerEvent: {}
+[16.730625] (-) TimerEvent: {}
+[16.830897] (-) TimerEvent: {}
+[16.931167] (-) TimerEvent: {}
+[17.031476] (-) TimerEvent: {}
+[17.131777] (-) TimerEvent: {}
+[17.232055] (-) TimerEvent: {}
+[17.332313] (-) TimerEvent: {}
+[17.432574] (-) TimerEvent: {}
+[17.532824] (-) TimerEvent: {}
+[17.633091] (-) TimerEvent: {}
+[17.733357] (-) TimerEvent: {}
+[17.833621] (-) TimerEvent: {}
+[17.933875] (-) TimerEvent: {}
+[18.034104] (-) TimerEvent: {}
+[18.134348] (-) TimerEvent: {}
+[18.234621] (-) TimerEvent: {}
+[18.334858] (-) TimerEvent: {}
+[18.435127] (-) TimerEvent: {}
+[18.535412] (-) TimerEvent: {}
+[18.635672] (-) TimerEvent: {}
+[18.735932] (-) TimerEvent: {}
+[18.836194] (-) TimerEvent: {}
+[18.936472] (-) TimerEvent: {}
+[19.036753] (-) TimerEvent: {}
+[19.136995] (-) TimerEvent: {}
+[19.237280] (-) TimerEvent: {}
+[19.337574] (-) TimerEvent: {}
+[19.437833] (-) TimerEvent: {}
+[19.538082] (-) TimerEvent: {}
+[19.638297] (-) TimerEvent: {}
+[19.738509] (-) TimerEvent: {}
+[19.838753] (-) TimerEvent: {}
+[19.939044] (-) TimerEvent: {}
+[20.018968] (collision_avoidance_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable collision_avoidance_base\x1b[0m\n'}
+[20.039131] (-) TimerEvent: {}
+[20.139382] (-) TimerEvent: {}
+[20.239645] (-) TimerEvent: {}
+[20.339912] (-) TimerEvent: {}
+[20.440153] (-) TimerEvent: {}
+[20.540387] (-) TimerEvent: {}
+[20.640615] (-) TimerEvent: {}
+[20.740854] (-) TimerEvent: {}
+[20.841063] (-) TimerEvent: {}
+[20.941294] (-) TimerEvent: {}
+[21.041536] (-) TimerEvent: {}
+[21.141792] (-) TimerEvent: {}
+[21.242037] (-) TimerEvent: {}
+[21.342290] (-) TimerEvent: {}
+[21.359404] (collision_avoidance_base) StdoutLine: {'line': b'[100%] Built target collision_avoidance_base\n'}
+[21.408984] (collision_avoidance_base) CommandEnded: {'returncode': 0}
+[21.436742] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'install'}
+[21.442712] (collision_avoidance_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '463441'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ced4a32_f5e7_4e2d_bf07_76b09d5c349a'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.275'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble')]), 'shell': False}
+[21.443253] (-) TimerEvent: {}
+[21.451545] (collision_avoidance_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.465335] (collision_avoidance_base) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base\n'}
+[21.543392] (-) TimerEvent: {}
+[21.643654] (-) TimerEvent: {}
+[21.743925] (-) TimerEvent: {}
+[21.844184] (-) TimerEvent: {}
+[21.944447] (-) TimerEvent: {}
+[22.044745] (-) TimerEvent: {}
+[22.095908] (collision_avoidance_base) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base" to ""\n'}
+[22.144852] (-) TimerEvent: {}
+[22.148006] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base\n'}
+[22.158880] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/ca_auto.launch.py\n'}
+[22.167147] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/ca.launch.py\n'}
+[22.211826] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/ament_index/resource_index/package_run_dependencies/collision_avoidance_base\n'}
+[22.225220] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/ament_index/resource_index/parent_prefix_path/collision_avoidance_base\n'}
+[22.233470] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.sh\n'}
+[22.244909] (-) TimerEvent: {}
+[22.246840] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.dsv\n'}
+[22.252653] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.sh\n'}
+[22.260940] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.dsv\n'}
+[22.269192] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.bash\n'}
+[22.277122] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.sh\n'}
+[22.285306] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.zsh\n'}
+[22.294096] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.dsv\n'}
+[22.302403] (collision_avoidance_base) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/package.dsv\n'}
+[22.345014] (-) TimerEvent: {}
+[22.411617] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/ament_index/resource_index/packages/collision_avoidance_base\n'}
+[22.426275] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig.cmake\n'}
+[22.434365] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig-version.cmake\n'}
+[22.442731] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/package.xml\n'}
+[22.445091] (-) TimerEvent: {}
+[22.469085] (collision_avoidance_base) CommandEnded: {'returncode': 0}
+[22.545228] (-) TimerEvent: {}
+[22.645465] (-) TimerEvent: {}
+[22.745657] (-) TimerEvent: {}
+[22.845849] (-) TimerEvent: {}
+[22.946084] (-) TimerEvent: {}
+[23.046317] (-) TimerEvent: {}
+[23.146948] (-) TimerEvent: {}
+[23.247267] (-) TimerEvent: {}
+[23.347496] (-) TimerEvent: {}
+[23.447766] (-) TimerEvent: {}
+[23.547999] (-) TimerEvent: {}
+[23.558609] (collision_avoidance_base) JobEnded: {'identifier': 'collision_avoidance_base', 'rc': 0}
+[23.588344] (-) EventReactorShutdown: {}

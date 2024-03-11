@@ -1,0 +1,27 @@
+[1.598s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/vrep4_helpers -- -j16 -l16
+[1.730s] [100%] Built target image_flip
+[1.799s] [100%] Built target clock_repeat
+[2.071s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/vrep4_helpers -- -j16 -l16
+[2.092s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/vrep4_helpers
+[2.100s] -- Install configuration: ""
+[2.117s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/lib/vrep4_helpers/image_flip
+[2.131s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/lib/vrep4_helpers/clock_repeat
+[2.142s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers
+[2.153s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/kinect_pc.launch.py
+[2.187s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/kinect_pc_min.launch.py
+[2.200s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/ament_index/resource_index/package_run_dependencies/vrep4_helpers
+[2.209s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/ament_index/resource_index/parent_prefix_path/vrep4_helpers
+[2.495s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.sh
+[2.495s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.dsv
+[2.495s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/path.sh
+[2.495s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/path.dsv
+[2.495s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.bash
+[2.495s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.sh
+[2.495s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.zsh
+[2.815s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.dsv
+[2.815s] -- Installing: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/package.dsv
+[3.245s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/ament_index/resource_index/packages/vrep4_helpers
+[3.246s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig.cmake
+[3.246s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig-version.cmake
+[3.246s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/package.xml
+[3.501s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/vrep4_helpers

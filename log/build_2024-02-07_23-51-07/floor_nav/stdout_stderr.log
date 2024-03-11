@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target floornav_TaskStareAtFace[0m
+[ 55%] Built target floornav_TaskSetHeading
+[ 55%] Built target floornav_TaskWaitForFace
+[ 55%] [32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o[0m
+[ 79%] Built target floornav_TaskWaitForROI
+[ 79%] Built target floornav_TaskConstant
+[ 79%] Built target floornav_TaskPlanTo
+[ 79%] Built target floornav_TaskTrigger
+[ 79%] Built target floornav_TaskNav2
+[ 86%] Built target floornav_TaskAutoDock
+[ 93%] Built target floornav_TaskWander
+[ 93%] Built target floornav_TaskWanderFront
+[ 93%] Built target floornav_TaskSetMux
+[ 96%] Built target floornav_TaskGoTo
+[ 96%] Built target floornav_task_server
+[100%] [32m[1mLinking CXX shared library libfloornav_TaskStareAtFace.so[0m
+[100%] Built target floornav_TaskStareAtFace
+-- Install configuration: ""
+-- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/floornav_task_server
+[31mCMake Error at cmake_install.cmake:52 (file):
+  file INSTALL cannot copy file
+  "/home/GTL/wxu/cs7630_g6/build/floor_nav/floornav_task_server" to
+  "/home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/floornav_task_server":
+  No such file or directory.
+
+[0m

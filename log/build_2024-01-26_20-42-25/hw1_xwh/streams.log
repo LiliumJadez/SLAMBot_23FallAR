@@ -1,0 +1,75 @@
+[5.069s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/hw1_xwh -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/hw1_xwh
+[5.436s] -- The C compiler identification is GNU 11.4.0
+[5.941s] -- The CXX compiler identification is GNU 11.4.0
+[6.167s] -- Detecting C compiler ABI info
+[8.814s] -- Detecting C compiler ABI info - done
+[8.915s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.916s] -- Detecting C compile features
+[8.917s] -- Detecting C compile features - done
+[9.401s] -- Detecting CXX compiler ABI info
+[12.312s] -- Detecting CXX compiler ABI info - done
+[12.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.389s] -- Detecting CXX compile features
+[12.389s] -- Detecting CXX compile features - done
+[13.076s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.360s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[16.736s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[17.837s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[18.042s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[18.240s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[18.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.048s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[20.404s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[21.498s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[22.449s] -- Looking for pthread.h
+[23.995s] -- Looking for pthread.h - found
+[24.072s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[25.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[25.756s] -- Found Threads: TRUE  
+[26.520s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[27.014s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[30.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[31.064s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[31.065s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/GTL/wxu/cs7630_g6/src/hw1_xwh/include>
+[31.065s] -- Configured cppcheck exclude dirs and/or files: 
+[31.224s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[31.224s] -- Configured cpplint exclude dirs and/or files: 
+[31.326s] -- Added test 'lint_cmake' to check CMake code style
+[31.581s] -- Added test 'uncrustify' to check C / C++ code style
+[31.581s] -- Configured uncrustify additional arguments: 
+[31.697s] -- Added test 'xmllint' to check XML markup files
+[32.317s] -- Configuring done
+[34.728s] -- Generating done
+[37.864s] -- Build files have been written to: /home/GTL/wxu/cs7630_g6/build/hw1_xwh
+[37.870s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/hw1_xwh -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/hw1_xwh
+[37.925s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/hw1_xwh -- -j16 -l16
+[38.306s] [ 50%] [32mBuilding CXX object CMakeFiles/joystick.dir/src/joystick.cpp.o[0m
+[38.316s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[38.524s] [ 75%] [32m[1mLinking CXX executable my_node[0m
+[38.765s] [ 75%] Built target my_node
+[43.954s] [100%] [32m[1mLinking CXX executable joystick[0m
+[44.540s] [100%] Built target joystick
+[44.690s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/hw1_xwh -- -j16 -l16
+[44.733s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/hw1_xwh
+[44.746s] -- Install configuration: ""
+[44.784s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node
+[44.981s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node" to ""
+[45.049s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick
+[45.296s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick" to ""
+[45.414s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/package_run_dependencies/hw1_xwh
+[45.584s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/parent_prefix_path/hw1_xwh
+[45.876s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.sh
+[46.090s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.dsv
+[46.289s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.sh
+[46.448s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.dsv
+[46.666s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.bash
+[46.822s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.sh
+[46.970s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.zsh
+[47.080s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.dsv
+[47.198s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.dsv
+[47.345s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/packages/hw1_xwh
+[47.517s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig.cmake
+[47.677s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig-version.cmake
+[47.823s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.xml
+[48.037s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/hw1_xwh

@@ -1,0 +1,11 @@
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/uninstall.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/hw1_xwh_uninstall.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/my_node.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/joystick.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/test.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/edit_cache.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/rebuild_cache.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/list_install_components.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/install.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/install/local.dir
+/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh/CMakeFiles/install/strip.dir

@@ -1,0 +1,25 @@
+digraph G {
+"world" -> "rover_ground"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"rover_ground" -> "rover_body"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"rover_body" -> "frontCamera"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"rover_body" -> "Hokuyo_sensor"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"rover_body" -> "RearBoggieBody"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"rover_body" -> "FLBoggieBody"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"rover_body" -> "FRBoggieBody"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"FLBoggieBody" -> "FLSteering"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"FLBoggieBody" -> "CLSteering"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"FRBoggieBody" -> "FRSteering"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"FRBoggieBody" -> "CRSteering"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"RearBoggieBody" -> "RLSteering"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"RearBoggieBody" -> "RRSteering"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"RRSteering" -> "RRDrive"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"FLSteering" -> "FLDrive"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"CLSteering" -> "CLDrive"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"CRSteering" -> "CRDrive"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"FRSteering" -> "FRDrive"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+"RLSteering" -> "RLDrive"[label=" Broadcaster: default_authority\nAverage rate: 6.635\nBuffer length: 4.823\nMost recent transform: 1707863987.081461\nOldest transform: 1707863982.258431\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1707863987.2538908"[ shape=plaintext ] ;
+}->"world";
+}

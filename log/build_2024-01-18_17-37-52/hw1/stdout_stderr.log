@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/hw1/hw1.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw1/hw1.egg-info/dependency_links.txt
+writing entry points to ../../build/hw1/hw1.egg-info/entry_points.txt
+writing requirements to ../../build/hw1/hw1.egg-info/requires.txt
+writing top-level names to ../../build/hw1/hw1.egg-info/top_level.txt
+reading manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+running build
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_data
+running install_egg_info
+removing '/home/GTL/hshi/cs7630_g6/install/hw1/lib/python3.10/site-packages/hw1-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/hw1/hw1.egg-info to /home/GTL/hshi/cs7630_g6/install/hw1/lib/python3.10/site-packages/hw1-0.0.1-py3.10.egg-info
+running install_scripts
+Installing joystick script to /home/GTL/hshi/cs7630_g6/install/hw1/lib/hw1
+Installing stupid script to /home/GTL/hshi/cs7630_g6/install/hw1/lib/hw1
+writing list of installed files to '/home/GTL/hshi/cs7630_g6/build/hw1/install.log'

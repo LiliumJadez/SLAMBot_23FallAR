@@ -1,0 +1,23 @@
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskWanderFront::iterate()[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:65:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfloor_nav::SimTasksEnv::publishVelocity(double&)[m[K’
+   65 |         [01;31m[Kenv->publishVelocity(linear)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.h:5[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:60:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid floor_nav::SimTasksEnv::publishVelocity(double, double)[m[K’
+   60 |             void [01;36m[KpublishVelocity[m[K(double linear, double angular) ;
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:60:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:61:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid floor_nav::SimTasksEnv::publishVelocity(double, double, double)[m[K’
+   61 |             void [01;36m[KpublishVelocity[m[K(double linear_x, double linear_y, double angular) ;
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:61:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:62:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid floor_nav::SimTasksEnv::publishVelocity(const Twist&)[m[K’
+   62 |             void [01;36m[KpublishVelocity[m[K(const geometry_msgs::msg::Twist & twist) ;
+      |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:62:68:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Twist&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’}
+   62 |             void publishVelocity([01;36m[Kconst geometry_msgs::msg::Twist & twist[m[K) ;
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWanderFront.dir/build.make:76: CMakeFiles/floornav_TaskWanderFront.dir/tasks/TaskWanderFront.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/floornav_TaskWanderFront.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

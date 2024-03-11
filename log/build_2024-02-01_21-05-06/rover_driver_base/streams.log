@@ -1,0 +1,47 @@
+[2.628s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/rover_driver_base': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/rover_driver_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_driver_base build --build-base /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build install --record /home/GTL/wxu/cs7630_g6/build/rover_driver_base/install.log --single-version-externally-managed
+[3.151s] running egg_info
+[3.154s] creating ../../build/rover_driver_base/rover_driver_base.egg-info
+[3.166s] writing ../../build/rover_driver_base/rover_driver_base.egg-info/PKG-INFO
+[3.187s] writing dependency_links to ../../build/rover_driver_base/rover_driver_base.egg-info/dependency_links.txt
+[3.197s] writing entry points to ../../build/rover_driver_base/rover_driver_base.egg-info/entry_points.txt
+[3.205s] writing requirements to ../../build/rover_driver_base/rover_driver_base.egg-info/requires.txt
+[3.213s] writing top-level names to ../../build/rover_driver_base/rover_driver_base.egg-info/top_level.txt
+[3.223s] writing manifest file '../../build/rover_driver_base/rover_driver_base.egg-info/SOURCES.txt'
+[3.282s] reading manifest file '../../build/rover_driver_base/rover_driver_base.egg-info/SOURCES.txt'
+[3.302s] writing manifest file '../../build/rover_driver_base/rover_driver_base.egg-info/SOURCES.txt'
+[3.307s] running build
+[3.307s] running build_py
+[3.310s] creating /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build
+[3.315s] creating /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib
+[3.324s] creating /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base
+[3.339s] copying rover_driver_base/rover_kinematics.py -> /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base
+[3.354s] copying rover_driver_base/rover_odom.py -> /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base
+[3.369s] copying rover_driver_base/__init__.py -> /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base
+[3.384s] copying rover_driver_base/rover_command.py -> /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base
+[3.399s] running install
+[3.399s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.399s]   warnings.warn(
+[3.399s] running install_lib
+[3.407s] creating /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base
+[3.421s] copying /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base/rover_kinematics.py -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base
+[3.440s] copying /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base/rover_odom.py -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base
+[3.461s] copying /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base/__init__.py -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base
+[3.480s] copying /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build/lib/rover_driver_base/rover_command.py -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base
+[3.574s] byte-compiling /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base/rover_kinematics.py to rover_kinematics.cpython-310.pyc
+[3.597s] byte-compiling /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base/rover_odom.py to rover_odom.cpython-310.pyc
+[3.613s] byte-compiling /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base/__init__.py to __init__.cpython-310.pyc
+[3.625s] byte-compiling /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base/rover_command.py to rover_command.cpython-310.pyc
+[3.634s] running install_data
+[4.016s] creating /home/GTL/wxu/cs7630_g6/install/rover_driver_base/share/ament_index
+[4.024s] creating /home/GTL/wxu/cs7630_g6/install/rover_driver_base/share/ament_index/resource_index
+[4.036s] creating /home/GTL/wxu/cs7630_g6/install/rover_driver_base/share/ament_index/resource_index/packages
+[4.060s] copying resource/rover_driver_base -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/share/ament_index/resource_index/packages
+[4.080s] copying package.xml -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/share/rover_driver_base
+[4.099s] copying launch/rover_odom.launch.py -> /home/GTL/wxu/cs7630_g6/install/rover_driver_base/share/rover_driver_base
+[4.118s] running install_egg_info
+[4.164s] Copying ../../build/rover_driver_base/rover_driver_base.egg-info to /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages/rover_driver_base-0.0.0-py3.10.egg-info
+[4.324s] running install_scripts
+[4.387s] Installing rover_command_node script to /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/rover_driver_base
+[4.409s] Installing rover_odom_node script to /home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/rover_driver_base
+[4.428s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/rover_driver_base/install.log'
+[4.459s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/rover_driver_base' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/rover_driver_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rover_driver_base build --build-base /home/GTL/wxu/cs7630_g6/build/rover_driver_base/build install --record /home/GTL/wxu/cs7630_g6/build/rover_driver_base/install.log --single-version-externally-managed

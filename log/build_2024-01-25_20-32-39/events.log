@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.000126] (collision_avoidance_base) JobQueued: {'identifier': 'collision_avoidance_base', 'dependencies': OrderedDict()}
+[0.000148] (face_detect_base) JobQueued: {'identifier': 'face_detect_base', 'dependencies': OrderedDict()}
+[0.000159] (hw1) JobQueued: {'identifier': 'hw1', 'dependencies': OrderedDict()}
+[0.000168] (hw1_xwh) JobQueued: {'identifier': 'hw1_xwh', 'dependencies': OrderedDict()}
+[0.000177] (vrep4_helpers) JobQueued: {'identifier': 'vrep4_helpers', 'dependencies': OrderedDict()}
+[0.000187] (vrep_ros_teleop) JobQueued: {'identifier': 'vrep_ros_teleop', 'dependencies': OrderedDict()}
+[0.000196] (collision_avoidance_base) JobStarted: {'identifier': 'collision_avoidance_base'}
+[0.011976] (-) TimerEvent: {}
+[0.029616] (face_detect_base) JobStarted: {'identifier': 'face_detect_base'}
+[0.112084] (-) TimerEvent: {}
+[0.212319] (-) TimerEvent: {}
+[0.281485] (hw1) JobStarted: {'identifier': 'hw1'}
+[0.312397] (-) TimerEvent: {}
+[0.412611] (-) TimerEvent: {}
+[0.512825] (-) TimerEvent: {}
+[0.536958] (hw1_xwh) JobStarted: {'identifier': 'hw1_xwh'}
+[0.612945] (-) TimerEvent: {}
+[0.628106] (vrep4_helpers) JobStarted: {'identifier': 'vrep4_helpers'}
+[0.713070] (-) TimerEvent: {}
+[0.761355] (vrep_ros_teleop) JobStarted: {'identifier': 'vrep_ros_teleop'}
+[0.813180] (-) TimerEvent: {}
+[0.913430] (-) TimerEvent: {}
+[1.013679] (-) TimerEvent: {}
+[1.113930] (-) TimerEvent: {}
+[1.115914] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'cmake'}
+[1.214057] (-) TimerEvent: {}
+[1.291002] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'build'}
+[1.291801] (collision_avoidance_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.720617] (-) TimerEvent: {}
+[1.820840] (-) TimerEvent: {}
+[1.921101] (-) TimerEvent: {}
+[2.021362] (-) TimerEvent: {}
+[2.121620] (-) TimerEvent: {}
+[2.221898] (-) TimerEvent: {}
+[2.322158] (-) TimerEvent: {}
+[2.348388] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'cmake'}
+[2.422285] (-) TimerEvent: {}
+[2.441964] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'build'}
+[2.442823] (hw1_xwh) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/hw1_xwh', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.914088] (-) TimerEvent: {}
+[2.914199] (vrep4_helpers) JobProgress: {'identifier': 'vrep4_helpers', 'progress': 'cmake'}
+[2.914214] (vrep4_helpers) JobProgress: {'identifier': 'vrep4_helpers', 'progress': 'build'}
+[2.914224] (vrep4_helpers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.257742] (-) TimerEvent: {}
+[3.257833] (collision_avoidance_base) StdoutLine: {'line': b'[100%] Built target collision_avoidance_base\n'}
+[3.257893] (hw1_xwh) StdoutLine: {'line': b'[100%] Built target joystick\n'}
+[3.257938] (hw1_xwh) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[3.257974] (collision_avoidance_base) CommandEnded: {'returncode': 0}
+[3.258162] (vrep4_helpers) StdoutLine: {'line': b'[100%] Built target clock_repeat\n'}
+[3.258234] (vrep4_helpers) StdoutLine: {'line': b'[100%] Built target image_flip\n'}
+[3.357816] (-) TimerEvent: {}
+[3.458061] (-) TimerEvent: {}
+[3.523996] (hw1_xwh) CommandEnded: {'returncode': 0}
+[3.558302] (-) TimerEvent: {}
+[3.658536] (-) TimerEvent: {}
+[3.693985] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'install'}
+[3.699747] (collision_avoidance_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.700340] (vrep4_helpers) CommandEnded: {'returncode': 0}
+[3.710520] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'install'}
+[3.710819] (collision_avoidance_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.711217] (hw1_xwh) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/hw1_xwh', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.725334] (hw1_xwh) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.726066] (vrep4_helpers) JobProgress: {'identifier': 'vrep4_helpers', 'progress': 'install'}
+[3.726364] (vrep4_helpers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.732018] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base\n'}
+[3.737222] (hw1_xwh) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node\n'}
+[3.740805] (vrep4_helpers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.745840] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base\n'}
+[3.754730] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/lib/vrep4_helpers/image_flip\n'}
+[3.756918] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/log\n'}
+[3.758672] (-) TimerEvent: {}
+[3.793084] (face_detect_base) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/face_detect_base', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/face_detect_base/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/face_detect_base/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/face_detect_base', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '91120', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '61', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/face_detect_base', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.250746] (-) TimerEvent: {}
+[4.250834] (vrep4_helpers) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/lib/vrep4_helpers/clock_repeat\n'}
+[4.250895] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/log/latest\n'}
+[4.250937] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/log/COLCON_IGNORE\n'}
+[4.250974] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58\n'}
+[4.251008] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58/logger_all.log\n'}
+[4.251042] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58/events.log\n'}
+[4.251075] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/log/latest_build\n'}
+[4.251111] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install\n'}
+[4.251145] (hw1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/hw1', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/hw1/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/hw1/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/hw1', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '91120', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '61', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/hw1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.804392] (-) TimerEvent: {}
+[4.804486] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.bash\n'}
+[4.804542] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/COLCON_IGNORE\n'}
+[4.804577] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.zsh\n'}
+[4.804610] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/_local_setup_util_ps1.py\n'}
+[4.804643] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/.colcon_install_layout\n'}
+[4.804673] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.sh\n'}
+[4.804705] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/_local_setup_util_sh.py\n'}
+[4.804735] (hw1_xwh) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node" to ""\n'}
+[4.804770] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.bash\n'}
+[4.804799] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.ps1\n'}
+[4.804828] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.ps1\n'}
+[4.804858] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.sh\n'}
+[4.804890] (face_detect_base) StdoutLine: {'line': b'running egg_info\n'}
+[4.804925] (face_detect_base) StdoutLine: {'line': b'writing ../../build/face_detect_base/face_detect_base.egg-info/PKG-INFO\n'}
+[4.804957] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.zsh\n'}
+[4.804988] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/ca.launch_copy.py\n'}
+[4.805019] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/ca_auto.launch.py\n'}
+[4.805050] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/build\n'}
+[4.805083] (vrep_ros_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/vrep_ros_teleop', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/vrep_ros_teleop', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '91120', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '61', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/prefix_override:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.468604] (-) TimerEvent: {}
+[5.468701] (hw1_xwh) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick\n'}
+[5.468758] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/build/COLCON_IGNORE\n'}
+[5.468803] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/build/.built_by\n'}
+[5.468836] (face_detect_base) StdoutLine: {'line': b'writing dependency_links to ../../build/face_detect_base/face_detect_base.egg-info/dependency_links.txt\n'}
+[5.468874] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/ca.launch.py\n'}
+[5.468905] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/__pycache__\n'}
+[5.468937] (face_detect_base) StdoutLine: {'line': b'writing entry points to ../../build/face_detect_base/face_detect_base.egg-info/entry_points.txt\n'}
+[5.468969] (hw1) StdoutLine: {'line': b'running egg_info\n'}
+[5.469006] (hw1) StdoutLine: {'line': b'writing ../../build/hw1/hw1.egg-info/PKG-INFO\n'}
+[5.469039] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/__pycache__/ca.launch.cpython-310.pyc\n'}
+[5.469073] (face_detect_base) StdoutLine: {'line': b'writing requirements to ../../build/face_detect_base/face_detect_base.egg-info/requires.txt\n'}
+[5.469106] (hw1) StdoutLine: {'line': b'writing dependency_links to ../../build/hw1/hw1.egg-info/dependency_links.txt\n'}
+[5.469138] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/ament_index/resource_index/package_run_dependencies/collision_avoidance_base\n'}
+[5.469170] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/ament_index/resource_index/parent_prefix_path/collision_avoidance_base\n'}
+[5.469203] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.sh\n'}
+[5.469238] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.dsv\n'}
+[5.469270] (face_detect_base) StdoutLine: {'line': b'writing top-level names to ../../build/face_detect_base/face_detect_base.egg-info/top_level.txt\n'}
+[5.469303] (hw1) StdoutLine: {'line': b'writing entry points to ../../build/hw1/hw1.egg-info/entry_points.txt\n'}
+[5.469338] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.sh\n'}
+[5.469371] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.dsv\n'}
+[5.469405] (hw1) StdoutLine: {'line': b'writing requirements to ../../build/hw1/hw1.egg-info/requires.txt\n'}
+[5.469439] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.bash\n'}
+[5.469471] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.sh\n'}
+[5.469503] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.zsh\n'}
+[5.469535] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.dsv\n'}
+[5.469569] (hw1) StdoutLine: {'line': b'writing top-level names to ../../build/hw1/hw1.egg-info/top_level.txt\n'}
+[5.469601] (vrep_ros_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.469637] (collision_avoidance_base) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/package.dsv\n'}
+[5.469672] (hw1_xwh) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick" to ""\n'}
+[5.469706] (vrep_ros_teleop) StdoutLine: {'line': b'writing ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/PKG-INFO\n'}
+[5.469740] (face_detect_base) StdoutLine: {'line': b"reading manifest file '../../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'\n"}
+[5.469773] (face_detect_base) StdoutLine: {'line': b"writing manifest file '../../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'\n"}
+[5.469806] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/package_run_dependencies/hw1_xwh\n'}
+[5.469843] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/parent_prefix_path/hw1_xwh\n'}
+[5.469875] (hw1) StdoutLine: {'line': b"reading manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'\n"}
+[5.469959] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.sh\n'}
+[5.470045] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.dsv\n'}
+[5.470079] (hw1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.470202] (hw1) StdoutLine: {'line': b"writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'\n"}
+[5.470252] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.sh\n'}
+[5.470287] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.dsv\n'}
+[5.470320] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.bash\n'}
+[5.470351] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.sh\n'}
+[5.470380] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.zsh\n'}
+[5.470410] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.dsv\n'}
+[5.470440] (hw1_xwh) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.dsv\n'}
+[5.470469] (vrep_ros_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/dependency_links.txt\n'}
+[5.470500] (face_detect_base) StdoutLine: {'line': b'running build\n'}
+[5.470532] (face_detect_base) StdoutLine: {'line': b'running build_py\n'}
+[5.470567] (hw1) StdoutLine: {'line': b'running build\n'}
+[5.470597] (hw1) StdoutLine: {'line': b'running build_py\n'}
+[5.470632] (face_detect_base) StdoutLine: {'line': b'running install\n'}
+[5.470665] (face_detect_base) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.470703] (face_detect_base) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.470737] (face_detect_base) StdoutLine: {'line': b'running install_lib\n'}
+[5.470770] (hw1) StdoutLine: {'line': b'running install\n'}
+[5.470802] (hw1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.470837] (hw1) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.470869] (hw1) StdoutLine: {'line': b'running install_lib\n'}
+[5.470901] (vrep_ros_teleop) StdoutLine: {'line': b'writing entry points to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/entry_points.txt\n'}
+[5.470939] (face_detect_base) StdoutLine: {'line': b'running install_data\n'}
+[5.470972] (hw1) StdoutLine: {'line': b'running install_data\n'}
+[5.471007] (face_detect_base) StdoutLine: {'line': b'copying package.xml -> /home/GTL/wxu/cs7630_g6/install/face_detect_base/share/face_detect_base\n'}
+[5.471040] (hw1) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.471071] (hw1) StdoutLine: {'line': b"removing '/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.471104] (vrep4_helpers) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/vrep4_helpers/lib/vrep4_helpers/clock_repeat" to ""\n'}
+[5.471139] (vrep_ros_teleop) StdoutLine: {'line': b'writing requirements to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/requires.txt\n'}
+[5.471172] (hw1) StdoutLine: {'line': b'Copying ../../build/hw1/hw1.egg-info to /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info\n'}
+[5.471204] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers\n'}
+[5.471236] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/kinect_pc.launch.py\n'}
+[5.471268] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/ament_index/resource_index/packages/collision_avoidance_base\n'}
+[5.471301] (vrep_ros_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/top_level.txt\n'}
+[5.471357] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/kinect_pc_min.launch.py\n'}
+[5.546448] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig.cmake\n'}
+[5.554517] (face_detect_base) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.563708] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig-version.cmake\n'}
+[5.563907] (face_detect_base) StdoutLine: {'line': b"removing '/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.564323] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/packages/hw1_xwh\n'}
+[5.568700] (-) TimerEvent: {}
+[5.572084] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/ament_index/resource_index/package_run_dependencies/vrep4_helpers\n'}
+[5.574620] (collision_avoidance_base) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/collision_avoidance_base/share/collision_avoidance_base/package.xml\n'}
+[5.578061] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig.cmake\n'}
+[5.585681] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/ament_index/resource_index/parent_prefix_path/vrep4_helpers\n'}
+[5.587091] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig-version.cmake\n'}
+[5.594912] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.sh\n'}
+[5.608646] (hw1_xwh) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.xml\n'}
+[5.616614] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/ament_prefix_path.dsv\n'}
+[5.618836] (face_detect_base) StdoutLine: {'line': b'Copying ../../build/face_detect_base/face_detect_base.egg-info to /home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info\n'}
+[5.623283] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/path.sh\n'}
+[5.631597] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/environment/path.dsv\n'}
+[5.635979] (collision_avoidance_base) CommandEnded: {'returncode': 0}
+[5.668796] (-) TimerEvent: {}
+[5.673957] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.bash\n'}
+[5.722577] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.sh\n'}
+[5.768915] (-) TimerEvent: {}
+[5.802927] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.zsh\n'}
+[5.812138] (vrep_ros_teleop) StdoutLine: {'line': b"reading manifest file '../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/SOURCES.txt'\n"}
+[5.814296] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/local_setup.dsv\n'}
+[5.823011] (vrep4_helpers) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/package.dsv\n'}
+[5.835131] (vrep_ros_teleop) StdoutLine: {'line': b"writing manifest file '../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/SOURCES.txt'\n"}
+[5.869009] (-) TimerEvent: {}
+[5.949943] (vrep_ros_teleop) StdoutLine: {'line': b'running build\n'}
+[5.950058] (vrep_ros_teleop) StdoutLine: {'line': b'running build_py\n'}
+[5.969117] (-) TimerEvent: {}
+[6.018750] (vrep_ros_teleop) StdoutLine: {'line': b'running install\n'}
+[6.018915] (vrep_ros_teleop) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.018965] (vrep_ros_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.019041] (vrep_ros_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[6.069203] (-) TimerEvent: {}
+[6.087972] (vrep_ros_teleop) StdoutLine: {'line': b'running install_data\n'}
+[6.129592] (vrep_ros_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.132344] (vrep_ros_teleop) StdoutLine: {'line': b"removing '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.169316] (-) TimerEvent: {}
+[6.198442] (vrep_ros_teleop) StdoutLine: {'line': b'Copying ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info to /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop-0.0.0-py3.10.egg-info\n'}
+[6.269433] (-) TimerEvent: {}
+[6.369669] (-) TimerEvent: {}
+[6.385507] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/ament_index/resource_index/packages/vrep4_helpers\n'}
+[6.405119] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig.cmake\n'}
+[6.413514] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/cmake/vrep4_helpersConfig-version.cmake\n'}
+[6.423156] (vrep4_helpers) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/install/vrep4_helpers/share/vrep4_helpers/package.xml\n'}
+[6.469782] (-) TimerEvent: {}
+[6.570013] (-) TimerEvent: {}
+[6.670245] (-) TimerEvent: {}
+[6.770501] (-) TimerEvent: {}
+[6.870777] (-) TimerEvent: {}
+[6.952838] (vrep4_helpers) CommandEnded: {'returncode': 0}
+[6.970865] (-) TimerEvent: {}
+[7.071074] (-) TimerEvent: {}
+[7.171316] (-) TimerEvent: {}
+[7.253539] (hw1) StdoutLine: {'line': b'running install_scripts\n'}
+[7.271438] (-) TimerEvent: {}
+[7.277313] (hw1) StdoutLine: {'line': b'Installing joystick script to /home/GTL/wxu/cs7630_g6/install/hw1/bin\n'}
+[7.362851] (hw1) StdoutLine: {'line': b'Installing stupid script to /home/GTL/wxu/cs7630_g6/install/hw1/bin\n'}
+[7.371516] (-) TimerEvent: {}
+[7.447946] (hw1) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/hw1/install.log'\n"}
+[7.471603] (-) TimerEvent: {}
+[7.504332] (face_detect_base) StdoutLine: {'line': b'running install_scripts\n'}
+[7.538018] (face_detect_base) StdoutLine: {'line': b'Installing face_detect_node script to /home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/face_detect_base\n'}
+[7.571734] (-) TimerEvent: {}
+[7.671960] (-) TimerEvent: {}
+[7.690357] (face_detect_base) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/face_detect_base/install.log'\n"}
+[7.772086] (-) TimerEvent: {}
+[7.872364] (-) TimerEvent: {}
+[7.916176] (vrep_ros_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[7.933730] (vrep_ros_teleop) StdoutLine: {'line': b'Installing teleop_mux_node script to /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/vrep_ros_teleop\n'}
+[7.972465] (-) TimerEvent: {}
+[7.994388] (vrep_ros_teleop) StdoutLine: {'line': b'Installing teleop_node script to /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/vrep_ros_teleop\n'}
+[8.072567] (-) TimerEvent: {}
+[8.145000] (hw1_xwh) CommandEnded: {'returncode': 0}
+[8.172680] (-) TimerEvent: {}
+[8.196846] (vrep_ros_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/install.log'\n"}
+[8.272774] (-) TimerEvent: {}
+[8.373019] (-) TimerEvent: {}
+[8.473251] (-) TimerEvent: {}
+[8.573500] (-) TimerEvent: {}
+[8.673706] (-) TimerEvent: {}
+[8.773934] (-) TimerEvent: {}
+[8.874192] (-) TimerEvent: {}
+[8.974423] (-) TimerEvent: {}
+[9.074640] (-) TimerEvent: {}
+[9.174876] (-) TimerEvent: {}
+[9.275208] (-) TimerEvent: {}
+[9.376350] (-) TimerEvent: {}
+[9.476601] (-) TimerEvent: {}
+[9.576855] (-) TimerEvent: {}
+[9.677112] (-) TimerEvent: {}
+[9.777364] (-) TimerEvent: {}
+[9.877621] (-) TimerEvent: {}
+[9.977880] (-) TimerEvent: {}
+[10.078144] (-) TimerEvent: {}
+[10.178406] (-) TimerEvent: {}
+[10.278654] (-) TimerEvent: {}
+[10.345827] (collision_avoidance_base) JobEnded: {'identifier': 'collision_avoidance_base', 'rc': 0}
+[10.387069] (-) TimerEvent: {}
+[10.387160] (hw1) CommandEnded: {'returncode': 0}
+[10.487182] (-) TimerEvent: {}
+[10.587419] (-) TimerEvent: {}
+[10.687673] (-) TimerEvent: {}
+[10.787937] (-) TimerEvent: {}
+[10.888204] (-) TimerEvent: {}
+[10.988471] (-) TimerEvent: {}
+[11.088736] (-) TimerEvent: {}
+[11.188990] (-) TimerEvent: {}
+[11.289246] (-) TimerEvent: {}
+[11.389509] (-) TimerEvent: {}
+[11.489790] (-) TimerEvent: {}
+[11.590068] (-) TimerEvent: {}
+[11.690368] (-) TimerEvent: {}
+[11.790636] (-) TimerEvent: {}
+[11.890887] (-) TimerEvent: {}
+[11.991136] (-) TimerEvent: {}
+[12.091408] (-) TimerEvent: {}
+[12.191669] (-) TimerEvent: {}
+[12.291929] (-) TimerEvent: {}
+[12.392193] (-) TimerEvent: {}
+[12.492459] (-) TimerEvent: {}
+[12.592725] (-) TimerEvent: {}
+[12.692997] (-) TimerEvent: {}
+[12.793263] (-) TimerEvent: {}
+[12.893529] (-) TimerEvent: {}
+[12.993796] (-) TimerEvent: {}
+[13.094057] (-) TimerEvent: {}
+[13.194287] (-) TimerEvent: {}
+[13.294527] (-) TimerEvent: {}
+[13.394769] (-) TimerEvent: {}
+[13.495005] (-) TimerEvent: {}
+[13.595251] (-) TimerEvent: {}
+[13.695483] (-) TimerEvent: {}
+[13.795698] (-) TimerEvent: {}
+[13.895926] (-) TimerEvent: {}
+[13.996147] (-) TimerEvent: {}
+[14.039272] (hw1) JobEnded: {'identifier': 'hw1', 'rc': 0}
+[14.088573] (face_detect_base) CommandEnded: {'returncode': 0}
+[14.096248] (-) TimerEvent: {}
+[14.196450] (-) TimerEvent: {}
+[14.296677] (-) TimerEvent: {}
+[14.396916] (-) TimerEvent: {}
+[14.497158] (-) TimerEvent: {}
+[14.597405] (-) TimerEvent: {}
+[14.697668] (-) TimerEvent: {}
+[14.699547] (face_detect_base) JobEnded: {'identifier': 'face_detect_base', 'rc': 0}
+[14.797769] (-) TimerEvent: {}
+[14.897999] (-) TimerEvent: {}
+[14.998254] (-) TimerEvent: {}
+[15.098496] (-) TimerEvent: {}
+[15.198726] (-) TimerEvent: {}
+[15.298936] (-) TimerEvent: {}
+[15.399172] (-) TimerEvent: {}
+[15.455191] (vrep4_helpers) JobEnded: {'identifier': 'vrep4_helpers', 'rc': 0}
+[15.540672] (-) TimerEvent: {}
+[15.540766] (vrep_ros_teleop) CommandEnded: {'returncode': 0}
+[15.640787] (-) TimerEvent: {}
+[15.741107] (-) TimerEvent: {}
+[15.841321] (-) TimerEvent: {}
+[15.941533] (-) TimerEvent: {}
+[16.041743] (-) TimerEvent: {}
+[16.130931] (vrep_ros_teleop) JobEnded: {'identifier': 'vrep_ros_teleop', 'rc': 0}
+[16.186932] (-) TimerEvent: {}
+[16.287119] (-) TimerEvent: {}
+[16.387288] (-) TimerEvent: {}
+[16.487480] (-) TimerEvent: {}
+[16.587689] (-) TimerEvent: {}
+[16.687921] (-) TimerEvent: {}
+[16.788145] (-) TimerEvent: {}
+[16.888367] (-) TimerEvent: {}
+[16.932337] (hw1_xwh) JobEnded: {'identifier': 'hw1_xwh', 'rc': 0}
+[17.019932] (-) TimerEvent: {}
+[17.020020] (-) EventReactorShutdown: {}

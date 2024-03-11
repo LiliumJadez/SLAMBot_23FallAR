@@ -1,0 +1,19 @@
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskGoToPose::iterate()[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:27:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kradians[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2Radians[m[K’?
+   27 |         if (fabs(theta_error) < [01;31m[Kradians[m[K(5)) { // Orientation threshold
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[Ktf2Radians[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:33:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kradians[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2Radians[m[K’?
+   33 |         if (fabs(angle_diff) > [01;31m[Kradians[m[K(10)) { // Prioritize orientation
+      |                                [01;31m[K^~~~~~~[m[K
+      |                                [32m[Ktf2Radians[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskStareAtFace::iterate()[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:43:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   43 |         if ([01;31m[K)[m[K
+      |             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskGoToPose.dir/build.make:76: CMakeFiles/floornav_TaskGoToPose.dir/tasks/TaskGoToPose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:503: CMakeFiles/floornav_TaskGoToPose.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/floornav_TaskStareAtFace.dir/build.make:76: CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/floornav_TaskStareAtFace.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

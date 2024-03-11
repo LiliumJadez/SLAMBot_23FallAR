@@ -1,0 +1,29 @@
+[0.653s] Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16
+[0.654s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.874s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.902s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.017s] -- Added test 'lint_cmake' to check CMake code style
+[2.043s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.205s] -- Added test 'xmllint' to check XML markup files
+[2.649s] -- Configuring done
+[4.154s] -- Generating done
+[4.742s] -- Build files have been written to: /home/GTL/hshi/cs7630_g6/build/hw1
+[4.792s] Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16
+[4.836s] Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1
+[4.876s] -- Install configuration: ""
+[4.898s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/package_run_dependencies/hw1
+[4.906s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/parent_prefix_path/hw1
+[5.174s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/ament_prefix_path.sh
+[5.191s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/ament_prefix_path.dsv
+[5.530s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/path.sh
+[5.540s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/environment/path.dsv
+[5.785s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.bash
+[5.791s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.sh
+[5.845s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.zsh
+[5.856s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/local_setup.dsv
+[6.108s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.dsv
+[6.391s] -- Up-to-date: /home/GTL/hshi/cs7630_g6/install/hw1/share/ament_index/resource_index/packages/hw1
+[6.411s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/cmake/hw1Config.cmake
+[6.778s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/cmake/hw1Config-version.cmake
+[7.035s] -- Installing: /home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.xml
+[7.415s] Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1

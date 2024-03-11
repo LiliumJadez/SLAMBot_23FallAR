@@ -1,0 +1,359 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000140] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000151] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000162] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000171] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000180] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000192] (msg_pkg) JobQueued: {'identifier': 'msg_pkg', 'dependencies': OrderedDict()}
+[0.000205] (msg_pkg) JobStarted: {'identifier': 'msg_pkg'}
+[0.036503] (-) TimerEvent: {}
+[0.136740] (-) TimerEvent: {}
+[0.147970] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'cmake'}
+[0.213833] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'build'}
+[0.213894] (msg_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu/cs7630_g6'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/GTL/wxu/cs7630_g6/src/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble')]), 'shell': False}
+[0.402105] (-) TimerEvent: {}
+[0.502318] (-) TimerEvent: {}
+[0.602564] (-) TimerEvent: {}
+[0.634977] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_generator_c\x1b[0m\n'}
+[0.689431] (msg_pkg) StdoutLine: {'line': b'[  3%] Built target msg_pkg__cpp\n'}
+[0.702663] (-) TimerEvent: {}
+[0.780345] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.785577] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.788395] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.802748] (-) TimerEvent: {}
+[0.803895] (msg_pkg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/regions_of_interest_array__functions.c.o\x1b[0m\n'}
+[0.902853] (-) TimerEvent: {}
+[0.979151] (msg_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_pkg/msg/regions_of_interest_array__type_support.cpp.o\x1b[0m\n'}
+[0.979287] (msg_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_pkg/msg/detail/regions_of_interest_array__type_support.cpp.o\x1b[0m\n'}
+[0.979421] (msg_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_pkg/msg/detail/dds_fastrtps/regions_of_interest_array__type_support.cpp.o\x1b[0m\n'}
+[1.002935] (-) TimerEvent: {}
+[1.074716] (msg_pkg) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmsg_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[1.103038] (-) TimerEvent: {}
+[1.203290] (-) TimerEvent: {}
+[1.250368] (msg_pkg) StdoutLine: {'line': b'[ 22%] Built target msg_pkg__rosidl_generator_c\n'}
+[1.303402] (-) TimerEvent: {}
+[1.403672] (-) TimerEvent: {}
+[1.412698] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[1.414779] (msg_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.448451] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.457064] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.503772] (-) TimerEvent: {}
+[1.519422] (msg_pkg) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.563730] (msg_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.603855] (-) TimerEvent: {}
+[1.690173] (msg_pkg) StdoutLine: {'line': b'[ 48%] Built target msg_pkg__rosidl_typesupport_cpp\n'}
+[1.690424] (msg_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/regions_of_interest_array__type_support_c.cpp.o\x1b[0m\n'}
+[1.690506] (msg_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/regions_of_interest_array__type_support.cpp.o\x1b[0m\n'}
+[1.690576] (msg_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/regions_of_interest_array__type_support.c.o\x1b[0m\n'}
+[1.703970] (-) TimerEvent: {}
+[1.733610] (msg_pkg) StdoutLine: {'line': b'[ 51%] Built target ament_cmake_python_copy_msg_pkg\n'}
+[1.804070] (-) TimerEvent: {}
+[1.833252] (msg_pkg) StdoutLine: {'line': b'[ 51%] Built target msg_pkg__rosidl_typesupport_introspection_cpp\n'}
+[1.882826] (msg_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.883023] (msg_pkg) StdoutLine: {'line': b'[ 58%] Built target msg_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.883244] (msg_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmsg_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.904190] (-) TimerEvent: {}
+[2.004437] (-) TimerEvent: {}
+[2.104729] (-) TimerEvent: {}
+[2.109320] (msg_pkg) StdoutLine: {'line': b'[ 64%] Built target msg_pkg__rosidl_typesupport_c\n'}
+[2.109750] (msg_pkg) StdoutLine: {'line': b'[ 64%] Built target msg_pkg__rosidl_typesupport_introspection_c\n'}
+[2.177577] (msg_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.204811] (-) TimerEvent: {}
+[2.270949] (msg_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.275131] (msg_pkg) StdoutLine: {'line': b'writing msg_pkg.egg-info/PKG-INFO\n'}
+[2.304198] (msg_pkg) StdoutLine: {'line': b'writing dependency_links to msg_pkg.egg-info/dependency_links.txt\n'}
+[2.304890] (-) TimerEvent: {}
+[2.339981] (msg_pkg) StdoutLine: {'line': b'writing top-level names to msg_pkg.egg-info/top_level.txt\n'}
+[2.356672] (msg_pkg) StdoutLine: {'line': b'[ 70%] Built target msg_pkg__rosidl_typesupport_fastrtps_c\n'}
+[2.405003] (-) TimerEvent: {}
+[2.405639] (msg_pkg) StdoutLine: {'line': b"reading manifest file 'msg_pkg.egg-info/SOURCES.txt'\n"}
+[2.417050] (msg_pkg) StdoutLine: {'line': b"writing manifest file 'msg_pkg.egg-info/SOURCES.txt'\n"}
+[2.425694] (msg_pkg) StdoutLine: {'line': b'[ 70%] Built target msg_pkg\n'}
+[2.503973] (msg_pkg) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_msg_pkg_egg\n'}
+[2.504414] (msg_pkg) StdoutLine: {'line': b'[ 74%] Built target msg_pkg__py\n'}
+[2.505078] (-) TimerEvent: {}
+[2.554462] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_generator_py\x1b[0m\n'}
+[2.605173] (-) TimerEvent: {}
+[2.705422] (-) TimerEvent: {}
+[2.732648] (msg_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_py.dir/rosidl_generator_py/msg_pkg/msg/_regions_of_interest_array_s.c.o\x1b[0m\n'}
+[2.805506] (-) TimerEvent: {}
+[2.905723] (-) TimerEvent: {}
+[2.968824] (msg_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_pkg/libmsg_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[3.005828] (-) TimerEvent: {}
+[3.106052] (-) TimerEvent: {}
+[3.106745] (msg_pkg) StdoutLine: {'line': b'[ 80%] Built target msg_pkg__rosidl_generator_py\n'}
+[3.156845] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.157025] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.157113] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.206148] (-) TimerEvent: {}
+[3.306390] (-) TimerEvent: {}
+[3.312919] (msg_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.329841] (msg_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.330121] (msg_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.406496] (-) TimerEvent: {}
+[3.506744] (-) TimerEvent: {}
+[3.606986] (-) TimerEvent: {}
+[3.704997] (msg_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.707093] (-) TimerEvent: {}
+[3.713234] (msg_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.713928] (msg_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.807208] (-) TimerEvent: {}
+[3.864175] (msg_pkg) StdoutLine: {'line': b'[100%] Built target msg_pkg__rosidl_typesupport_c__pyext\n'}
+[3.873232] (msg_pkg) StdoutLine: {'line': b'[100%] Built target msg_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[3.873375] (msg_pkg) StdoutLine: {'line': b'[100%] Built target msg_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.907324] (-) TimerEvent: {}
+[4.007577] (-) TimerEvent: {}
+[4.074055] (msg_pkg) CommandEnded: {'returncode': 0}
+[4.107668] (-) TimerEvent: {}
+[4.124199] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'install'}
+[4.129950] (msg_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu/cs7630_g6'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/GTL/wxu/cs7630_g6/src/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble')]), 'shell': False}
+[4.144036] (msg_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.179241] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/ament_index/resource_index/rosidl_interfaces/msg_pkg\n'}
+[4.199229] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg\n'}
+[4.207761] (-) TimerEvent: {}
+[4.212056] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg\n'}
+[4.231227] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail\n'}
+[4.243109] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__type_support.h\n'}
+[4.307892] (-) TimerEvent: {}
+[4.408149] (-) TimerEvent: {}
+[4.422477] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__functions.c\n'}
+[4.508302] (-) TimerEvent: {}
+[4.528828] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__functions.h\n'}
+[4.608453] (-) TimerEvent: {}
+[4.678443] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__struct.h\n'}
+[4.708587] (-) TimerEvent: {}
+[4.795111] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.808710] (-) TimerEvent: {}
+[4.808864] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/regions_of_interest_array.h\n'}
+[4.820934] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/library_path.sh\n'}
+[4.831807] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/library_path.dsv\n'}
+[4.842166] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_c.so\n'}
+[4.908826] (-) TimerEvent: {}
+[5.009101] (-) TimerEvent: {}
+[5.010047] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_c.so" to ""\n'}
+[5.075417] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg\n'}
+[5.083236] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg\n'}
+[5.090964] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail\n'}
+[5.102021] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_fastrtps_c.h\n'}
+[5.109191] (-) TimerEvent: {}
+[5.110377] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.121323] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[5.209312] (-) TimerEvent: {}
+[5.239568] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.308892] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg\n'}
+[5.309365] (-) TimerEvent: {}
+[5.326818] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg\n'}
+[5.339521] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail\n'}
+[5.361054] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_introspection_c.h\n'}
+[5.375022] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__type_support.c\n'}
+[5.409457] (-) TimerEvent: {}
+[5.509768] (-) TimerEvent: {}
+[5.510143] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.534213] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_c.so\n'}
+[5.609867] (-) TimerEvent: {}
+[5.631372] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.672369] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_c.so\n'}
+[5.709952] (-) TimerEvent: {}
+[5.764202] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_c.so" to ""\n'}
+[5.799962] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg\n'}
+[5.807314] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg\n'}
+[5.810008] (-) TimerEvent: {}
+[5.814885] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail\n'}
+[5.824829] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__builder.hpp\n'}
+[5.910098] (-) TimerEvent: {}
+[5.926044] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__struct.hpp\n'}
+[6.010195] (-) TimerEvent: {}
+[6.050183] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__traits.hpp\n'}
+[6.110292] (-) TimerEvent: {}
+[6.161657] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/regions_of_interest_array.hpp\n'}
+[6.165186] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg\n'}
+[6.172951] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg\n'}
+[6.180534] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail\n'}
+[6.190598] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.210387] (-) TimerEvent: {}
+[6.286388] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/dds_fastrtps\n'}
+[6.296522] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.307964] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.310468] (-) TimerEvent: {}
+[6.408090] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.410542] (-) TimerEvent: {}
+[6.445444] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg\n'}
+[6.453402] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg\n'}
+[6.461146] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail\n'}
+[6.471549] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.479914] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__type_support.cpp\n'}
+[6.510644] (-) TimerEvent: {}
+[6.610860] (-) TimerEvent: {}
+[6.616417] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[6.710964] (-) TimerEvent: {}
+[6.723788] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.774614] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_cpp.so\n'}
+[6.811064] (-) TimerEvent: {}
+[6.879154] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[6.911157] (-) TimerEvent: {}
+[6.921791] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/pythonpath.sh\n'}
+[6.930245] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/pythonpath.dsv\n'}
+[6.941012] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info\n'}
+[6.951190] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.011250] (-) TimerEvent: {}
+[7.056685] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.111327] (-) TimerEvent: {}
+[7.182626] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.211406] (-) TimerEvent: {}
+[7.285257] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.311493] (-) TimerEvent: {}
+[7.382546] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg\n'}
+[7.393082] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.411586] (-) TimerEvent: {}
+[7.493494] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/libmsg_pkg__rosidl_generator_py.so\n'}
+[7.511671] (-) TimerEvent: {}
+[7.591719] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg\n'}
+[7.601944] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/_regions_of_interest_array.py\n'}
+[7.611746] (-) TimerEvent: {}
+[7.700785] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/__init__.py\n'}
+[7.711831] (-) TimerEvent: {}
+[7.793053] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/_regions_of_interest_array_s.c\n'}
+[7.811945] (-) TimerEvent: {}
+[7.885622] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.912069] (-) TimerEvent: {}
+[7.975191] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/__init__.py\n'}
+[8.012175] (-) TimerEvent: {}
+[8.059357] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[8.112263] (-) TimerEvent: {}
+[8.153369] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.212374] (-) TimerEvent: {}
+[8.312595] (-) TimerEvent: {}
+[8.324573] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.412698] (-) TimerEvent: {}
+[8.430717] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.512779] (-) TimerEvent: {}
+[8.612975] (-) TimerEvent: {}
+[8.673127] (msg_pkg) StdoutLine: {'line': b"Listing '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg'...\n"}
+[8.673267] (msg_pkg) StdoutLine: {'line': b"Compiling '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/__init__.py'...\n"}
+[8.673318] (msg_pkg) StdoutLine: {'line': b"Listing '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg'...\n"}
+[8.673354] (msg_pkg) StdoutLine: {'line': b"Compiling '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/__init__.py'...\n"}
+[8.673388] (msg_pkg) StdoutLine: {'line': b"Compiling '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/_regions_of_interest_array.py'...\n"}
+[8.686604] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.713053] (-) TimerEvent: {}
+[8.813186] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.813311] (-) TimerEvent: {}
+[8.854878] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.913404] (-) TimerEvent: {}
+[8.950497] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.003098] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.013470] (-) TimerEvent: {}
+[9.098965] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.113549] (-) TimerEvent: {}
+[9.141110] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_py.so\n'}
+[9.213640] (-) TimerEvent: {}
+[9.237431] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_py.so" to ""\n'}
+[9.295979] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/msg/RegionsOfInterestArray.idl\n'}
+[9.313727] (-) TimerEvent: {}
+[9.396178] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/msg/RegionsOfInterestArray.msg\n'}
+[9.413838] (-) TimerEvent: {}
+[9.426238] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/ament_index/resource_index/package_run_dependencies/msg_pkg\n'}
+[9.439834] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/ament_index/resource_index/parent_prefix_path/msg_pkg\n'}
+[9.448093] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.sh\n'}
+[9.458449] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.dsv\n'}
+[9.513942] (-) TimerEvent: {}
+[9.552604] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/path.sh\n'}
+[9.560859] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/path.dsv\n'}
+[9.614025] (-) TimerEvent: {}
+[9.659566] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.bash\n'}
+[9.672629] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.sh\n'}
+[9.714124] (-) TimerEvent: {}
+[9.807356] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.zsh\n'}
+[9.814212] (-) TimerEvent: {}
+[9.815657] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.dsv\n'}
+[9.914313] (-) TimerEvent: {}
+[9.916649] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.dsv\n'}
+[10.014417] (-) TimerEvent: {}
+[10.026462] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/ament_index/resource_index/packages/msg_pkg\n'}
+[10.053320] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_cExport.cmake\n'}
+[10.114505] (-) TimerEvent: {}
+[10.157544] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.214588] (-) TimerEvent: {}
+[10.297376] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.314675] (-) TimerEvent: {}
+[10.393467] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.414779] (-) TimerEvent: {}
+[10.497158] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.514876] (-) TimerEvent: {}
+[10.603528] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.614976] (-) TimerEvent: {}
+[10.715194] (-) TimerEvent: {}
+[10.719011] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport.cmake\n'}
+[10.815336] (-) TimerEvent: {}
+[10.838959] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.915415] (-) TimerEvent: {}
+[10.936485] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_cppExport.cmake\n'}
+[11.015495] (-) TimerEvent: {}
+[11.056115] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.115616] (-) TimerEvent: {}
+[11.157251] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.174723] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.215722] (-) TimerEvent: {}
+[11.274669] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.315849] (-) TimerEvent: {}
+[11.375941] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[11.415956] (-) TimerEvent: {}
+[11.487387] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.516061] (-) TimerEvent: {}
+[11.616347] (-) TimerEvent: {}
+[11.619122] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_pyExport.cmake\n'}
+[11.716443] (-) TimerEvent: {}
+[11.740366] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.816541] (-) TimerEvent: {}
+[11.837773] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.916643] (-) TimerEvent: {}
+[11.950026] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.016744] (-) TimerEvent: {}
+[12.079680] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.116848] (-) TimerEvent: {}
+[12.176808] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.216984] (-) TimerEvent: {}
+[12.277640] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.317104] (-) TimerEvent: {}
+[12.392381] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.417209] (-) TimerEvent: {}
+[12.490408] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.517325] (-) TimerEvent: {}
+[12.596118] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig.cmake\n'}
+[12.617416] (-) TimerEvent: {}
+[12.699708] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig-version.cmake\n'}
+[12.710315] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.xml\n'}
+[12.717508] (-) TimerEvent: {}
+[12.741236] (msg_pkg) CommandEnded: {'returncode': 0}
+[12.817578] (-) TimerEvent: {}
+[12.917816] (-) TimerEvent: {}
+[13.018031] (-) TimerEvent: {}
+[13.118284] (-) TimerEvent: {}
+[13.218517] (-) TimerEvent: {}
+[13.318776] (-) TimerEvent: {}
+[13.419015] (-) TimerEvent: {}
+[13.519232] (-) TimerEvent: {}
+[13.619487] (-) TimerEvent: {}
+[13.719709] (-) TimerEvent: {}
+[13.819940] (-) TimerEvent: {}
+[13.920278] (-) TimerEvent: {}
+[14.020540] (-) TimerEvent: {}
+[14.120798] (-) TimerEvent: {}
+[14.221039] (-) TimerEvent: {}
+[14.321278] (-) TimerEvent: {}
+[14.421524] (-) TimerEvent: {}
+[14.521751] (-) TimerEvent: {}
+[14.622019] (-) TimerEvent: {}
+[14.722269] (-) TimerEvent: {}
+[14.822506] (-) TimerEvent: {}
+[14.922764] (-) TimerEvent: {}
+[15.023009] (-) TimerEvent: {}
+[15.123262] (-) TimerEvent: {}
+[15.223490] (-) TimerEvent: {}
+[15.323708] (-) TimerEvent: {}
+[15.423959] (-) TimerEvent: {}
+[15.524189] (-) TimerEvent: {}
+[15.624428] (-) TimerEvent: {}
+[15.724658] (-) TimerEvent: {}
+[15.738188] (msg_pkg) JobEnded: {'identifier': 'msg_pkg', 'rc': 0}
+[15.779728] (-) EventReactorShutdown: {}

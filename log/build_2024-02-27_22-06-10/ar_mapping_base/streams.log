@@ -1,0 +1,26 @@
+[2.519s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/ar_mapping_base': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/ar_mapping_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ar_mapping_base build --build-base /home/GTL/wxu/cs7630_g6/build/ar_mapping_base/build install --record /home/GTL/wxu/cs7630_g6/build/ar_mapping_base/install.log --single-version-externally-managed
+[3.114s] running egg_info
+[3.117s] writing ../../build/ar_mapping_base/ar_mapping_base.egg-info/PKG-INFO
+[3.131s] writing dependency_links to ../../build/ar_mapping_base/ar_mapping_base.egg-info/dependency_links.txt
+[3.142s] writing entry points to ../../build/ar_mapping_base/ar_mapping_base.egg-info/entry_points.txt
+[3.153s] writing requirements to ../../build/ar_mapping_base/ar_mapping_base.egg-info/requires.txt
+[3.164s] writing top-level names to ../../build/ar_mapping_base/ar_mapping_base.egg-info/top_level.txt
+[3.234s] reading manifest file '../../build/ar_mapping_base/ar_mapping_base.egg-info/SOURCES.txt'
+[3.254s] writing manifest file '../../build/ar_mapping_base/ar_mapping_base.egg-info/SOURCES.txt'
+[3.259s] running build
+[3.259s] running build_py
+[3.274s] copying ar_mapping_base/mapping_kf.py -> /home/GTL/wxu/cs7630_g6/build/ar_mapping_base/build/lib/ar_mapping_base
+[3.300s] running install
+[3.301s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.301s]   warnings.warn(
+[3.301s] running install_lib
+[3.317s] copying /home/GTL/wxu/cs7630_g6/build/ar_mapping_base/build/lib/ar_mapping_base/mapping_kf.py -> /home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages/ar_mapping_base
+[3.406s] byte-compiling /home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages/ar_mapping_base/mapping_kf.py to mapping_kf.cpython-310.pyc
+[3.422s] running install_data
+[3.451s] running install_egg_info
+[3.460s] removing '/home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages/ar_mapping_base-0.0.0-py3.10.egg-info' (and everything under it)
+[3.507s] Copying ../../build/ar_mapping_base/ar_mapping_base.egg-info to /home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages/ar_mapping_base-0.0.0-py3.10.egg-info
+[3.672s] running install_scripts
+[3.735s] Installing ar_mapping_node script to /home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/ar_mapping_base
+[3.754s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/ar_mapping_base/install.log'
+[3.779s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/ar_mapping_base' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/ar_mapping_base/prefix_override:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ar_mapping_base build --build-base /home/GTL/wxu/cs7630_g6/build/ar_mapping_base/build install --record /home/GTL/wxu/cs7630_g6/build/ar_mapping_base/install.log --single-version-externally-managed

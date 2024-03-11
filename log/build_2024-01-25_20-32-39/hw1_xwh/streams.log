@@ -1,0 +1,26 @@
+[2.377s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/hw1_xwh -- -j16 -l16
+[2.721s] [100%] Built target joystick
+[2.721s] [100%] Built target my_node
+[2.987s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/hw1_xwh -- -j16 -l16
+[3.180s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/hw1_xwh
+[3.188s] -- Install configuration: ""
+[3.200s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node
+[4.268s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/my_node" to ""
+[4.932s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick
+[4.933s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/hw1_xwh/lib/hw1_xwh/joystick" to ""
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/package_run_dependencies/hw1_xwh
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/parent_prefix_path/hw1_xwh
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.sh
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/ament_prefix_path.dsv
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.sh
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/environment/path.dsv
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.bash
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.sh
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.zsh
+[4.933s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/local_setup.dsv
+[4.933s] -- Installing: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.dsv
+[5.027s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/ament_index/resource_index/packages/hw1_xwh
+[5.041s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig.cmake
+[5.050s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/cmake/hw1_xwhConfig-version.cmake
+[5.072s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.xml
+[7.608s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/hw1_xwh

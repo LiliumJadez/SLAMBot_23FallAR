@@ -1,0 +1,6 @@
+{
+  "package_name": "msg_pkg",
+  "non_idl_tuples": [
+    "/home/GTL/wxu/cs7630_g6/src/msg_pkg:msg/RegionsOfInterestArray.msg"
+  ]
+}

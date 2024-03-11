@@ -1,0 +1,504 @@
+[0.820s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.820s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc2d8471a50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc2d92567a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc2d92567a0>>)
+[0.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.869s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/GTL/wxu/cs7630_g6/src'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.895s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extension 'colcon_pkg'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extensions ['colcon_meta']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extension 'colcon_meta'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(collision_avoidance_base) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package 'collision_avoidance_base' with type 'ros.ament_cmake' and name 'collision_avoidance_base'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extensions ['colcon_pkg']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(face_detect_base) by extension 'ros'
+[0.924s] DEBUG:colcon.colcon_core.package_identification:Package 'face_detect_base' with type 'ros.ament_python' and name 'face_detect_base'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extension 'ignore'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extension 'ignore_ament_install'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extensions ['colcon_pkg']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extension 'colcon_pkg'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extensions ['colcon_meta']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extension 'colcon_meta'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extensions ['ros']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(hw1) by extension 'ros'
+[0.938s] DEBUG:colcon.colcon_core.package_identification:Package 'hw1' with type 'ros.ament_python' and name 'hw1'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extensions ['ignore', 'ignore_ament_install']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extension 'ignore'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extension 'colcon_meta'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(hw1_xwh) by extension 'ros'
+[0.950s] DEBUG:colcon.colcon_core.package_identification:Package 'hw1_xwh' with type 'ros.ament_cmake' and name 'hw1_xwh'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'ros'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extensions ['cmake', 'python']
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'cmake'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'python'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extensions ['python_setup_py']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg) by extension 'python_setup_py'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extensions ['ignore', 'ignore_ament_install']
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'ignore'
+[0.973s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'ignore_ament_install'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extensions ['colcon_pkg']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'colcon_pkg'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extensions ['colcon_meta']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'colcon_meta'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extensions ['ros']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'ros'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extensions ['cmake', 'python']
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'cmake'
+[0.978s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'python'
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extensions ['python_setup_py']
+[0.979s] Level 1:colcon.colcon_core.package_identification:_identify(messager_pkg/src) by extension 'python_setup_py'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extension 'ignore'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extension 'ignore_ament_install'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extensions ['colcon_pkg']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extension 'colcon_pkg'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extensions ['colcon_meta']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extension 'colcon_meta'
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extensions ['ros']
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(msg_pkg) by extension 'ros'
+[0.991s] DEBUG:colcon.colcon_core.package_identification:Package 'msg_pkg' with type 'ros.ament_cmake' and name 'msg_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extension 'ignore_ament_install'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extensions ['colcon_pkg']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extension 'colcon_pkg'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extensions ['colcon_meta']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extension 'colcon_meta'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extensions ['ros']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(vrep4_helpers) by extension 'ros'
+[1.003s] DEBUG:colcon.colcon_core.package_identification:Package 'vrep4_helpers' with type 'ros.ament_cmake' and name 'vrep4_helpers'
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.008s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extension 'ignore'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extension 'colcon_pkg'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extensions ['colcon_meta']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extension 'colcon_meta'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(vrep_ros_teleop) by extension 'ros'
+[1.016s] DEBUG:colcon.colcon_core.package_identification:Package 'vrep_ros_teleop' with type 'ros.ament_python' and name 'vrep_ros_teleop'
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.279s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/GTL/wxu/cs7630_g6/src/install
+[1.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[1.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'cmake_target' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'cmake_clean_cache' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'cmake_clean_first' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'cmake_force_configure' from command line to 'False'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'ament_cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'catkin_cmake_args' from command line to 'None'
+[1.452s] Level 5:colcon.colcon_core.verb:set package 'collision_avoidance_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.452s] DEBUG:colcon.colcon_core.verb:Building package 'collision_avoidance_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base', 'merge_install': False, 'path': '/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base', 'symlink_install': False, 'test_result_base': None}
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_args' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_target' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_clean_cache' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_clean_first' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_force_configure' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'ament_cmake_args' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'catkin_cmake_args' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.462s] DEBUG:colcon.colcon_core.verb:Building package 'hw1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/wxu/cs7630_g6/src/build/hw1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/wxu/cs7630_g6/src/install/hw1', 'merge_install': False, 'path': '/home/GTL/wxu/cs7630_g6/src/hw1', 'symlink_install': False, 'test_result_base': None}
+[1.471s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_args' from command line to 'None'
+[1.471s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_target' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_clean_cache' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_clean_first' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_force_configure' from command line to 'False'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'ament_cmake_args' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'catkin_cmake_args' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.472s] DEBUG:colcon.colcon_core.verb:Building package 'hw1_xwh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh', 'merge_install': False, 'path': '/home/GTL/wxu/cs7630_g6/src/hw1_xwh', 'symlink_install': False, 'test_result_base': None}
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'cmake_args' from command line to 'None'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'cmake_target' from command line to 'None'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.481s] Level 5:colcon.colcon_core.verb:set package 'msg_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.481s] DEBUG:colcon.colcon_core.verb:Building package 'msg_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg', 'merge_install': False, 'path': '/home/GTL/wxu/cs7630_g6/src/msg_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'cmake_args' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'cmake_target' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'cmake_clean_first' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'cmake_force_configure' from command line to 'False'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'ament_cmake_args' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'catkin_cmake_args' from command line to 'None'
+[1.491s] Level 5:colcon.colcon_core.verb:set package 'vrep4_helpers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.491s] DEBUG:colcon.colcon_core.verb:Building package 'vrep4_helpers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers', 'merge_install': False, 'path': '/home/GTL/wxu/cs7630_g6/src/vrep4_helpers', 'symlink_install': False, 'test_result_base': None}
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'cmake_args' from command line to 'None'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'cmake_target' from command line to 'None'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.501s] Level 5:colcon.colcon_core.verb:set package 'vrep_ros_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.501s] DEBUG:colcon.colcon_core.verb:Building package 'vrep_ros_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/wxu/cs7630_g6/src/build/vrep_ros_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop', 'merge_install': False, 'path': '/home/GTL/wxu/cs7630_g6/src/vrep_ros_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'cmake_args' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'cmake_target' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'cmake_clean_cache' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'cmake_clean_first' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'cmake_force_configure' from command line to 'False'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'ament_cmake_args' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'catkin_cmake_args' from command line to 'None'
+[1.511s] Level 5:colcon.colcon_core.verb:set package 'face_detect_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.511s] DEBUG:colcon.colcon_core.verb:Building package 'face_detect_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/wxu/cs7630_g6/src/build/face_detect_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base', 'merge_install': False, 'path': '/home/GTL/wxu/cs7630_g6/src/face_detect_base', 'symlink_install': False, 'test_result_base': None}
+[1.520s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.531s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.531s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/GTL/wxu/cs7630_g6/src/msg_pkg' with build type 'ament_cmake'
+[1.531s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/GTL/wxu/cs7630_g6/src/msg_pkg'
+[1.542s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base' with build type 'ament_cmake'
+[2.210s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base'
+[2.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.449s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/GTL/wxu/cs7630_g6/src/hw1' with build type 'ament_python'
+[2.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1', 'ament_prefix_path')
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/ament_prefix_path.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/ament_prefix_path.dsv'
+[2.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/ament_prefix_path.sh'
+[2.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.746s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/GTL/wxu/cs7630_g6/src/hw1_xwh' with build type 'ament_cmake'
+[2.746s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/GTL/wxu/cs7630_g6/src/hw1_xwh'
+[2.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.904s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/GTL/wxu/cs7630_g6/src/vrep4_helpers' with build type 'ament_cmake'
+[2.904s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/GTL/wxu/cs7630_g6/src/vrep4_helpers'
+[2.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.063s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/GTL/wxu/cs7630_g6/src/vrep_ros_teleop' with build type 'ament_python'
+[3.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrep_ros_teleop', 'ament_prefix_path')
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/hook/ament_prefix_path.ps1'
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/hook/ament_prefix_path.dsv'
+[3.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/hook/ament_prefix_path.sh'
+[3.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16
+[4.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base -- -j16 -l16
+[4.130s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'hw1' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[4.240s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/GTL/wxu/cs7630_g6/src/hw1'
+[4.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/hw1_xwh -- -j16 -l16
+[5.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers -- -j16 -l16
+[5.338s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/GTL/wxu/cs7630_g6/src/vrep_ros_teleop'
+[5.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base -- -j16 -l16
+[5.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers -- -j16 -l16
+[5.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base
+[6.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers
+[6.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/hw1': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw1 build --build-base /home/GTL/wxu/cs7630_g6/src/build/hw1/build install --record /home/GTL/wxu/cs7630_g6/src/build/hw1/install.log --single-version-externally-managed
+[6.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/vrep_ros_teleop': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/vrep_ros_teleop/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/vrep_ros_teleop build --build-base /home/GTL/wxu/cs7630_g6/src/build/vrep_ros_teleop/build install --record /home/GTL/wxu/cs7630_g6/src/build/vrep_ros_teleop/install.log --single-version-externally-managed
+[8.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16
+[8.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/msg_pkg
+[8.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrep4_helpers)
+[8.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers
+[8.746s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers' for CMake module files
+[8.876s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers' for CMake config files
+[8.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrep4_helpers', 'cmake_prefix_path')
+[8.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/hook/cmake_prefix_path.ps1'
+[9.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/hook/cmake_prefix_path.dsv'
+[9.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/hook/cmake_prefix_path.sh'
+[9.125s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib'
+[9.129s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/bin'
+[9.130s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/pkgconfig/vrep4_helpers.pc'
+[9.131s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/python3.10/site-packages'
+[9.131s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/bin'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.ps1'
+[9.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.dsv'
+[9.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.sh'
+[9.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.bash'
+[9.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.zsh'
+[9.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/colcon-core/packages/vrep4_helpers)
+[9.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrep4_helpers)
+[9.712s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers' for CMake module files
+[9.799s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers' for CMake config files
+[9.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrep4_helpers', 'cmake_prefix_path')
+[9.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/hook/cmake_prefix_path.ps1'
+[10.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/hook/cmake_prefix_path.dsv'
+[10.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/hook/cmake_prefix_path.sh'
+[10.135s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib'
+[10.139s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/bin'
+[10.139s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/pkgconfig/vrep4_helpers.pc'
+[10.140s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/lib/python3.10/site-packages'
+[10.141s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/bin'
+[10.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.ps1'
+[10.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.dsv'
+[10.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.sh'
+[10.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.bash'
+[10.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/vrep4_helpers/package.zsh'
+[10.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers/share/colcon-core/packages/vrep4_helpers)
+[10.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(collision_avoidance_base)
+[10.465s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base' for CMake module files
+[10.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base
+[10.568s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base' for CMake config files
+[10.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('collision_avoidance_base', 'cmake_prefix_path')
+[10.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/hook/cmake_prefix_path.ps1'
+[10.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/hook/cmake_prefix_path.dsv'
+[10.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/hook/cmake_prefix_path.sh'
+[10.891s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib'
+[10.924s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/bin'
+[10.925s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/pkgconfig/collision_avoidance_base.pc'
+[10.926s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/python3.10/site-packages'
+[10.926s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/bin'
+[10.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.ps1'
+[10.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.dsv'
+[11.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.sh'
+[11.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.bash'
+[11.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.zsh'
+[11.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/colcon-core/packages/collision_avoidance_base)
+[11.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/hw1' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/hw1 build --build-base /home/GTL/wxu/cs7630_g6/src/build/hw1/build install --record /home/GTL/wxu/cs7630_g6/src/build/hw1/install.log --single-version-externally-managed
+[11.235s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1' for CMake module files
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1' for CMake config files
+[11.374s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1/lib'
+[11.378s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1/bin'
+[11.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1', 'path')
+[11.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/path.ps1'
+[11.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/path.dsv'
+[11.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/path.sh'
+[11.562s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/pkgconfig/hw1.pc'
+[11.563s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages'
+[11.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1', 'pythonpath')
+[11.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/pythonpath.ps1'
+[11.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/pythonpath.dsv'
+[11.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/pythonpath.sh'
+[11.682s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1/bin'
+[11.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1', 'pythonscriptspath')
+[11.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/pythonscriptspath.ps1'
+[11.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/pythonscriptspath.dsv'
+[11.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/hook/pythonscriptspath.sh'
+[11.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1)
+[11.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/package.ps1'
+[11.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/package.dsv'
+[11.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/package.sh'
+[11.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/package.bash'
+[11.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1/share/hw1/package.zsh'
+[12.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/hw1/share/colcon-core/packages/hw1)
+[12.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_pkg)
+[12.106s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg' for CMake module files
+[12.188s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg' for CMake config files
+[12.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/msg_pkg
+[12.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_pkg', 'cmake_prefix_path')
+[12.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/hook/cmake_prefix_path.ps1'
+[12.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/hook/cmake_prefix_path.dsv'
+[12.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/hook/cmake_prefix_path.sh'
+[12.427s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/bin'
+[12.428s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/pkgconfig/msg_pkg.pc'
+[12.428s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/python3.10/site-packages'
+[12.428s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/bin'
+[12.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.ps1'
+[12.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.dsv'
+[12.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.sh'
+[12.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.bash'
+[12.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.zsh'
+[12.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/colcon-core/packages/msg_pkg)
+[12.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/vrep_ros_teleop' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/vrep_ros_teleop/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/vrep_ros_teleop build --build-base /home/GTL/wxu/cs7630_g6/src/build/vrep_ros_teleop/build install --record /home/GTL/wxu/cs7630_g6/src/build/vrep_ros_teleop/install.log --single-version-externally-managed
+[12.844s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop' for CMake module files
+[12.891s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop' for CMake config files
+[12.987s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib'
+[12.991s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/bin'
+[12.991s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/pkgconfig/vrep_ros_teleop.pc'
+[12.992s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/python3.10/site-packages'
+[12.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('vrep_ros_teleop', 'pythonpath')
+[13.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/hook/pythonpath.ps1'
+[13.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/hook/pythonpath.dsv'
+[13.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/hook/pythonpath.sh'
+[13.153s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/bin'
+[13.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vrep_ros_teleop)
+[13.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/package.ps1'
+[13.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/package.dsv'
+[13.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/package.sh'
+[13.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/package.bash'
+[13.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/vrep_ros_teleop/package.zsh'
+[13.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/share/colcon-core/packages/vrep_ros_teleop)
+[13.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(collision_avoidance_base)
+[13.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/hw1_xwh -- -j16 -l16
+[13.442s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base' for CMake module files
+[13.540s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base' for CMake config files
+[13.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('collision_avoidance_base', 'cmake_prefix_path')
+[13.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/hook/cmake_prefix_path.ps1'
+[13.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/hook/cmake_prefix_path.dsv'
+[13.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/hook/cmake_prefix_path.sh'
+[13.808s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib'
+[13.812s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/bin'
+[13.813s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/pkgconfig/collision_avoidance_base.pc'
+[13.813s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/python3.10/site-packages'
+[13.814s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/bin'
+[13.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.ps1'
+[13.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.dsv'
+[13.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.sh'
+[14.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.bash'
+[14.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.zsh'
+[14.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/colcon-core/packages/collision_avoidance_base)
+[14.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_pkg)
+[14.159s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg' for CMake module files
+[14.219s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg' for CMake config files
+[14.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_pkg', 'cmake_prefix_path')
+[14.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/hook/cmake_prefix_path.ps1'
+[14.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/hook/cmake_prefix_path.dsv'
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/hook/cmake_prefix_path.sh'
+[14.513s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/bin'
+[14.514s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/pkgconfig/msg_pkg.pc'
+[14.514s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/lib/python3.10/site-packages'
+[14.514s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/bin'
+[14.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.ps1'
+[14.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.dsv'
+[14.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.sh'
+[14.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.bash'
+[14.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.zsh'
+[14.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/colcon-core/packages/msg_pkg)
+[14.798s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/GTL/wxu/cs7630_g6/src/face_detect_base' with build type 'ament_python'
+[14.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_detect_base', 'ament_prefix_path')
+[14.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/hook/ament_prefix_path.ps1'
+[14.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/hook/ament_prefix_path.dsv'
+[14.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/hook/ament_prefix_path.sh'
+[15.044s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.044s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/hw1_xwh
+[15.704s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/GTL/wxu/cs7630_g6/src/face_detect_base'
+[15.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1_xwh)
+[16.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/hw1_xwh
+[16.477s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh' for CMake module files
+[16.534s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh' for CMake config files
+[16.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1_xwh', 'cmake_prefix_path')
+[16.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.ps1'
+[16.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.dsv'
+[16.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.sh'
+[16.727s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/lib'
+[16.731s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/bin'
+[16.731s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/lib/pkgconfig/hw1_xwh.pc'
+[16.732s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/lib/python3.10/site-packages'
+[16.733s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/bin'
+[16.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.ps1'
+[16.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.dsv'
+[16.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.sh'
+[16.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.bash'
+[16.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.zsh'
+[16.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/colcon-core/packages/hw1_xwh)
+[17.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1_xwh)
+[17.099s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh' for CMake module files
+[17.177s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh' for CMake config files
+[17.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1_xwh', 'cmake_prefix_path')
+[17.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/wxu/cs7630_g6/src/face_detect_base': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/face_detect_base build --build-base /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/build install --record /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/install.log --single-version-externally-managed
+[17.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.ps1'
+[17.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.dsv'
+[17.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.sh'
+[17.642s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/lib'
+[17.647s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/bin'
+[17.647s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/lib/pkgconfig/hw1_xwh.pc'
+[17.647s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/lib/python3.10/site-packages'
+[17.647s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/bin'
+[17.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.ps1'
+[17.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.dsv'
+[17.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.sh'
+[17.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.bash'
+[17.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/hw1_xwh/package.zsh'
+[17.967s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh/share/colcon-core/packages/hw1_xwh)
+[19.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/wxu/cs7630_g6/src/face_detect_base' returned '0': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base PYTHONPATH=/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/face_detect_base build --build-base /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/build install --record /home/GTL/wxu/cs7630_g6/src/build/face_detect_base/install.log --single-version-externally-managed
+[19.475s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base' for CMake module files
+[19.509s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base' for CMake config files
+[19.576s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib'
+[19.580s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/bin'
+[19.581s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/pkgconfig/face_detect_base.pc'
+[19.582s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages'
+[19.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_detect_base', 'pythonpath')
+[19.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/hook/pythonpath.ps1'
+[19.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/hook/pythonpath.dsv'
+[19.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/hook/pythonpath.sh'
+[19.679s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/bin'
+[19.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_detect_base)
+[19.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/package.ps1'
+[19.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/package.dsv'
+[19.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/package.sh'
+[19.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/package.bash'
+[19.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base/package.zsh'
+[19.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/colcon-core/packages/face_detect_base)
+[19.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.979s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.040s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.040s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.047s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/wxu/cs7630_g6/src/install/local_setup.ps1'
+[20.107s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/GTL/wxu/cs7630_g6/src/install/_local_setup_util_ps1.py'
+[20.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/wxu/cs7630_g6/src/install/setup.ps1'
+[20.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/wxu/cs7630_g6/src/install/local_setup.sh'
+[20.234s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/GTL/wxu/cs7630_g6/src/install/_local_setup_util_sh.py'
+[20.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/wxu/cs7630_g6/src/install/setup.sh'
+[20.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/wxu/cs7630_g6/src/install/local_setup.bash'
+[20.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/wxu/cs7630_g6/src/install/setup.bash'
+[20.424s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/wxu/cs7630_g6/src/install/local_setup.zsh'
+[20.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/wxu/cs7630_g6/src/install/setup.zsh'

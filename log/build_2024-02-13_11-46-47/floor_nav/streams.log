@@ -1,0 +1,42 @@
+[1.350s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/floor_nav': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/ar_slam_base:/home/GTL/wxu/cs7630_g6/install/ar_loc_base:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16
+[2.460s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskGoToPose[0m
+[2.735s] [ 45%] [32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o[0m
+[2.750s] [ 45%] [32mBuilding CXX object CMakeFiles/floornav_TaskGoToPose.dir/tasks/TaskGoToPose.cpp.o[0m
+[2.751s] [ 70%] Built target floornav_TaskPlanTo
+[2.757s] [ 70%] Built target floornav_TaskAutoDock
+[2.757s] [ 70%] Built target floornav_TaskWaitForFace
+[2.757s] [ 70%] Built target floornav_TaskWaitForROI
+[2.757s] [ 70%] Built target floornav_TaskTrigger
+[2.757s] [ 70%] Built target floornav_TaskNav2
+[2.757s] [ 80%] Built target floornav_TaskWander
+[2.762s] [ 80%] Built target floornav_TaskConstant
+[2.764s] [ 87%] Built target floornav_TaskGoTo
+[2.768s] [ 93%] Built target floornav_TaskWanderFront
+[2.768s] [ 93%] Built target floornav_TaskSetHeading
+[2.770s] [ 93%] Built target floornav_task_server
+[2.773s] [ 93%] Built target floornav_TaskSetMux
+[7.727s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskGoToPose::iterate()[m[K’:
+[7.727s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[7.727s]    34 |         [01;31m[KTwist[m[K twist;
+[7.727s]       |         [01;31m[K^~~~~[m[K
+[7.727s]       |         [32m[Kgeometry_msgs::msg::Twist[m[K
+[7.727s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[7.727s]                  from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:7[m[K,
+[7.727s]                  from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.h:5[m[K,
+[7.727s]                  from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:1[m[K:
+[7.727s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[7.727s]   134 | using [01;36m[KTwist[m[K =
+[7.727s]       |       [01;36m[K^~~~~[m[K
+[7.733s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktwist[m[K’ was not declared in this scope
+[7.733s]    35 |         [01;31m[Ktwist[m[K.linear.x = cfg->goal_x; - tpose.x;
+[7.733s]       |         [01;31m[K^~~~~[m[K
+[7.733s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskGoToPose.cpp:35:39:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[7.733s]    35 |         twist.linear.x = cfg->goal_x; [01;35m[K- tpose.x[m[K;
+[7.733s]       |                                       [01;35m[K^~~~~~~~~[m[K
+[8.282s] gmake[2]: *** [CMakeFiles/floornav_TaskGoToPose.dir/build.make:76: CMakeFiles/floornav_TaskGoToPose.dir/tasks/TaskGoToPose.cpp.o] Error 1
+[8.292s] gmake[1]: *** [CMakeFiles/Makefile2:503: CMakeFiles/floornav_TaskGoToPose.dir/all] Error 2
+[8.292s] gmake[1]: *** Waiting for unfinished jobs....
+[17.103s] [ 96%] [32m[1mLinking CXX shared library libfloornav_TaskStareAtFace.so[0m
+[23.436s] [ 96%] Built target floornav_TaskStareAtFace
+[23.438s] gmake: *** [Makefile:146: all] Error 2
+[23.443s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/floor_nav' returned '2': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/ar_slam_base:/home/GTL/wxu/cs7630_g6/install/ar_loc_base:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16

@@ -1,0 +1,8 @@
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:[m[K In member function ‘[01m[Kvoid floor_nav::TaskWaitForFace::faceCallback(msg_pkg::msg::RegionsOfInterestArray)[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:24:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst RegionsOfInterestArray[m[K’ {aka ‘[01m[Kconst msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’}
+   24 |                     if (!msg[01;31m[K->[m[Kregions.empty()) {
+      |                             [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWaitForFace.dir/build.make:76: CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:449: CMakeFiles/floornav_TaskWaitForFace.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

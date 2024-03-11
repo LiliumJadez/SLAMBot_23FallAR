@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000160] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000172] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000182] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000191] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000201] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000213] (face_detect_base) JobQueued: {'identifier': 'face_detect_base', 'dependencies': OrderedDict([('msg_pkg', '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg')])}
+[0.000230] (face_detect_base) JobStarted: {'identifier': 'face_detect_base'}
+[0.056912] (-) TimerEvent: {}
+[0.157124] (-) TimerEvent: {}
+[0.257353] (-) TimerEvent: {}
+[0.357598] (-) TimerEvent: {}
+[0.457846] (-) TimerEvent: {}
+[0.558090] (-) TimerEvent: {}
+[0.658305] (-) TimerEvent: {}
+[0.758606] (-) TimerEvent: {}
+[0.858793] (-) TimerEvent: {}
+[0.959010] (-) TimerEvent: {}
+[1.059251] (-) TimerEvent: {}
+[1.159474] (-) TimerEvent: {}
+[1.259737] (-) TimerEvent: {}
+[1.308400] (face_detect_base) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/face_detect_base', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/face_detect_base', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'OLDPWD': '/home/GTL/wxu/cs7630_g6', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '91120', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/src/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/GTL/wxu/cs7630_g6/src/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '61', 'AMENT_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base:/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/src/build/face_detect_base', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/prefix_override:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base'}, 'shell': False}
+[1.470769] (-) TimerEvent: {}
+[1.570986] (-) TimerEvent: {}
+[1.586378] (face_detect_base) StdoutLine: {'line': b'running egg_info\n'}
+[1.588350] (face_detect_base) StdoutLine: {'line': b'writing ../build/face_detect_base/face_detect_base.egg-info/PKG-INFO\n'}
+[1.619968] (face_detect_base) StdoutLine: {'line': b'writing dependency_links to ../build/face_detect_base/face_detect_base.egg-info/dependency_links.txt\n'}
+[1.649479] (face_detect_base) StdoutLine: {'line': b'writing entry points to ../build/face_detect_base/face_detect_base.egg-info/entry_points.txt\n'}
+[1.671094] (-) TimerEvent: {}
+[1.709108] (face_detect_base) StdoutLine: {'line': b'writing requirements to ../build/face_detect_base/face_detect_base.egg-info/requires.txt\n'}
+[1.740047] (face_detect_base) StdoutLine: {'line': b'writing top-level names to ../build/face_detect_base/face_detect_base.egg-info/top_level.txt\n'}
+[1.771221] (-) TimerEvent: {}
+[1.840978] (face_detect_base) StdoutLine: {'line': b"reading manifest file '../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'\n"}
+[1.864292] (face_detect_base) StdoutLine: {'line': b"writing manifest file '../build/face_detect_base/face_detect_base.egg-info/SOURCES.txt'\n"}
+[1.871331] (-) TimerEvent: {}
+[1.915521] (face_detect_base) StdoutLine: {'line': b'running build\n'}
+[1.915636] (face_detect_base) StdoutLine: {'line': b'running build_py\n'}
+[1.956019] (face_detect_base) StdoutLine: {'line': b'running install\n'}
+[1.956190] (face_detect_base) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.956245] (face_detect_base) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.956394] (face_detect_base) StdoutLine: {'line': b'running install_lib\n'}
+[1.971425] (-) TimerEvent: {}
+[2.020724] (face_detect_base) StdoutLine: {'line': b'running install_data\n'}
+[2.035223] (face_detect_base) StdoutLine: {'line': b'copying package.xml -> /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/share/face_detect_base\n'}
+[2.071545] (-) TimerEvent: {}
+[2.171807] (-) TimerEvent: {}
+[2.272071] (-) TimerEvent: {}
+[2.372347] (-) TimerEvent: {}
+[2.472587] (-) TimerEvent: {}
+[2.572850] (-) TimerEvent: {}
+[2.673118] (-) TimerEvent: {}
+[2.773368] (-) TimerEvent: {}
+[2.873624] (-) TimerEvent: {}
+[2.973893] (-) TimerEvent: {}
+[3.074158] (-) TimerEvent: {}
+[3.174422] (-) TimerEvent: {}
+[3.274663] (-) TimerEvent: {}
+[3.374924] (-) TimerEvent: {}
+[3.401678] (face_detect_base) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.425652] (face_detect_base) StdoutLine: {'line': b"removing '/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.454301] (face_detect_base) StdoutLine: {'line': b'Copying ../build/face_detect_base/face_detect_base.egg-info to /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages/face_detect_base-0.0.0-py3.10.egg-info\n'}
+[3.475028] (-) TimerEvent: {}
+[3.575246] (-) TimerEvent: {}
+[3.675514] (-) TimerEvent: {}
+[3.775789] (-) TimerEvent: {}
+[3.876029] (-) TimerEvent: {}
+[3.976271] (-) TimerEvent: {}
+[4.076545] (-) TimerEvent: {}
+[4.158846] (face_detect_base) StdoutLine: {'line': b'running install_scripts\n'}
+[4.173506] (face_detect_base) StdoutLine: {'line': b'Installing face_detect_node script to /home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/face_detect_base\n'}
+[4.176606] (-) TimerEvent: {}
+[4.230259] (face_detect_base) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/src/build/face_detect_base/install.log'\n"}
+[4.268939] (face_detect_base) CommandEnded: {'returncode': 0}
+[4.276702] (-) TimerEvent: {}
+[4.376912] (-) TimerEvent: {}
+[4.477155] (-) TimerEvent: {}
+[4.577444] (-) TimerEvent: {}
+[4.677686] (-) TimerEvent: {}
+[4.777919] (-) TimerEvent: {}
+[4.784572] (face_detect_base) JobEnded: {'identifier': 'face_detect_base', 'rc': 0}
+[4.847758] (-) EventReactorShutdown: {}

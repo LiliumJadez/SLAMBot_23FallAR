@@ -1,0 +1,22 @@
+[01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:[m[K In member function ‘[01m[Kvoid CollisionAvoidance::processPointCloud(pcl::PointCloud<pcl::PointXYZ>&)[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPassThrough[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   68 |             pcl::[01;31m[KPassThrough[m[K<pcl::PointXYZ> pass;
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   68 |             pcl::PassThrough<pcl::PointXYZ[01;31m[K>[m[K pass;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpass[m[K’ was not declared in this scope
+   68 |             pcl::PassThrough<pcl::PointXYZ> [01;31m[Kpass[m[K;
+      |                                             [01;31m[K^~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:18:[m[K [01;31m[Kerror: [m[K‘[01m[KVoxelGrid[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   75 |             pcl::[01;31m[KVoxelGrid[m[K<pcl::PointXYZ> vg;
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   75 |             pcl::VoxelGrid<pcl::PointXYZ[01;31m[K>[m[K vg;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kvg[m[K’ was not declared in this scope
+   75 |             pcl::VoxelGrid<pcl::PointXYZ> [01;31m[Kvg[m[K;
+      |                                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/collision_avoidance_base.dir/build.make:76: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/collision_avoidance_base.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

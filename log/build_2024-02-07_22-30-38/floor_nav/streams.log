@@ -1,0 +1,95 @@
+[0.442s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/floor_nav': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16
+[0.738s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.008s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.075s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.077s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.080s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.356s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.373s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.404s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.496s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.549s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.585s] -- Found task_manager_msgs: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/share/task_manager_msgs/cmake)
+[2.044s] -- Found task_manager_lib: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_lib/share/task_manager_lib/cmake)
+[2.107s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.182s] -- Found topic_tools_interfaces: 1.1.1 (/opt/ros/humble/share/topic_tools_interfaces/cmake)
+[2.202s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+[2.278s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.291s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.294s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.174s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.175s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.252s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[3.257s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.404s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.406s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.407s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.446s] -- Found task_manager_nav2: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_nav2/share/task_manager_nav2/cmake)
+[3.703s] -- Found msg_pkg: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake)
+[8.586s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.573s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.585s] -- Configured cppcheck include dirs: /home/GTL/wxu/cs7630_g6/src/floor_nav/include
+[9.585s] -- Configured cppcheck exclude dirs and/or files: 
+[9.673s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.951s] -- Added test 'lint_cmake' to check CMake code style
+[11.061s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.822s] -- Added test 'uncrustify' to check C / C++ code style
+[11.822s] -- Configured uncrustify additional arguments: 
+[11.911s] -- Added test 'xmllint' to check XML markup files
+[11.951s] -- Configuring done
+[19.547s] -- Generating done
+[19.988s] -- Build files have been written to: /home/GTL/wxu/cs7630_g6/build/floor_nav
+[20.229s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskWanderFront[0m
+[20.231s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskWaitForFace[0m
+[20.244s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskWander[0m
+[20.251s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskSetMux[0m
+[20.253s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskAutoDock[0m
+[20.258s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskGoTo[0m
+[20.259s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskConstant[0m
+[20.371s] [  3%] [32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o[0m
+[20.372s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskWaitForROI[0m
+[20.372s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskPlanTo[0m
+[20.372s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskSetHeading[0m
+[20.373s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskTrigger[0m
+[20.374s] [35m[1mConsolidate compiler generated dependencies of target floornav_task_server[0m
+[20.374s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskNav2[0m
+[20.698s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskPlanTo.so[0m
+[20.698s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskConstant.so[0m
+[20.698s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskWaitForROI.so[0m
+[20.698s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskGoTo.so[0m
+[20.698s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskSetHeading.so[0m
+[20.698s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskSetMux.so[0m
+[20.699s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskWander.so[0m
+[20.700s] [ 37%] [32m[1mLinking CXX shared library libfloornav_TaskTrigger.so[0m
+[20.706s] [ 44%] [32m[1mLinking CXX shared library libfloornav_TaskNav2.so[0m
+[20.706s] [ 44%] [32m[1mLinking CXX shared library libfloornav_TaskAutoDock.so[0m
+[20.716s] [ 44%] [32m[1mLinking CXX shared library libfloornav_TaskWanderFront.so[0m
+[20.723s] [ 44%] [32m[1mLinking CXX shared library libfloornav_TaskWaitForFace.so[0m
+[20.766s] [ 51%] [32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o[0m
+[20.771s] [ 51%] [32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o[0m
+[25.750s] In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:2[m[K:
+[25.751s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.h:7:10:[m[K [01;31m[Kfatal error: [m[Kmsg_pkg/regions_of_interest_array.hpp: No such file or directory
+[25.752s]     7 | #include [01;31m[K"msg_pkg/regions_of_interest_array.hpp"[m[K  // Include the RegionsOfInterestArray message definition
+[25.752s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.753s] compilation terminated.
+[25.823s] gmake[2]: *** [CMakeFiles/floornav_TaskStareAtFace.dir/build.make:76: CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o] Error 1
+[25.847s] gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/floornav_TaskStareAtFace.dir/all] Error 2
+[25.848s] gmake[1]: *** Waiting for unfinished jobs....
+[85.562s] [ 55%] Built target floornav_TaskConstant
+[86.801s] [ 58%] Built target floornav_TaskSetHeading
+[87.444s] [ 62%] Built target floornav_TaskWaitForFace
+[89.366s] [ 65%] Built target floornav_TaskWander
+[91.068s] [ 68%] Built target floornav_TaskGoTo
+[91.341s] [ 72%] Built target floornav_TaskWaitForROI
+[91.481s] [ 75%] Built target floornav_TaskTrigger
+[91.808s] [ 79%] [32m[1mLinking CXX executable floornav_task_server[0m
+[92.243s] [ 82%] Built target floornav_TaskWanderFront
+[92.490s] [ 86%] Built target floornav_TaskPlanTo
+[92.527s] [ 89%] Built target floornav_TaskSetMux
+[93.830s] [ 93%] Built target floornav_TaskNav2
+[94.254s] [ 96%] Built target floornav_TaskAutoDock
+[101.275s] [ 96%] Built target floornav_task_server
+[101.276s] gmake: *** [Makefile:146: all] Error 2
+[101.278s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/floor_nav' returned '2': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16

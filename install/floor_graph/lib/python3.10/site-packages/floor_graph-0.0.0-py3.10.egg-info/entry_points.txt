@@ -1,0 +1,5 @@
+[console_scripts]
+build_graph_node = floor_graph.build_graph:main
+build_graph_test_node = floor_graph.build_graph_test:main
+graph_viz_node = floor_graph.viz_graph:main
+

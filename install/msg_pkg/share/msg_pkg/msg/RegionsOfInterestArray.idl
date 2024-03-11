@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_pkg/msg/RegionsOfInterestArray.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module msg_pkg {
+  module msg {
+    struct RegionsOfInterestArray {
+      sequence<sensor_msgs::msg::RegionOfInterest> regions;
+    };
+  };
+};

@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.000072] (-) JobUnselected: {'identifier': 'ar_loc_base'}
+[0.000087] (-) JobUnselected: {'identifier': 'ar_mapping_base'}
+[0.000097] (-) JobUnselected: {'identifier': 'ar_slam_base'}
+[0.000104] (-) JobUnselected: {'identifier': 'button_server'}
+[0.000112] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000120] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000127] (-) JobUnselected: {'identifier': 'floor_graph'}
+[0.000134] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000142] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000149] (-) JobUnselected: {'identifier': 'keyboard_teleop'}
+[0.000156] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000163] (-) JobUnselected: {'identifier': 'rover_driver_base'}
+[0.000170] (-) JobUnselected: {'identifier': 'task_manager_client_py'}
+[0.000177] (-) JobUnselected: {'identifier': 'task_manager_lib'}
+[0.000184] (-) JobUnselected: {'identifier': 'task_manager_msgs'}
+[0.000191] (-) JobUnselected: {'identifier': 'task_manager_nav2'}
+[0.000198] (-) JobUnselected: {'identifier': 'task_manager_sync'}
+[0.000206] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000213] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000224] (floor_nav) JobQueued: {'identifier': 'floor_nav', 'dependencies': OrderedDict([('msg_pkg', '/home/GTL/wxu/cs7630_g6/install/msg_pkg'), ('task_manager_msgs', '/home/GTL/wxu/cs7630_g6/install/task_manager_msgs'), ('task_manager_lib', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib'), ('task_manager_nav2', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2')])}
+[0.000239] (floor_nav) JobStarted: {'identifier': 'floor_nav'}
+[0.082749] (-) TimerEvent: {}
+[0.183073] (-) TimerEvent: {}
+[0.283578] (-) TimerEvent: {}
+[0.384077] (-) TimerEvent: {}
+[0.484523] (-) TimerEvent: {}
+[0.585009] (-) TimerEvent: {}
+[0.685498] (-) TimerEvent: {}
+[0.786012] (-) TimerEvent: {}
+[0.886726] (-) TimerEvent: {}
+[0.987233] (-) TimerEvent: {}
+[1.087815] (-) TimerEvent: {}
+[1.188311] (-) TimerEvent: {}
+[1.200418] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'cmake'}
+[1.288399] (-) TimerEvent: {}
+[1.334740] (floor_nav) JobProgress: {'identifier': 'floor_nav', 'progress': 'build'}
+[1.343813] (floor_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/floor_nav', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/floor_nav', 'env': OrderedDict([('TMUX', '/tmp/tmux-36864/default,35018,1'), ('BYOBU_SED', 'sed'), ('BYOBU_LIGHT', '\\#EEEEEE'), ('BYOBU_EDITOR', 'sensible-editor'), ('USER', 'wxu'), ('SSH_CLIENT', '143.215.16.60 41228 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/GTL/wxu'), ('BYOBU_TIME', '%H:%M:%S'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu/cs7630_g6/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('BYOBU_PREFIX', '/usr'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('BYOBU_WINDOW_NAME', '-'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wxu'), ('BYOBU_TERM', 'screen-256color'), ('BYOBU_ULIMIT', 'ulimit'), ('BYOBU_HIGHLIGHT', '\\#DD4814'), ('BYOBU_ACCENT', '\\#75507B'), ('BYOBU_CHARMAP', 'UTF-8'), ('BYOBU_READLINK', 'readlink'), ('BYOBU_DISTRO', 'Ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen-256color'), ('XDG_SESSION_ID', '41'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/GTL/wxu/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('TERM_PROGRAM', 'tmux'), ('ROS_DOMAIN_ID', '55'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/ar_slam_base:/home/GTL/wxu/cs7630_g6/install/ar_loc_base:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/button_server:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('BYOBU_DATE', '%Y-%m-%d'), ('BYOBU_PYTHON', 'python3'), ('BYOBU_CONFIG_DIR', '/home/GTL/wxu/.byobu'), ('BYOBU_PAGER', 'sensible-pager'), ('BYOBU_DARK', '\\#333333'), ('BYOBU_RUN_DIR', '/dev/shm/byobu-wxu-oT7UnqTc'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/floor_nav'), ('SSH_CONNECTION', '143.215.16.60 41228 192.93.8.105 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('BYOBU_BACKEND', 'tmux'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/ar_slam_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/rover_driver_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/face_detect_base/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/floor_graph/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/button_server/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/ar_slam_base:/home/GTL/wxu/cs7630_g6/install/ar_loc_base:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/home/GTL/wxu/cs7630_g6/install/ar_mapping_base:/opt/ros/humble'), ('BYOBU_TTY', '/dev/pts/0')]), 'shell': False}
+[1.465099] (-) TimerEvent: {}
+[1.565576] (-) TimerEvent: {}
+[1.666019] (-) TimerEvent: {}
+[1.766457] (-) TimerEvent: {}
+[1.866939] (-) TimerEvent: {}
+[1.967544] (-) TimerEvent: {}
+[2.068163] (-) TimerEvent: {}
+[2.168664] (-) TimerEvent: {}
+[2.269171] (-) TimerEvent: {}
+[2.291441] (floor_nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.369300] (-) TimerEvent: {}
+[2.469767] (-) TimerEvent: {}
+[2.570250] (-) TimerEvent: {}
+[2.670698] (-) TimerEvent: {}
+[2.771040] (-) TimerEvent: {}
+[2.871459] (-) TimerEvent: {}
+[2.971896] (-) TimerEvent: {}
+[3.072284] (-) TimerEvent: {}
+[3.129160] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.172436] (-) TimerEvent: {}
+[3.272885] (-) TimerEvent: {}
+[3.336727] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.338518] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.343369] (floor_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.373191] (-) TimerEvent: {}
+[3.473678] (-) TimerEvent: {}
+[3.574256] (-) TimerEvent: {}
+[3.674999] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.675312] (-) TimerEvent: {}
+[3.742735] (floor_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.775423] (-) TimerEvent: {}
+[3.875851] (-) TimerEvent: {}
+[3.935018] (floor_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.963016] (floor_nav) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.975982] (-) TimerEvent: {}
+[3.997540] (floor_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.076071] (-) TimerEvent: {}
+[4.094384] (floor_nav) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.150816] (floor_nav) StdoutLine: {'line': b'-- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.176215] (-) TimerEvent: {}
+[4.176518] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_msgs: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/share/task_manager_msgs/cmake)\n'}
+[4.276300] (-) TimerEvent: {}
+[4.376676] (-) TimerEvent: {}
+[4.477243] (-) TimerEvent: {}
+[4.534906] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_lib: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_lib/share/task_manager_lib/cmake)\n'}
+[4.577348] (-) TimerEvent: {}
+[4.611041] (floor_nav) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.677450] (-) TimerEvent: {}
+[4.700729] (floor_nav) StdoutLine: {'line': b'-- Found topic_tools_interfaces: 1.1.1 (/opt/ros/humble/share/topic_tools_interfaces/cmake)\n'}
+[4.720707] (floor_nav) StdoutLine: {'line': b'-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)\n'}
+[4.777554] (-) TimerEvent: {}
+[4.851249] (floor_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.877750] (-) TimerEvent: {}
+[4.888580] (floor_nav) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.893231] (floor_nav) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.977910] (-) TimerEvent: {}
+[5.078408] (-) TimerEvent: {}
+[5.178908] (-) TimerEvent: {}
+[5.279395] (-) TimerEvent: {}
+[5.379889] (-) TimerEvent: {}
+[5.480433] (-) TimerEvent: {}
+[5.580976] (-) TimerEvent: {}
+[5.681557] (-) TimerEvent: {}
+[5.782011] (-) TimerEvent: {}
+[5.882487] (-) TimerEvent: {}
+[5.983114] (-) TimerEvent: {}
+[6.083573] (-) TimerEvent: {}
+[6.183878] (-) TimerEvent: {}
+[6.284437] (-) TimerEvent: {}
+[6.385014] (-) TimerEvent: {}
+[6.485537] (-) TimerEvent: {}
+[6.585984] (-) TimerEvent: {}
+[6.686304] (-) TimerEvent: {}
+[6.786764] (-) TimerEvent: {}
+[6.886974] (-) TimerEvent: {}
+[6.912824] (floor_nav) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[6.915758] (floor_nav) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[6.987052] (-) TimerEvent: {}
+[6.996859] (floor_nav) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[7.002275] (floor_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[7.087152] (-) TimerEvent: {}
+[7.150920] (floor_nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[7.154251] (floor_nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.155194] (floor_nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.187335] (-) TimerEvent: {}
+[7.195613] (floor_nav) StdoutLine: {'line': b'-- Found task_manager_nav2: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/task_manager_nav2/share/task_manager_nav2/cmake)\n'}
+[7.287425] (-) TimerEvent: {}
+[7.387601] (-) TimerEvent: {}
+[7.484217] (floor_nav) StdoutLine: {'line': b'-- Found msg_pkg: 0.0.0 (/home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake)\n'}
+[7.487742] (-) TimerEvent: {}
+[7.588241] (-) TimerEvent: {}
+[7.688807] (-) TimerEvent: {}
+[7.789298] (-) TimerEvent: {}
+[7.889765] (-) TimerEvent: {}
+[7.989977] (-) TimerEvent: {}
+[8.090128] (-) TimerEvent: {}
+[8.190278] (-) TimerEvent: {}
+[8.290424] (-) TimerEvent: {}
+[8.390572] (-) TimerEvent: {}
+[8.490722] (-) TimerEvent: {}
+[8.590872] (-) TimerEvent: {}
+[8.691029] (-) TimerEvent: {}
+[8.791216] (-) TimerEvent: {}
+[8.891426] (-) TimerEvent: {}
+[8.991582] (-) TimerEvent: {}
+[9.091747] (-) TimerEvent: {}
+[9.191896] (-) TimerEvent: {}
+[9.292044] (-) TimerEvent: {}
+[9.392196] (-) TimerEvent: {}
+[9.492348] (-) TimerEvent: {}
+[9.592498] (-) TimerEvent: {}
+[9.692645] (-) TimerEvent: {}
+[9.792826] (-) TimerEvent: {}
+[9.893030] (-) TimerEvent: {}
+[9.993187] (-) TimerEvent: {}
+[10.093335] (-) TimerEvent: {}
+[10.193486] (-) TimerEvent: {}
+[10.293631] (-) TimerEvent: {}
+[10.393782] (-) TimerEvent: {}
+[10.493942] (-) TimerEvent: {}
+[10.594097] (-) TimerEvent: {}
+[10.694244] (-) TimerEvent: {}
+[10.794423] (-) TimerEvent: {}
+[10.894626] (-) TimerEvent: {}
+[10.994798] (-) TimerEvent: {}
+[11.094946] (-) TimerEvent: {}
+[11.195097] (-) TimerEvent: {}
+[11.295246] (-) TimerEvent: {}
+[11.395400] (-) TimerEvent: {}
+[11.495558] (-) TimerEvent: {}
+[11.595714] (-) TimerEvent: {}
+[11.695859] (-) TimerEvent: {}
+[11.796029] (-) TimerEvent: {}
+[11.896218] (-) TimerEvent: {}
+[11.996380] (-) TimerEvent: {}
+[12.096531] (-) TimerEvent: {}
+[12.196686] (-) TimerEvent: {}
+[12.296834] (-) TimerEvent: {}
+[12.396986] (-) TimerEvent: {}
+[12.497142] (-) TimerEvent: {}
+[12.597296] (-) TimerEvent: {}
+[12.697448] (-) TimerEvent: {}
+[12.797634] (-) TimerEvent: {}
+[12.897847] (-) TimerEvent: {}
+[12.998005] (-) TimerEvent: {}
+[13.094399] (floor_nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.098078] (-) TimerEvent: {}
+[13.198427] (-) TimerEvent: {}
+[13.298892] (-) TimerEvent: {}
+[13.399323] (-) TimerEvent: {}
+[13.499881] (-) TimerEvent: {}
+[13.600373] (-) TimerEvent: {}
+[13.700861] (-) TimerEvent: {}
+[13.801354] (-) TimerEvent: {}
+[13.901964] (-) TimerEvent: {}
+[14.002582] (-) TimerEvent: {}
+[14.103157] (-) TimerEvent: {}
+[14.203735] (-) TimerEvent: {}
+[14.304293] (-) TimerEvent: {}
+[14.404801] (-) TimerEvent: {}
+[14.505348] (-) TimerEvent: {}
+[14.605848] (-) TimerEvent: {}
+[14.706437] (-) TimerEvent: {}
+[14.806926] (-) TimerEvent: {}
+[14.907151] (-) TimerEvent: {}
+[15.007302] (-) TimerEvent: {}
+[15.107524] (-) TimerEvent: {}
+[15.207996] (-) TimerEvent: {}
+[15.308468] (-) TimerEvent: {}
+[15.408932] (-) TimerEvent: {}
+[15.509406] (-) TimerEvent: {}
+[15.609940] (-) TimerEvent: {}
+[15.710520] (-) TimerEvent: {}
+[15.811045] (-) TimerEvent: {}
+[15.827551] (floor_nav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.842387] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/GTL/wxu/cs7630_g6/src/floor_nav/include\n'}
+[15.842446] (floor_nav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.911281] (-) TimerEvent: {}
+[16.011780] (-) TimerEvent: {}
+[16.112257] (-) TimerEvent: {}
+[16.138939] (floor_nav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.212534] (-) TimerEvent: {}
+[16.313048] (-) TimerEvent: {}
+[16.413562] (-) TimerEvent: {}
+[16.514215] (-) TimerEvent: {}
+[16.614800] (-) TimerEvent: {}
+[16.709113] (floor_nav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.714910] (-) TimerEvent: {}
+[16.815355] (-) TimerEvent: {}
+[16.915831] (-) TimerEvent: {}
+[16.961793] (floor_nav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[17.016040] (-) TimerEvent: {}
+[17.116534] (-) TimerEvent: {}
+[17.217056] (-) TimerEvent: {}
+[17.317544] (-) TimerEvent: {}
+[17.418097] (-) TimerEvent: {}
+[17.518630] (-) TimerEvent: {}
+[17.619167] (-) TimerEvent: {}
+[17.719681] (-) TimerEvent: {}
+[17.820294] (-) TimerEvent: {}
+[17.920791] (-) TimerEvent: {}
+[18.021259] (-) TimerEvent: {}
+[18.121752] (-) TimerEvent: {}
+[18.222284] (-) TimerEvent: {}
+[18.322851] (-) TimerEvent: {}
+[18.423436] (-) TimerEvent: {}
+[18.524006] (-) TimerEvent: {}
+[18.624635] (-) TimerEvent: {}
+[18.725302] (-) TimerEvent: {}
+[18.825751] (-) TimerEvent: {}
+[18.926044] (-) TimerEvent: {}
+[19.026598] (-) TimerEvent: {}
+[19.120035] (floor_nav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.120380] (floor_nav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.126674] (-) TimerEvent: {}
+[19.227155] (-) TimerEvent: {}
+[19.327753] (-) TimerEvent: {}
+[19.419077] (floor_nav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.427944] (-) TimerEvent: {}
+[19.528489] (-) TimerEvent: {}
+[19.589218] (floor_nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.628592] (-) TimerEvent: {}
+[19.728822] (-) TimerEvent: {}
+[19.829055] (-) TimerEvent: {}
+[19.929425] (-) TimerEvent: {}
+[20.029952] (-) TimerEvent: {}
+[20.130520] (-) TimerEvent: {}
+[20.231092] (-) TimerEvent: {}
+[20.251846] (floor_nav) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:73 (ADD_EXECUTABLE):\n'}
+[20.252220] (floor_nav) StderrLine: {'line': b'  Cannot find source file:\n'}
+[20.252406] (floor_nav) StderrLine: {'line': b'\n'}
+[20.252566] (floor_nav) StderrLine: {'line': b'    src/floornav_task_server.cpp\n'}
+[20.252720] (floor_nav) StderrLine: {'line': b'\n'}
+[20.252867] (floor_nav) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[20.253016] (floor_nav) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[20.253160] (floor_nav) StderrLine: {'line': b'\n'}
+[20.253307] (floor_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[20.331226] (-) TimerEvent: {}
+[20.431619] (-) TimerEvent: {}
+[20.531845] (-) TimerEvent: {}
+[20.632078] (-) TimerEvent: {}
+[20.698178] (floor_nav) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:73 (ADD_EXECUTABLE):\n'}
+[20.698305] (floor_nav) StderrLine: {'line': b'  No SOURCES given to target: floornav_task_server\n'}
+[20.698346] (floor_nav) StderrLine: {'line': b'\n'}
+[20.698381] (floor_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[20.698416] (floor_nav) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[20.719203] (floor_nav) StderrLine: {'line': b'gmake: *** [Makefile:868: cmake_check_build_system] Error 1\n'}
+[20.720967] (floor_nav) CommandEnded: {'returncode': 2}
+[20.736512] (-) TimerEvent: {}
+[20.836739] (-) TimerEvent: {}
+[20.936991] (-) TimerEvent: {}
+[21.037347] (-) TimerEvent: {}
+[21.137765] (-) TimerEvent: {}
+[21.238237] (-) TimerEvent: {}
+[21.338795] (-) TimerEvent: {}
+[21.439306] (-) TimerEvent: {}
+[21.539878] (-) TimerEvent: {}
+[21.640465] (-) TimerEvent: {}
+[21.740962] (-) TimerEvent: {}
+[21.841245] (-) TimerEvent: {}
+[21.881671] (floor_nav) JobEnded: {'identifier': 'floor_nav', 'rc': 2}
+[21.902470] (-) EventReactorShutdown: {}

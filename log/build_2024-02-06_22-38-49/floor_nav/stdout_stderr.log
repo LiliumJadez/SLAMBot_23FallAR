@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target floornav_TaskWanderFront[0m
+[ 85%] Built target floornav_TaskWaitForFace
+[ 85%] Built target floornav_TaskNav2
+[ 85%] Built target floornav_TaskSetHeading
+[ 85%] Built target floornav_TaskGoTo
+[ 85%] Built target floornav_TaskConstant
+[ 85%] Built target floornav_TaskWaitForROI
+[ 85%] [32mBuilding CXX object CMakeFiles/floornav_TaskWanderFront.dir/tasks/TaskWanderFront.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/floornav_TaskWander.dir/tasks/TaskWander.cpp.o[0m
+[ 88%] Built target floornav_TaskAutoDock
+[ 88%] Built target floornav_TaskPlanTo
+[ 92%] Built target floornav_TaskTrigger
+[ 92%] Built target floornav_task_server
+[ 92%] Built target floornav_TaskSetMux
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.h:12:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KTaskWanderConfig[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   12 |         [01;31m[KTaskWanderConfig[m[K() {
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.h:[m[K In member function ‘[01m[Kint floor_nav::TaskWanderFrontConfig::TaskWanderConfig()[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.h:19:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   19 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWanderFront.dir/build.make:76: CMakeFiles/floornav_TaskWanderFront.dir/tasks/TaskWanderFront.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/floornav_TaskWanderFront.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 96%] [32m[1mLinking CXX shared library libfloornav_TaskWander.so[0m
+[ 96%] Built target floornav_TaskWander
+gmake: *** [Makefile:146: all] Error 2

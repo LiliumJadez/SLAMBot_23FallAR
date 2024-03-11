@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/GTL/wxu/cs7630_g6/install/ar_loc_base/lib/python3.10/site-packages/ar_loc_base/rover_loc.py", line 21
+    from ar_loc_base.rover_kf impoupdate_arort *
+                              ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

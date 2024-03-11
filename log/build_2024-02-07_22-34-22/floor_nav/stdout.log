@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target floornav_task_server[0m
+[  3%] [32mBuilding CXX object CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskSetHeading.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskNav2.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskPlanTo.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWander.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/SimTasksEnv.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskGoTo.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWanderFront.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/floornav_task_server.dir/src/task_server.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskSetMux.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWaitForROI.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskAutoDock.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskWaitForFace.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskTrigger.so[0m
+[ 51%] [32m[1mLinking CXX shared library libfloornav_TaskConstant.so[0m
+[ 55%] Built target floornav_TaskWaitForROI
+[ 58%] Built target floornav_TaskTrigger
+[ 62%] Built target floornav_TaskGoTo
+[ 65%] Built target floornav_TaskWander
+[ 68%] Built target floornav_TaskSetHeading
+[ 72%] Built target floornav_TaskWaitForFace
+[ 75%] Built target floornav_TaskPlanTo
+[ 79%] Built target floornav_TaskConstant
+[ 82%] Built target floornav_TaskSetMux
+[ 86%] [32m[1mLinking CXX executable floornav_task_server[0m
+[ 89%] Built target floornav_TaskWanderFront
+[ 96%] Built target floornav_TaskNav2
+[ 96%] Built target floornav_TaskAutoDock
+[ 96%] Built target floornav_task_server

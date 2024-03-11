@@ -1,0 +1,11 @@
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:[m[K In member function ‘[01m[Kvoid floor_nav::TaskStareAtFace::faceCallback(msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:45:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfaces[m[K’
+   45 |     if (msg->[01;31m[Kfaces[m[K.empty()){
+      |              [01;31m[K^~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskStareAtFace.cpp:49:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kfaces[m[K’
+   49 |     face_roi =msg->[01;31m[Kfaces[m[K[0];
+      |                    [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskStareAtFace.dir/build.make:76: CMakeFiles/floornav_TaskStareAtFace.dir/tasks/TaskStareAtFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/floornav_TaskStareAtFace.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

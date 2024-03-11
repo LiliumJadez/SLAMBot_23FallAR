@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000159] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000176] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000191] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000206] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000224] (collision_avoidance_base) JobQueued: {'identifier': 'collision_avoidance_base', 'dependencies': OrderedDict()}
+[0.000245] (collision_avoidance_base) JobStarted: {'identifier': 'collision_avoidance_base'}
+[0.050421] (-) TimerEvent: {}
+[0.150826] (-) TimerEvent: {}
+[0.217452] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'cmake'}
+[0.249066] (collision_avoidance_base) JobProgress: {'identifier': 'collision_avoidance_base', 'progress': 'build'}
+[0.249633] (collision_avoidance_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '463441'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8ced4a32_f5e7_4e2d_bf07_76b09d5c349a'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.275'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble')]), 'shell': False}
+[0.388245] (-) TimerEvent: {}
+[0.488435] (-) TimerEvent: {}
+[0.525636] (collision_avoidance_base) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o\x1b[0m\n'}
+[0.588550] (-) TimerEvent: {}
+[0.688821] (-) TimerEvent: {}
+[0.789062] (-) TimerEvent: {}
+[0.889288] (-) TimerEvent: {}
+[0.989498] (-) TimerEvent: {}
+[1.089719] (-) TimerEvent: {}
+[1.189947] (-) TimerEvent: {}
+[1.290178] (-) TimerEvent: {}
+[1.390407] (-) TimerEvent: {}
+[1.490654] (-) TimerEvent: {}
+[1.590921] (-) TimerEvent: {}
+[1.691192] (-) TimerEvent: {}
+[1.791423] (-) TimerEvent: {}
+[1.891714] (-) TimerEvent: {}
+[1.991988] (-) TimerEvent: {}
+[2.092234] (-) TimerEvent: {}
+[2.192491] (-) TimerEvent: {}
+[2.292725] (-) TimerEvent: {}
+[2.392983] (-) TimerEvent: {}
+[2.493210] (-) TimerEvent: {}
+[2.593444] (-) TimerEvent: {}
+[2.693681] (-) TimerEvent: {}
+[2.793926] (-) TimerEvent: {}
+[2.894202] (-) TimerEvent: {}
+[2.994469] (-) TimerEvent: {}
+[3.094699] (-) TimerEvent: {}
+[3.194930] (-) TimerEvent: {}
+[3.295180] (-) TimerEvent: {}
+[3.395472] (-) TimerEvent: {}
+[3.495733] (-) TimerEvent: {}
+[3.596018] (-) TimerEvent: {}
+[3.696270] (-) TimerEvent: {}
+[3.796595] (-) TimerEvent: {}
+[3.896882] (-) TimerEvent: {}
+[3.997147] (-) TimerEvent: {}
+[4.029020] (collision_avoidance_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CollisionAvoidance::processPointCloud(pcl::PointCloud<pcl::PointXYZ>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.029155] (collision_avoidance_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPassThrough\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.029197] (collision_avoidance_base) StderrLine: {'line': b'   68 |             pcl::\x1b[01;31m\x1b[KPassThrough\x1b[m\x1b[K<pcl::PointXYZ> pass;\n'}
+[4.029233] (collision_avoidance_base) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.029265] (collision_avoidance_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.029299] (collision_avoidance_base) StderrLine: {'line': b'   68 |             pcl::PassThrough<pcl::PointXYZ\x1b[01;31m\x1b[K>\x1b[m\x1b[K pass;\n'}
+[4.029332] (collision_avoidance_base) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.034695] (collision_avoidance_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpass\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.034779] (collision_avoidance_base) StderrLine: {'line': b'   68 |             pcl::PassThrough<pcl::PointXYZ> \x1b[01;31m\x1b[Kpass\x1b[m\x1b[K;\n'}
+[4.034816] (collision_avoidance_base) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.037604] (collision_avoidance_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVoxelGrid\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.037695] (collision_avoidance_base) StderrLine: {'line': b'   75 |             pcl::\x1b[01;31m\x1b[KVoxelGrid\x1b[m\x1b[K<pcl::PointXYZ> vg;\n'}
+[4.037732] (collision_avoidance_base) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.037771] (collision_avoidance_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.037804] (collision_avoidance_base) StderrLine: {'line': b'   75 |             pcl::VoxelGrid<pcl::PointXYZ\x1b[01;31m\x1b[K>\x1b[m\x1b[K vg;\n'}
+[4.037835] (collision_avoidance_base) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.042504] (collision_avoidance_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.042623] (collision_avoidance_base) StderrLine: {'line': b'   75 |             pcl::VoxelGrid<pcl::PointXYZ> \x1b[01;31m\x1b[Kvg\x1b[m\x1b[K;\n'}
+[4.042662] (collision_avoidance_base) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.097271] (-) TimerEvent: {}
+[4.197529] (-) TimerEvent: {}
+[4.297833] (-) TimerEvent: {}
+[4.398090] (-) TimerEvent: {}
+[4.498334] (-) TimerEvent: {}
+[4.598574] (-) TimerEvent: {}
+[4.698819] (-) TimerEvent: {}
+[4.799067] (-) TimerEvent: {}
+[4.899332] (-) TimerEvent: {}
+[4.999609] (-) TimerEvent: {}
+[5.099885] (-) TimerEvent: {}
+[5.200145] (-) TimerEvent: {}
+[5.300435] (-) TimerEvent: {}
+[5.400712] (-) TimerEvent: {}
+[5.500974] (-) TimerEvent: {}
+[5.601217] (-) TimerEvent: {}
+[5.701484] (-) TimerEvent: {}
+[5.801723] (-) TimerEvent: {}
+[5.901978] (-) TimerEvent: {}
+[6.002225] (-) TimerEvent: {}
+[6.102491] (-) TimerEvent: {}
+[6.202759] (-) TimerEvent: {}
+[6.303010] (-) TimerEvent: {}
+[6.403297] (-) TimerEvent: {}
+[6.503560] (-) TimerEvent: {}
+[6.603805] (-) TimerEvent: {}
+[6.704098] (-) TimerEvent: {}
+[6.804367] (-) TimerEvent: {}
+[6.904630] (-) TimerEvent: {}
+[7.004935] (-) TimerEvent: {}
+[7.076014] (collision_avoidance_base) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/collision_avoidance_base.dir/build.make:76: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o] Error 1\n'}
+[7.081575] (collision_avoidance_base) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/collision_avoidance_base.dir/all] Error 2\n'}
+[7.081818] (collision_avoidance_base) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.083161] (collision_avoidance_base) CommandEnded: {'returncode': 2}
+[7.105010] (-) TimerEvent: {}
+[7.205247] (-) TimerEvent: {}
+[7.305503] (-) TimerEvent: {}
+[7.406080] (-) TimerEvent: {}
+[7.506322] (-) TimerEvent: {}
+[7.606568] (-) TimerEvent: {}
+[7.682734] (collision_avoidance_base) JobEnded: {'identifier': 'collision_avoidance_base', 'rc': 2}
+[7.731309] (-) TimerEvent: {}
+[7.731392] (-) EventReactorShutdown: {}

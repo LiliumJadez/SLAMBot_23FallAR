@@ -1,0 +1,39 @@
+[0.610s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/floor_nav': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16
+[1.426s] [35m[1mConsolidate compiler generated dependencies of target floornav_TaskWanderFront[0m
+[1.787s] [ 37%] [32mBuilding CXX object CMakeFiles/floornav_TaskWanderFront.dir/tasks/TaskWanderFront.cpp.o[0m
+[1.801s] [ 62%] Built target floornav_TaskWaitForFace
+[1.810s] [ 62%] Built target floornav_TaskConstant
+[1.810s] [ 62%] Built target floornav_TaskAutoDock
+[1.810s] [ 62%] Built target floornav_TaskWaitForROI
+[1.810s] [ 77%] Built target floornav_TaskPlanTo
+[1.810s] [ 77%] Built target floornav_TaskSetHeading
+[1.810s] [ 77%] Built target floornav_TaskGoTo
+[1.811s] [ 77%] Built target floornav_TaskNav2
+[1.821s] [ 92%] Built target floornav_TaskSetMux
+[1.822s] [ 92%] Built target floornav_TaskTrigger
+[1.825s] [ 96%] Built target floornav_TaskWander
+[1.830s] [ 96%] Built target floornav_task_server
+[6.022s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskWanderFront::iterate()[m[K’:
+[6.023s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:65:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kfloor_nav::SimTasksEnv::publishVelocity(double&)[m[K’
+[6.023s]    65 |         [01;31m[Kenv->publishVelocity(linear)[m[K;
+[6.023s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.034s] In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.h:5[m[K,
+[6.034s]                  from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWanderFront.cpp:2[m[K:
+[6.034s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:60:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid floor_nav::SimTasksEnv::publishVelocity(double, double)[m[K’
+[6.034s]    60 |             void [01;36m[KpublishVelocity[m[K(double linear, double angular) ;
+[6.035s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.035s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:60:18:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[6.035s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:61:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid floor_nav::SimTasksEnv::publishVelocity(double, double, double)[m[K’
+[6.035s]    61 |             void [01;36m[KpublishVelocity[m[K(double linear_x, double linear_y, double angular) ;
+[6.035s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.035s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:61:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[6.035s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:62:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid floor_nav::SimTasksEnv::publishVelocity(const Twist&)[m[K’
+[6.035s]    62 |             void [01;36m[KpublishVelocity[m[K(const geometry_msgs::msg::Twist & twist) ;
+[6.035s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.035s] [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/include/floor_nav/SimTasksEnv.h:62:68:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst Twist&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’}
+[6.035s]    62 |             void publishVelocity([01;36m[Kconst geometry_msgs::msg::Twist & twist[m[K) ;
+[6.035s]       |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[6.578s] gmake[2]: *** [CMakeFiles/floornav_TaskWanderFront.dir/build.make:76: CMakeFiles/floornav_TaskWanderFront.dir/tasks/TaskWanderFront.cpp.o] Error 1
+[6.581s] gmake[1]: *** [CMakeFiles/Makefile2:473: CMakeFiles/floornav_TaskWanderFront.dir/all] Error 2
+[6.581s] gmake: *** [Makefile:146: all] Error 2
+[6.583s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/floor_nav' returned '2': CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_nav2:/home/GTL/wxu/cs7630_g6/install/task_manager_lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:/home/GTL/wxu/cs7630_g6/install/msg_pkg:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/task_manager_sync:/home/GTL/wxu/cs7630_g6/install/floor_nav:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/rover_driver_base:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/keyboard_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_lib/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib:/home/GTL/wxu/cs7630_g6/install/task_manager_sync/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/floor_nav -- -j16 -l16

@@ -1,0 +1,203 @@
+[0.702s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.702s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4c0cca5c60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4c0d187a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4c0d187a30>>)
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.770s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/GTL/hshi/cs7630_g6'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extension 'ignore_ament_install'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extensions ['colcon_pkg']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1) by extension 'ros'
+[0.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw1' with type 'ros.ament_cmake' and name 'hw1'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extension 'ignore'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extension 'ignore_ament_install'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extensions ['colcon_pkg']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extension 'colcon_pkg'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extensions ['colcon_meta']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extension 'colcon_meta'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extensions ['ros']
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw1_xwh) by extension 'ros'
+[0.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw1_xwh' with type 'ros.ament_cmake' and name 'hw1_xwh'
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.003s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/GTL/hshi/cs7630_g6/install
+[1.019s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[1.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_target' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_clean_cache' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_clean_first' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'cmake_force_configure' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'ament_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'catkin_cmake_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'hw1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.123s] DEBUG:colcon.colcon_core.verb:Building package 'hw1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/hshi/cs7630_g6/build/hw1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/hshi/cs7630_g6/install/hw1', 'merge_install': False, 'path': '/home/GTL/hshi/cs7630_g6/src/hw1', 'symlink_install': False, 'test_result_base': None}
+[1.132s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_target' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_clean_cache' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_clean_first' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'cmake_force_configure' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'ament_cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'catkin_cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'hw1_xwh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.133s] DEBUG:colcon.colcon_core.verb:Building package 'hw1_xwh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/GTL/hshi/cs7630_g6/build/hw1_xwh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/GTL/hshi/cs7630_g6/install/hw1_xwh', 'merge_install': False, 'path': '/home/GTL/hshi/cs7630_g6/src/hw1_xwh', 'symlink_install': False, 'test_result_base': None}
+[1.142s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.152s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/GTL/hshi/cs7630_g6/src/hw1' with build type 'ament_cmake'
+[1.152s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/GTL/hshi/cs7630_g6/src/hw1'
+[1.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/GTL/hshi/cs7630_g6/src/hw1_xwh' with build type 'ament_cmake'
+[1.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/GTL/hshi/cs7630_g6/src/hw1_xwh'
+[1.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16
+[2.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1_xwh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1_xwh -- -j16 -l16
+[2.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1_xwh -- -j16 -l16
+[2.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1_xwh': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1_xwh
+[3.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1_xwh)
+[3.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1_xwh' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1_xwh
+[3.218s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh' for CMake module files
+[3.279s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh' for CMake config files
+[3.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1_xwh', 'cmake_prefix_path')
+[3.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.ps1'
+[3.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.dsv'
+[3.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.sh'
+[3.522s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/lib'
+[3.528s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/bin'
+[3.528s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/lib/pkgconfig/hw1_xwh.pc'
+[3.531s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/lib/python3.10/site-packages'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/bin'
+[3.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.ps1'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.dsv'
+[3.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.sh'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.bash'
+[3.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.zsh'
+[4.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/colcon-core/packages/hw1_xwh)
+[4.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1_xwh)
+[4.153s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh' for CMake module files
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh' for CMake config files
+[4.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1_xwh', 'cmake_prefix_path')
+[4.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.ps1'
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.dsv'
+[4.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/hook/cmake_prefix_path.sh'
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/lib'
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/bin'
+[4.388s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/lib/pkgconfig/hw1_xwh.pc'
+[4.389s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/lib/python3.10/site-packages'
+[4.389s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/bin'
+[4.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.ps1'
+[4.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.dsv'
+[4.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.sh'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.bash'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/hw1_xwh/package.zsh'
+[4.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/hshi/cs7630_g6/install/hw1_xwh/share/colcon-core/packages/hw1_xwh)
+[5.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16
+[6.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1
+[8.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1)
+[8.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/GTL/hshi/cs7630_g6/build/hw1
+[8.621s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1' for CMake module files
+[8.650s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1' for CMake config files
+[8.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1', 'cmake_prefix_path')
+[8.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/hook/cmake_prefix_path.ps1'
+[8.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/hook/cmake_prefix_path.dsv'
+[8.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/hook/cmake_prefix_path.sh'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/bin'
+[8.918s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/lib/pkgconfig/hw1.pc'
+[8.918s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/lib/python3.10/site-packages'
+[8.919s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/bin'
+[8.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.ps1'
+[9.001s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.dsv'
+[9.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.sh'
+[9.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.bash'
+[9.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.zsh'
+[9.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/hshi/cs7630_g6/install/hw1/share/colcon-core/packages/hw1)
+[9.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw1)
+[9.326s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1' for CMake module files
+[9.357s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1' for CMake config files
+[9.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw1', 'cmake_prefix_path')
+[9.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/hook/cmake_prefix_path.ps1'
+[9.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/hook/cmake_prefix_path.dsv'
+[9.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/hook/cmake_prefix_path.sh'
+[9.571s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/bin'
+[9.572s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/lib/pkgconfig/hw1.pc'
+[9.572s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/lib/python3.10/site-packages'
+[9.573s] Level 1:colcon.colcon_core.environment:checking '/home/GTL/hshi/cs7630_g6/install/hw1/bin'
+[9.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.ps1'
+[9.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.dsv'
+[9.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.sh'
+[9.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.bash'
+[9.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/GTL/hshi/cs7630_g6/install/hw1/share/hw1/package.zsh'
+[9.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/GTL/hshi/cs7630_g6/install/hw1/share/colcon-core/packages/hw1)
+[10.001s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.003s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.003s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.218s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.218s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.226s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/hshi/cs7630_g6/install/local_setup.ps1'
+[10.347s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/GTL/hshi/cs7630_g6/install/_local_setup_util_ps1.py'
+[10.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/hshi/cs7630_g6/install/setup.ps1'
+[10.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/hshi/cs7630_g6/install/local_setup.sh'
+[10.641s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/GTL/hshi/cs7630_g6/install/_local_setup_util_sh.py'
+[10.709s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/hshi/cs7630_g6/install/setup.sh'
+[10.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/hshi/cs7630_g6/install/local_setup.bash'
+[10.808s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/hshi/cs7630_g6/install/setup.bash'
+[10.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/GTL/hshi/cs7630_g6/install/local_setup.zsh'
+[10.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/GTL/hshi/cs7630_g6/install/setup.zsh'

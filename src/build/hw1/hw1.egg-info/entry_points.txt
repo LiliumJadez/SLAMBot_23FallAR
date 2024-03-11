@@ -1,0 +1,4 @@
+[console_scripts]
+joystick = hw1.joystick_listener:main
+stupid = hw1.stupid:main
+

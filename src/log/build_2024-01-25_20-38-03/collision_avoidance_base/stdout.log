@@ -1,0 +1,50 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o[0m
+[100%] [32m[1mLinking CXX executable collision_avoidance_base[0m
+[100%] Built target collision_avoidance_base
+-- Install configuration: ""
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base
+-- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base" to ""
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/latest
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/COLCON_IGNORE
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58/logger_all.log
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58/events.log
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/latest_build
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.bash
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/COLCON_IGNORE
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.zsh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/_local_setup_util_ps1.py
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/.colcon_install_layout
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/_local_setup_util_sh.py
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.bash
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.ps1
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.ps1
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.zsh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/ca.launch_copy.py
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/ca_auto.launch.py
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/build
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/build/COLCON_IGNORE
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/build/.built_by
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/ca.launch.py
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/__pycache__
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/__pycache__/ca.launch.cpython-310.pyc
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/ament_index/resource_index/package_run_dependencies/collision_avoidance_base
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/ament_index/resource_index/parent_prefix_path/collision_avoidance_base
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.bash
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.sh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.zsh
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.dsv
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/ament_index/resource_index/packages/collision_avoidance_base
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig.cmake
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig-version.cmake
+-- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.xml

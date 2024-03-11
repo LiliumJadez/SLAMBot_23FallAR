@@ -1,0 +1,42 @@
+[2.413s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/msg_pkg -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/src/install/msg_pkg
+[2.660s] -- The C compiler identification is GNU 11.4.0
+[2.890s] -- The CXX compiler identification is GNU 11.4.0
+[3.376s] -- Detecting C compiler ABI info
+[5.231s] -- Detecting C compiler ABI info - done
+[5.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.261s] -- Detecting C compile features
+[5.262s] -- Detecting C compile features - done
+[5.589s] -- Detecting CXX compiler ABI info
+[9.150s] -- Detecting CXX compiler ABI info - done
+[9.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.180s] -- Detecting CXX compile features
+[9.180s] -- Detecting CXX compile features - done
+[9.437s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.590s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.525s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.254s] -- Added test 'lint_cmake' to check CMake code style
+[12.488s] -- Added test 'xmllint' to check XML markup files
+[13.106s] -- Configuring done
+[14.939s] -- Generating done
+[15.345s] -- Build files have been written to: /home/GTL/wxu/cs7630_g6/src/build/msg_pkg
+[15.348s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/msg_pkg -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/src/install/msg_pkg
+[15.348s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16
+[15.447s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16
+[15.501s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/msg_pkg
+[15.507s] -- Install configuration: ""
+[15.595s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/ament_index/resource_index/package_run_dependencies/msg_pkg
+[16.025s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/ament_index/resource_index/parent_prefix_path/msg_pkg
+[16.394s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.sh
+[16.701s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.dsv
+[17.049s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/path.sh
+[17.194s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/environment/path.dsv
+[17.426s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.bash
+[17.621s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.sh
+[17.961s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.zsh
+[18.184s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/local_setup.dsv
+[18.516s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.dsv
+[18.931s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/ament_index/resource_index/packages/msg_pkg
+[19.160s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig.cmake
+[19.370s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig-version.cmake
+[19.593s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/msg_pkg/share/msg_pkg/package.xml
+[19.951s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/msg_pkg

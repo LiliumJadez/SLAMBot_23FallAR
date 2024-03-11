@@ -1,0 +1,56 @@
+[1.179s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_client_py': AMENT_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_msgs LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/task_manager_client_py/prefix_override:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/task_manager_client_py build --build-base /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build install --record /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/install.log --install-scripts $base/lib/task_manager_client_py --single-version-externally-managed
+[1.315s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.315s]   warnings.warn(
+[1.342s] running egg_info
+[1.343s] creating ../../../../build/task_manager_client_py/task_manager_client_py.egg-info
+[1.355s] writing ../../../../build/task_manager_client_py/task_manager_client_py.egg-info/PKG-INFO
+[1.441s] writing dependency_links to ../../../../build/task_manager_client_py/task_manager_client_py.egg-info/dependency_links.txt
+[1.470s] writing entry points to ../../../../build/task_manager_client_py/task_manager_client_py.egg-info/entry_points.txt
+[1.501s] writing requirements to ../../../../build/task_manager_client_py/task_manager_client_py.egg-info/requires.txt
+[1.542s] writing top-level names to ../../../../build/task_manager_client_py/task_manager_client_py.egg-info/top_level.txt
+[1.568s] writing manifest file '../../../../build/task_manager_client_py/task_manager_client_py.egg-info/SOURCES.txt'
+[1.643s] reading manifest file '../../../../build/task_manager_client_py/task_manager_client_py.egg-info/SOURCES.txt'
+[1.663s] writing manifest file '../../../../build/task_manager_client_py/task_manager_client_py.egg-info/SOURCES.txt'
+[1.689s] running build
+[1.689s] running build_py
+[1.691s] creating /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build
+[1.695s] creating /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib
+[1.717s] creating /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py
+[1.734s] copying task_manager_client_py/TaskClient.py -> /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py
+[1.903s] copying task_manager_client_py/tasklist.py -> /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py
+[1.974s] copying task_manager_client_py/__init__.py -> /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py
+[2.023s] copying task_manager_client_py/console.py -> /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py
+[2.126s] running build_scripts
+[2.127s] creating /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/scripts-3.10
+[2.142s] copying and adjusting task_manager_client_py/console.py -> /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/scripts-3.10
+[2.172s] copying node/console -> /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/scripts-3.10
+[2.235s] running install
+[2.235s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.235s]   warnings.warn(
+[2.235s] running install_lib
+[2.255s] creating /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py
+[2.264s] copying /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py/TaskClient.py -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py
+[2.388s] copying /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py/tasklist.py -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py
+[2.491s] copying /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py/__init__.py -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py
+[2.553s] copying /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/lib/task_manager_client_py/console.py -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py
+[2.703s] byte-compiling /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py/TaskClient.py to TaskClient.cpython-310.pyc
+[2.722s] byte-compiling /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py/tasklist.py to tasklist.cpython-310.pyc
+[2.743s] byte-compiling /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py/__init__.py to __init__.cpython-310.pyc
+[2.756s] byte-compiling /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py/console.py to console.cpython-310.pyc
+[2.763s] running install_data
+[2.767s] creating /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/share/ament_index
+[2.773s] creating /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/share/ament_index/resource_index
+[2.791s] creating /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/share/ament_index/resource_index/packages
+[2.804s] copying resource/task_manager_client_py -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/share/ament_index/resource_index/packages
+[2.891s] copying package.xml -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/share/task_manager_client_py
+[2.993s] running install_egg_info
+[3.002s] Copying ../../../../build/task_manager_client_py/task_manager_client_py.egg-info to /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages/task_manager_client_py-0.0.0-py3.10.egg-info
+[3.837s] running install_scripts
+[3.888s] creating /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/task_manager_client_py
+[3.897s] copying /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/scripts-3.10/console -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/task_manager_client_py
+[3.997s] copying /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build/scripts-3.10/console.py -> /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/task_manager_client_py
+[4.089s] changing mode of /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/task_manager_client_py/console to 755
+[4.094s] changing mode of /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/task_manager_client_py/console.py to 775
+[4.105s] Installing tasklist script to /home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/task_manager_client_py
+[4.163s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/task_manager_client_py/install.log'
+[4.214s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/ros_task_manager/src/task_manager_client_py' returned '0': AMENT_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_msgs LD_LIBRARY_PATH=/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/task_manager_client_py/prefix_override:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/task_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/task_manager_client_py build --build-base /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/build install --record /home/GTL/wxu/cs7630_g6/build/task_manager_client_py/install.log --install-scripts $base/lib/task_manager_client_py --single-version-externally-managed

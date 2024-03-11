@@ -1,0 +1,6 @@
+Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/msg_pkg -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/src/install/msg_pkg
+Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/msg_pkg -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/src/install/msg_pkg
+Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16
+Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/msg_pkg -- -j16 -l16
+Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/msg_pkg
+Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/msg_pkg

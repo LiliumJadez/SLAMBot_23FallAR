@@ -1,0 +1,227 @@
+[2.235s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/msg_pkg -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/msg_pkg
+[6.476s] -- The C compiler identification is GNU 11.4.0
+[6.476s] -- The CXX compiler identification is GNU 11.4.0
+[6.476s] -- Detecting C compiler ABI info
+[7.265s] -- Detecting C compiler ABI info - done
+[7.314s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.314s] -- Detecting C compile features
+[7.314s] -- Detecting C compile features - done
+[7.539s] -- Detecting CXX compiler ABI info
+[10.538s] -- Detecting CXX compiler ABI info - done
+[10.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.619s] -- Detecting CXX compile features
+[10.619s] -- Detecting CXX compile features - done
+[11.449s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.075s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[16.062s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[16.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.646s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.409s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[23.874s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[32.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[46.827s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[46.923s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[47.204s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[47.300s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[47.301s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[47.301s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[47.301s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[47.361s] -- Found PythonExtra: .so  
+[50.279s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[53.524s] -- Added test 'copyright' to check source files copyright and LICENSE
+[54.124s] -- Added test 'lint_cmake' to check CMake code style
+[54.482s] -- Added test 'xmllint' to check XML markup files
+[55.877s] -- Configuring done
+[64.815s] -- Generating done
+[65.985s] -- Build files have been written to: /home/GTL/wxu/cs7630_g6/build/msg_pkg
+[65.992s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/msg_pkg -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/msg_pkg
+[65.997s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/msg_pkg -- -j16 -l16
+[66.433s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[66.458s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[66.551s] [  6%] Built target ament_cmake_python_copy_msg_pkg
+[66.992s] running egg_info
+[66.994s] creating msg_pkg.egg-info
+[67.017s] writing msg_pkg.egg-info/PKG-INFO
+[67.160s] writing dependency_links to msg_pkg.egg-info/dependency_links.txt
+[67.209s] writing top-level names to msg_pkg.egg-info/top_level.txt
+[67.235s] [  6%] Built target msg_pkg__cpp
+[67.247s] writing manifest file 'msg_pkg.egg-info/SOURCES.txt'
+[67.318s] [  9%] [32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/regions_of_interest_array__functions.c.o[0m
+[67.358s] reading manifest file 'msg_pkg.egg-info/SOURCES.txt'
+[67.386s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[67.386s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[67.387s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[67.392s] writing manifest file 'msg_pkg.egg-info/SOURCES.txt'
+[67.444s] [ 19%] Built target ament_cmake_python_build_msg_pkg_egg
+[67.575s] [ 22%] [32m[1mLinking C shared library libmsg_pkg__rosidl_generator_c.so[0m
+[67.797s] [ 25%] [32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_pkg/msg/regions_of_interest_array__type_support.cpp.o[0m
+[67.893s] [ 29%] Built target msg_pkg__rosidl_generator_c
+[67.942s] [ 29%] [32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_pkg/msg/detail/dds_fastrtps/regions_of_interest_array__type_support.cpp.o[0m
+[68.033s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[68.034s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[68.050s] [ 41%] [32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_pkg/msg/detail/regions_of_interest_array__type_support.cpp.o[0m
+[68.050s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[68.356s] [ 45%] [32m[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_cpp.so[0m
+[68.520s] [ 54%] [32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/regions_of_interest_array__type_support.cpp.o[0m
+[68.529s] [ 54%] [32m[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[68.551s] [ 61%] [32m[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[68.589s] [ 61%] [32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/regions_of_interest_array__type_support_c.cpp.o[0m
+[68.589s] [ 61%] [32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/regions_of_interest_array__type_support.c.o[0m
+[68.641s] [ 61%] Built target msg_pkg__rosidl_typesupport_cpp
+[68.907s] [ 67%] [32m[1mLinking C shared library libmsg_pkg__rosidl_typesupport_introspection_c.so[0m
+[68.916s] [ 67%] [32m[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_c.so[0m
+[68.918s] [ 67%] Built target msg_pkg__rosidl_typesupport_introspection_cpp
+[68.950s] [ 67%] Built target msg_pkg__rosidl_typesupport_fastrtps_cpp
+[69.182s] [ 67%] Built target msg_pkg__rosidl_typesupport_c
+[69.229s] [ 67%] Built target msg_pkg__rosidl_typesupport_introspection_c
+[69.336s] [ 70%] [32m[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[69.683s] [ 70%] Built target msg_pkg__rosidl_typesupport_fastrtps_c
+[69.735s] [ 70%] Built target msg_pkg
+[71.671s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[72.316s] [ 74%] Built target msg_pkg__py
+[72.445s] [ 77%] [32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_py.dir/rosidl_generator_py/msg_pkg/msg/_regions_of_interest_array_s.c.o[0m
+[72.744s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/msg_pkg/libmsg_pkg__rosidl_generator_py.so[0m
+[72.919s] [ 80%] Built target msg_pkg__rosidl_generator_py
+[73.032s] [ 90%] [32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[73.049s] [ 90%] [32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[73.049s] [ 90%] [32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[73.312s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[73.314s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[73.322s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[73.520s] [100%] Built target msg_pkg__rosidl_typesupport_c__pyext
+[73.539s] [100%] Built target msg_pkg__rosidl_typesupport_introspection_c__pyext
+[73.557s] [100%] Built target msg_pkg__rosidl_typesupport_fastrtps_c__pyext
+[73.824s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/msg_pkg -- -j16 -l16
+[73.877s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/msg_pkg
+[73.888s] -- Install configuration: ""
+[73.942s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/ament_index/resource_index/rosidl_interfaces/msg_pkg
+[74.092s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg
+[74.136s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg
+[74.158s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail
+[74.177s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__type_support.h
+[74.298s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__functions.c
+[74.405s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__functions.h
+[74.561s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__struct.h
+[74.712s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_generator_c__visibility_control.h
+[74.943s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/regions_of_interest_array.h
+[75.199s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/library_path.sh
+[75.361s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/library_path.dsv
+[75.544s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_c.so
+[75.720s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_c.so" to ""
+[75.782s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg
+[75.796s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg
+[75.810s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail
+[75.825s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_fastrtps_c.h
+[76.057s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[76.529s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_c.so
+[76.682s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[77.005s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg
+[77.016s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg
+[77.039s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail
+[77.059s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_introspection_c.h
+[77.242s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__type_support.c
+[77.435s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[77.714s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_c.so
+[77.896s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_c.so" to ""
+[78.006s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_c.so
+[78.175s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_c.so" to ""
+[78.216s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg
+[78.223s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg
+[78.230s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail
+[78.238s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__builder.hpp
+[78.360s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__struct.hpp
+[78.571s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__traits.hpp
+[78.763s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/regions_of_interest_array.hpp
+[78.895s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg
+[78.908s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg
+[78.943s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail
+[78.966s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_fastrtps_cpp.hpp
+[79.158s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/dds_fastrtps
+[79.177s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[79.512s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so
+[79.763s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[79.857s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg
+[79.865s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg
+[79.872s] -- Up-to-date: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail
+[79.880s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__rosidl_typesupport_introspection_cpp.hpp
+[80.144s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/include/msg_pkg/msg_pkg/msg/detail/regions_of_interest_array__type_support.cpp
+[80.499s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_cpp.so
+[80.881s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[80.940s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_cpp.so
+[81.159s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_cpp.so" to ""
+[81.281s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/pythonpath.sh
+[81.515s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/pythonpath.dsv
+[82.278s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info
+[82.336s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[82.565s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[82.780s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[83.011s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[83.280s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg
+[83.368s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[83.597s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/libmsg_pkg__rosidl_generator_py.so
+[83.842s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg
+[84.000s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/_regions_of_interest_array.py
+[84.375s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/__init__.py
+[84.639s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/_regions_of_interest_array_s.c
+[84.907s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[85.138s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/__init__.py
+[85.350s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c
+[85.638s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[85.897s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[86.076s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[86.775s] Listing '/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg'...
+[86.776s] Compiling '/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/__init__.py'...
+[86.776s] Listing '/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg'...
+[86.776s] Compiling '/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/__init__.py'...
+[86.776s] Compiling '/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg/_regions_of_interest_array.py'...
+[86.813s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[86.968s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[87.017s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[87.187s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[87.255s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[87.727s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/local/lib/python3.10/dist-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[87.985s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_py.so
+[88.168s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_py.so" to ""
+[88.240s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/msg/RegionsOfInterestArray.idl
+[88.401s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/msg/RegionsOfInterestArray.msg
+[88.639s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/ament_index/resource_index/package_run_dependencies/msg_pkg
+[88.814s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/ament_index/resource_index/parent_prefix_path/msg_pkg
+[88.964s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.sh
+[89.104s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.dsv
+[89.284s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/path.sh
+[89.452s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/environment/path.dsv
+[89.600s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/local_setup.bash
+[89.755s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/local_setup.sh
+[89.950s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/local_setup.zsh
+[90.110s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/local_setup.dsv
+[90.352s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/package.dsv
+[90.588s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/ament_index/resource_index/packages/msg_pkg
+[90.732s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_cExport.cmake
+[90.904s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_cExport-noconfig.cmake
+[91.042s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[91.183s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[91.364s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport.cmake
+[91.580s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[91.689s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport.cmake
+[91.866s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[91.986s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_cppExport.cmake
+[92.135s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[92.373s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[92.561s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[92.675s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[92.840s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport.cmake
+[92.968s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[93.081s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_pyExport.cmake
+[93.224s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/export_msg_pkg__rosidl_generator_pyExport-noconfig.cmake
+[93.342s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake-extras.cmake
+[93.423s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[93.535s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[93.645s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[93.782s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[93.961s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[94.157s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[94.309s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig.cmake
+[94.448s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig-version.cmake
+[94.573s] -- Installing: /home/GTL/wxu/cs7630_g6/install/msg_pkg/share/msg_pkg/package.xml
+[94.782s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/task_manager_client_py:/home/GTL/wxu/cs7630_g6/install/face_detect_base:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/floor_graph:/home/GTL/wxu/cs7630_g6/install/button_server:/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/build/msg_pkg

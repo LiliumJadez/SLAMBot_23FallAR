@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000165] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000176] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000185] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000196] (vrep_ros_teleop) JobQueued: {'identifier': 'vrep_ros_teleop', 'dependencies': OrderedDict()}
+[0.000209] (vrep_ros_teleop) JobStarted: {'identifier': 'vrep_ros_teleop'}
+[0.044961] (-) TimerEvent: {}
+[0.145196] (-) TimerEvent: {}
+[0.245436] (-) TimerEvent: {}
+[0.345637] (-) TimerEvent: {}
+[0.445881] (-) TimerEvent: {}
+[0.546133] (-) TimerEvent: {}
+[0.646375] (-) TimerEvent: {}
+[0.746631] (-) TimerEvent: {}
+[0.846891] (-) TimerEvent: {}
+[0.947143] (-) TimerEvent: {}
+[1.047352] (-) TimerEvent: {}
+[1.147546] (-) TimerEvent: {}
+[1.247734] (-) TimerEvent: {}
+[1.347965] (-) TimerEvent: {}
+[1.448203] (-) TimerEvent: {}
+[1.548435] (-) TimerEvent: {}
+[1.587301] (vrep_ros_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/vrep_ros_teleop', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/vrep_ros_teleop', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '463441', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '3', 'PATH': '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8a42a729_8972_4e12_80c4_78bddcca8a1b', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.275', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '53', 'AMENT_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/prefix_override:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base'}, 'shell': False}
+[1.807848] (-) TimerEvent: {}
+[1.866213] (vrep_ros_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[1.867368] (vrep_ros_teleop) StdoutLine: {'line': b'creating ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info\n'}
+[1.877663] (vrep_ros_teleop) StdoutLine: {'line': b'writing ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/PKG-INFO\n'}
+[1.907968] (-) TimerEvent: {}
+[1.930156] (vrep_ros_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/dependency_links.txt\n'}
+[1.978259] (vrep_ros_teleop) StdoutLine: {'line': b'writing entry points to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/entry_points.txt\n'}
+[2.001717] (vrep_ros_teleop) StdoutLine: {'line': b'writing requirements to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/requires.txt\n'}
+[2.008053] (-) TimerEvent: {}
+[2.023876] (vrep_ros_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/top_level.txt\n'}
+[2.058492] (vrep_ros_teleop) StdoutLine: {'line': b"writing manifest file '../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/SOURCES.txt'\n"}
+[2.108181] (-) TimerEvent: {}
+[2.140562] (vrep_ros_teleop) StdoutLine: {'line': b"reading manifest file '../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/SOURCES.txt'\n"}
+[2.160270] (vrep_ros_teleop) StdoutLine: {'line': b"writing manifest file '../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info/SOURCES.txt'\n"}
+[2.186098] (vrep_ros_teleop) StdoutLine: {'line': b'running build\n'}
+[2.186215] (vrep_ros_teleop) StdoutLine: {'line': b'running build_py\n'}
+[2.189042] (vrep_ros_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build\n'}
+[2.193631] (vrep_ros_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib\n'}
+[2.202759] (vrep_ros_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib/vrep_ros_teleop\n'}
+[2.208285] (-) TimerEvent: {}
+[2.218449] (vrep_ros_teleop) StdoutLine: {'line': b'copying vrep_ros_teleop/teleop.py -> /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib/vrep_ros_teleop\n'}
+[2.289113] (vrep_ros_teleop) StdoutLine: {'line': b'copying vrep_ros_teleop/__init__.py -> /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib/vrep_ros_teleop\n'}
+[2.308394] (-) TimerEvent: {}
+[2.334801] (vrep_ros_teleop) StdoutLine: {'line': b'copying vrep_ros_teleop/teleop_mux.py -> /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib/vrep_ros_teleop\n'}
+[2.391912] (vrep_ros_teleop) StdoutLine: {'line': b'running install\n'}
+[2.392125] (vrep_ros_teleop) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.392176] (vrep_ros_teleop) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.392286] (vrep_ros_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[2.408489] (-) TimerEvent: {}
+[2.415224] (vrep_ros_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop\n'}
+[2.427438] (vrep_ros_teleop) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib/vrep_ros_teleop/teleop.py -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop\n'}
+[2.490142] (vrep_ros_teleop) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib/vrep_ros_teleop/__init__.py -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop\n'}
+[2.508594] (-) TimerEvent: {}
+[2.540025] (vrep_ros_teleop) StdoutLine: {'line': b'copying /home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/build/lib/vrep_ros_teleop/teleop_mux.py -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop\n'}
+[2.608686] (-) TimerEvent: {}
+[2.625644] (vrep_ros_teleop) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop/teleop.py to teleop.cpython-310.pyc\n'}
+[2.647654] (vrep_ros_teleop) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop/__init__.py to __init__.cpython-310.pyc\n'}
+[2.659387] (vrep_ros_teleop) StdoutLine: {'line': b'byte-compiling /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop/teleop_mux.py to teleop_mux.cpython-310.pyc\n'}
+[2.667390] (vrep_ros_teleop) StdoutLine: {'line': b'running install_data\n'}
+[2.672428] (vrep_ros_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/ament_index\n'}
+[2.676923] (vrep_ros_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/ament_index/resource_index\n'}
+[2.685173] (vrep_ros_teleop) StdoutLine: {'line': b'creating /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/ament_index/resource_index/packages\n'}
+[2.697668] (vrep_ros_teleop) StdoutLine: {'line': b'copying resource/vrep_ros_teleop -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/ament_index/resource_index/packages\n'}
+[2.708784] (-) TimerEvent: {}
+[2.749348] (vrep_ros_teleop) StdoutLine: {'line': b'copying package.xml -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/vrep_ros_teleop\n'}
+[2.808922] (-) TimerEvent: {}
+[2.810309] (vrep_ros_teleop) StdoutLine: {'line': b'copying launch/teleop.launch.py -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/vrep_ros_teleop\n'}
+[2.872285] (vrep_ros_teleop) StdoutLine: {'line': b'copying launch/teleop_mux_tb.launch.py -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/vrep_ros_teleop\n'}
+[2.909049] (-) TimerEvent: {}
+[2.948991] (vrep_ros_teleop) StdoutLine: {'line': b'copying launch/teleop_mux.launch.py -> /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/share/vrep_ros_teleop\n'}
+[3.009170] (-) TimerEvent: {}
+[3.089112] (vrep_ros_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.091642] (vrep_ros_teleop) StdoutLine: {'line': b'Copying ../../build/vrep_ros_teleop/vrep_ros_teleop.egg-info to /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages/vrep_ros_teleop-0.0.0-py3.10.egg-info\n'}
+[3.109267] (-) TimerEvent: {}
+[3.209447] (-) TimerEvent: {}
+[3.309707] (-) TimerEvent: {}
+[3.409934] (-) TimerEvent: {}
+[3.510208] (-) TimerEvent: {}
+[3.610472] (-) TimerEvent: {}
+[3.668858] (vrep_ros_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[3.700506] (vrep_ros_teleop) StdoutLine: {'line': b'Installing teleop_mux_node script to /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/vrep_ros_teleop\n'}
+[3.710565] (-) TimerEvent: {}
+[3.738147] (vrep_ros_teleop) StdoutLine: {'line': b'Installing teleop_node script to /home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/vrep_ros_teleop\n'}
+[3.768846] (vrep_ros_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/vrep_ros_teleop/install.log'\n"}
+[3.810696] (-) TimerEvent: {}
+[3.833748] (vrep_ros_teleop) CommandEnded: {'returncode': 0}
+[3.910807] (-) TimerEvent: {}
+[4.011044] (-) TimerEvent: {}
+[4.111253] (-) TimerEvent: {}
+[4.211461] (-) TimerEvent: {}
+[4.241311] (vrep_ros_teleop) JobEnded: {'identifier': 'vrep_ros_teleop', 'rc': 0}
+[4.273563] (-) EventReactorShutdown: {}

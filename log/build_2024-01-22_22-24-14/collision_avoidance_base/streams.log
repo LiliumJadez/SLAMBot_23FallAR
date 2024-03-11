@@ -1,0 +1,25 @@
+[0.388s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base -- -j16 -l16
+[0.525s] [ 50%] [32mBuilding CXX object CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o[0m
+[4.029s] [01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:[m[K In member function ‘[01m[Kvoid CollisionAvoidance::processPointCloud(pcl::PointCloud<pcl::PointXYZ>&)[m[K’:
+[4.029s] [01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:18:[m[K [01;31m[Kerror: [m[K‘[01m[KPassThrough[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[4.029s]    68 |             pcl::[01;31m[KPassThrough[m[K<pcl::PointXYZ> pass;
+[4.029s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[4.029s] [01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.029s]    68 |             pcl::PassThrough<pcl::PointXYZ[01;31m[K>[m[K pass;
+[4.029s]       |                                           [01;31m[K^[m[K
+[4.035s] [01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:68:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpass[m[K’ was not declared in this scope
+[4.035s]    68 |             pcl::PassThrough<pcl::PointXYZ> [01;31m[Kpass[m[K;
+[4.035s]       |                                             [01;31m[K^~~~[m[K
+[4.037s] [01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:18:[m[K [01;31m[Kerror: [m[K‘[01m[KVoxelGrid[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[4.037s]    75 |             pcl::[01;31m[KVoxelGrid[m[K<pcl::PointXYZ> vg;
+[4.038s]       |                  [01;31m[K^~~~~~~~~[m[K
+[4.038s] [01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.038s]    75 |             pcl::VoxelGrid<pcl::PointXYZ[01;31m[K>[m[K vg;
+[4.038s]       |                                         [01;31m[K^[m[K
+[4.042s] [01m[K/home/GTL/wxu/cs7630_g6/src/collision_avoidance_base/src/collision_avoidance.cpp:75:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kvg[m[K’ was not declared in this scope
+[4.042s]    75 |             pcl::VoxelGrid<pcl::PointXYZ> [01;31m[Kvg[m[K;
+[4.042s]       |                                           [01;31m[K^~[m[K
+[7.076s] gmake[2]: *** [CMakeFiles/collision_avoidance_base.dir/build.make:76: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o] Error 1
+[7.081s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/collision_avoidance_base.dir/all] Error 2
+[7.082s] gmake: *** [Makefile:146: all] Error 2
+[7.083s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base -- -j16 -l16

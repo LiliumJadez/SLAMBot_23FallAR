@@ -1,0 +1,54 @@
+[1.717s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base -- -j16 -l16
+[3.257s] [ 50%] [32mBuilding CXX object CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o[0m
+[22.459s] [100%] [32m[1mLinking CXX executable collision_avoidance_base[0m
+[24.317s] [100%] Built target collision_avoidance_base
+[24.793s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base -- -j16 -l16
+[25.616s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base
+[25.616s] -- Install configuration: ""
+[25.616s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base
+[26.770s] -- Set runtime path of "/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/lib/collision_avoidance_base/collision_avoidance_base" to ""
+[26.838s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base
+[26.856s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log
+[26.879s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/latest
+[26.885s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/COLCON_IGNORE
+[27.061s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58
+[27.071s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58/logger_all.log
+[27.379s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/build_2024-01-22_22-23-58/events.log
+[27.577s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/log/latest_build
+[27.584s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install
+[27.594s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.bash
+[27.804s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/COLCON_IGNORE
+[27.939s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.zsh
+[28.150s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/_local_setup_util_ps1.py
+[28.359s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/.colcon_install_layout
+[28.654s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.sh
+[28.815s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/_local_setup_util_sh.py
+[28.990s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.bash
+[29.158s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.ps1
+[29.318s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.ps1
+[29.775s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/setup.sh
+[30.031s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/install/local_setup.zsh
+[30.273s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/ca.launch_copy.py
+[30.454s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/ca_auto.launch.py
+[30.639s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/build
+[30.688s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/build/COLCON_IGNORE
+[30.828s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/build/.built_by
+[31.029s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/ca.launch.py
+[31.256s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/__pycache__
+[31.266s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/__pycache__/ca.launch.cpython-310.pyc
+[31.549s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/ament_index/resource_index/package_run_dependencies/collision_avoidance_base
+[31.793s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/ament_index/resource_index/parent_prefix_path/collision_avoidance_base
+[31.952s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.sh
+[32.143s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/ament_prefix_path.dsv
+[32.362s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.sh
+[32.583s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/environment/path.dsv
+[32.890s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.bash
+[33.033s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.sh
+[33.164s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.zsh
+[33.278s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/local_setup.dsv
+[33.566s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.dsv
+[33.928s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/ament_index/resource_index/packages/collision_avoidance_base
+[34.143s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig.cmake
+[34.436s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/cmake/collision_avoidance_baseConfig-version.cmake
+[34.608s] -- Installing: /home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base/share/collision_avoidance_base/package.xml
+[34.938s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/GTL/wxu/cs7630_g6/src/build/collision_avoidance_base

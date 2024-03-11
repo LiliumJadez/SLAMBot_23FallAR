@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target floornav_TaskWanderFront[0m
+[ 70%] Built target floornav_TaskTrigger
+[ 70%] Built target floornav_TaskWaitForROI
+[ 70%] Built target floornav_TaskGoTo
+[ 70%] [32mBuilding CXX object CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o[0m
+[ 88%] Built target floornav_TaskWanderFront
+[ 88%] Built target floornav_TaskSetMux
+[ 88%] Built target floornav_TaskPlanTo
+[ 88%] Built target floornav_TaskNav2
+[ 92%] Built target floornav_TaskWander
+[ 92%] Built target floornav_TaskSetHeading
+[ 92%] Built target floornav_TaskConstant
+[ 96%] Built target floornav_TaskAutoDock
+[ 96%] Built target floornav_task_server

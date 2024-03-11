@@ -1,0 +1,42 @@
+[2.959s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/vrep4_helpers -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers
+[3.138s] -- The C compiler identification is GNU 11.4.0
+[3.589s] -- The CXX compiler identification is GNU 11.4.0
+[3.793s] -- Detecting C compiler ABI info
+[6.015s] -- Detecting C compiler ABI info - done
+[6.069s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.069s] -- Detecting C compile features
+[6.069s] -- Detecting C compile features - done
+[6.230s] -- Detecting CXX compiler ABI info
+[8.747s] -- Detecting CXX compiler ABI info - done
+[8.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.780s] -- Detecting CXX compile features
+[8.781s] -- Detecting CXX compile features - done
+[9.220s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.870s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[12.257s] -- Found depth_image_proc: 3.0.0 (/opt/ros/humble/share/depth_image_proc/cmake)
+[13.849s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[14.098s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[14.350s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[14.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.018s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.163s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[20.320s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[21.765s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[22.369s] -- Looking for pthread.h
+[23.727s] -- Looking for pthread.h - found
+[23.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[25.357s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[25.362s] -- Found Threads: TRUE  
+[29.581s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[32.169s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.169s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/GTL/wxu/cs7630_g6/src/vrep4_helpers/include>
+[32.170s] -- Configured cppcheck exclude dirs and/or files: 
+[32.233s] -- Added test 'flake8' to check Python code syntax and style conventions
+[32.282s] -- Added test 'lint_cmake' to check CMake code style
+[32.325s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[32.481s] -- Added test 'uncrustify' to check C / C++ code style
+[32.481s] -- Configured uncrustify additional arguments: 
+[32.554s] -- Added test 'xmllint' to check XML markup files
+[33.234s] -- Configuring done
+[35.556s] -- Generating done
+[36.060s] -- Build files have been written to: /home/GTL/wxu/cs7630_g6/src/build/vrep4_helpers

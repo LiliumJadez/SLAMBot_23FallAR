@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target floornav_TaskWaitForFace[0m
+[ 81%] Built target floornav_TaskSetMux
+[ 81%] Built target floornav_TaskNav2
+[ 81%] Built target floornav_TaskAutoDock
+[ 81%] Built target floornav_TaskWaitForROI
+[ 81%] Built target floornav_TaskConstant
+[ 81%] [32mBuilding CXX object CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o[0m
+[ 81%] Built target floornav_TaskWander
+[ 81%] Built target floornav_TaskWanderFront
+[ 85%] Built target floornav_TaskSetHeading
+[ 85%] Built target floornav_TaskGoTo
+[ 85%] Built target floornav_TaskPlanTo
+[ 85%] Built target floornav_TaskTrigger
+[ 96%] Built target floornav_task_server
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/install/task_manager_lib/include/task_manager_lib/TaskInstance.h:19[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:4[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/install/task_manager_lib/include/task_manager_lib/TaskDefinition.h:242:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  242 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:29:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KDYNAMIC_TASK[m[K’
+   29 | [01;36m[KDYNAMIC_TASK[m[K(TaskFactoryWaitForFace)
+      | [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:11:21:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   11 | namespace floor_nav [01;36m[K{[m[K
+      |                     [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWaitForFace.dir/build.make:76: CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/floornav_TaskWaitForFace.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

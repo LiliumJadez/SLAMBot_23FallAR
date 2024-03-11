@@ -1,0 +1,14 @@
+[0.373s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base -- -j16 -l16
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target collision_avoidance_base[0m
+[0.908s] [ 50%] [32mBuilding CXX object CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o[0m
+[21.947s] [100%] [32m[1mLinking CXX executable collision_avoidance_base[0m
+[42.597s] /usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o: in function `pcl::PassThrough<pcl::PointXYZ>::applyFilter(std::vector<int, std::allocator<int> >&)':
+[42.597s] /usr/include/pcl-1.12/pcl/filters/passthrough.h:199: undefined reference to `pcl::PassThrough<pcl::PointXYZ>::applyFilterIndices(std::vector<int, std::allocator<int> >&)'
+[42.619s] /usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o:(.data.rel.ro._ZTVN3pcl13FilterIndicesINS_8PointXYZEEE[_ZTVN3pcl13FilterIndicesINS_8PointXYZEEE]+0x48): undefined reference to `pcl::FilterIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+[42.619s] /usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o:(.data.rel.ro._ZTVN3pcl11PassThroughINS_8PointXYZEEE[_ZTVN3pcl11PassThroughINS_8PointXYZEEE]+0x48): undefined reference to `pcl::FilterIndices<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+[42.619s] /usr/bin/ld: CMakeFiles/collision_avoidance_base.dir/src/collision_avoidance.cpp.o:(.data.rel.ro._ZTVN3pcl9VoxelGridINS_8PointXYZEEE[_ZTVN3pcl9VoxelGridINS_8PointXYZEEE]+0x48): undefined reference to `pcl::VoxelGrid<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
+[43.463s] collect2: error: ld returned 1 exit status
+[43.464s] gmake[2]: *** [CMakeFiles/collision_avoidance_base.dir/build.make:272: collision_avoidance_base] Error 1
+[43.466s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/collision_avoidance_base.dir/all] Error 2
+[43.466s] gmake: *** [Makefile:146: all] Error 2
+[43.468s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/collision_avoidance_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/hw1:/opt/ros/humble /usr/bin/cmake --build /home/GTL/wxu/cs7630_g6/build/collision_avoidance_base -- -j16 -l16

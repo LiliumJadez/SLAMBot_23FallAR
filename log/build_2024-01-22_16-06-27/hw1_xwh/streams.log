@@ -1,0 +1,21 @@
+[0.802s] Invoking command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh': /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/hw1_xwh -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/hw1_xwh
+[1.027s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.027s]   By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has
+[1.027s]   asked CMake to find a package configuration file provided by "rclcpp", but
+[1.027s]   CMake did not find one.
+[1.027s] 
+[1.027s]   Could not find a package configuration file provided by "rclcpp" with any
+[1.027s]   of the following names:
+[1.027s] 
+[1.027s]     rclcppConfig.cmake
+[1.028s]     rclcpp-config.cmake
+[1.028s] 
+[1.028s]   Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set
+[1.028s]   "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"
+[1.028s]   provides a separate development package or SDK, be sure it has been
+[1.028s]   installed.
+[1.028s] 
+[1.028s] [0m
+[1.028s] -- Configuring incomplete, errors occurred!
+[1.028s] See also "/home/GTL/wxu/cs7630_g6/build/hw1_xwh/CMakeFiles/CMakeOutput.log".
+[1.028s] Invoked command in '/home/GTL/wxu/cs7630_g6/build/hw1_xwh' returned '1': /usr/bin/cmake /home/GTL/wxu/cs7630_g6/src/hw1_xwh -DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/hw1_xwh

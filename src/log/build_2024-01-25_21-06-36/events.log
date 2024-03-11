@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000144] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000156] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000165] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000173] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000183] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000194] (msg_pkg) JobQueued: {'identifier': 'msg_pkg', 'dependencies': OrderedDict()}
+[0.000208] (msg_pkg) JobStarted: {'identifier': 'msg_pkg'}
+[0.063378] (-) TimerEvent: {}
+[0.134819] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'cmake'}
+[0.163501] (-) TimerEvent: {}
+[0.166777] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'build'}
+[0.167253] (msg_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg', '--', '-j16', '-l16'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu/cs7630_g6'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '91120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/cs-share/pradalier/CoppeliaSim'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/GTL/wxu/cs7630_g6/src/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin'), ('SESSION_MANAGER', 'local/gtlpc111.georgiatech-metz.fr:@/tmp/.ICE-unix/90624,unix/gtlpc111.georgiatech-metz.fr:/tmp/.ICE-unix/90624'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1bcedb90_69af_492a_9897_c106dd8acfa0'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '61'), ('AMENT_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/src/build/msg_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/GTL/wxu/cs7630_g6/src/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/src/install/msg_pkg:/home/GTL/wxu/cs7630_g6/src/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/src/install/collision_avoidance_base:/home/GTL/wxu/cs7630_g6/src/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/src/install/hw1:/home/GTL/wxu/cs7630_g6/src/install/face_detect_base:/opt/ros/humble')]), 'shell': False}
+[0.348154] (-) TimerEvent: {}
+[0.348232] (msg_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.448272] (-) TimerEvent: {}
+[0.548560] (-) TimerEvent: {}
+[0.591894] (msg_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.605771] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.607260] (msg_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.648684] (-) TimerEvent: {}
+[0.664295] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.680016] (msg_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.748802] (-) TimerEvent: {}
+[0.788404] (msg_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.848931] (-) TimerEvent: {}
+[0.916700] (msg_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[0.916849] (msg_pkg) StderrLine: {'line': b'  rosidl_generate_interfaces() the passed file\n'}
+[0.916897] (msg_pkg) StderrLine: {'line': b'  \'\xe2\x80\x82\xe2\x80\x82\xe2\x80\x82\xe2\x80\x82"msg/RegionsOfInterestArray.msg"\' doesn\'t exist relative to\n'}
+[0.916934] (msg_pkg) StderrLine: {'line': b"  the CMAKE_CURRENT_SOURCE_DIR '/home/GTL/wxu/cs7630_g6/src/msg_pkg'\n"}
+[0.916970] (msg_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.917005] (msg_pkg) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[0.917038] (msg_pkg) StderrLine: {'line': b'\n'}
+[0.917070] (msg_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.919925] (msg_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.919994] (msg_pkg) StdoutLine: {'line': b'See also "/home/GTL/wxu/cs7630_g6/src/build/msg_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[0.949038] (-) TimerEvent: {}
+[0.992978] (msg_pkg) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[0.994051] (msg_pkg) CommandEnded: {'returncode': 2}
+[1.049145] (-) TimerEvent: {}
+[1.149345] (-) TimerEvent: {}
+[1.249565] (-) TimerEvent: {}
+[1.349797] (-) TimerEvent: {}
+[1.450019] (-) TimerEvent: {}
+[1.550278] (-) TimerEvent: {}
+[1.604956] (msg_pkg) JobEnded: {'identifier': 'msg_pkg', 'rc': 2}
+[1.645368] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[0.603s] Invoking command in '/home/GTL/hshi/cs7630_g6/build/hw1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16
+[0.831s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.832s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[0.832s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.876s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.878s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.881s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.901s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.048s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.199s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.244s] -- Added test 'lint_cmake' to check CMake code style
+[2.264s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.432s] -- Added test 'xmllint' to check XML markup files
+[2.742s] -- Configuring done
+[2.902s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[2.903s]   Cannot find source file:
+[2.903s] 
+[2.903s]     src/my_node.cpp
+[2.903s] 
+[2.903s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.903s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.904s] 
+[2.904s] [0m
+[2.904s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[2.904s]   No SOURCES given to target: my_node
+[2.904s] 
+[2.905s] [0m
+[2.905s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.913s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[2.923s] Invoked command in '/home/GTL/hshi/cs7630_g6/build/hw1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/GTL/hshi/cs7630_g6/build/hw1 -- -j16 -l16

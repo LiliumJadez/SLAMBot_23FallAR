@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000125] (-) JobUnselected: {'identifier': 'face_detect_base'}
+[0.000135] (-) JobUnselected: {'identifier': 'hw1'}
+[0.000144] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000152] (-) JobUnselected: {'identifier': 'msg_pkg'}
+[0.000160] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000167] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000176] (-) EventReactorShutdown: {}

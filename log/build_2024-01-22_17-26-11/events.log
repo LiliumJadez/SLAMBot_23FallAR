@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000143] (-) JobUnselected: {'identifier': 'collision_avoidance_base'}
+[0.000170] (-) JobUnselected: {'identifier': 'hw1_xwh'}
+[0.000191] (-) JobUnselected: {'identifier': 'vrep4_helpers'}
+[0.000200] (-) JobUnselected: {'identifier': 'vrep_ros_teleop'}
+[0.000210] (hw1) JobQueued: {'identifier': 'hw1', 'dependencies': OrderedDict()}
+[0.000222] (hw1) JobStarted: {'identifier': 'hw1'}
+[0.077475] (-) TimerEvent: {}
+[0.177755] (-) TimerEvent: {}
+[0.278016] (-) TimerEvent: {}
+[0.378256] (-) TimerEvent: {}
+[0.478515] (-) TimerEvent: {}
+[0.578760] (-) TimerEvent: {}
+[0.678955] (-) TimerEvent: {}
+[0.779179] (-) TimerEvent: {}
+[0.879407] (-) TimerEvent: {}
+[0.979643] (-) TimerEvent: {}
+[1.079875] (-) TimerEvent: {}
+[1.122490] (hw1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/hw1', 'build', '--build-base', '/home/GTL/wxu/cs7630_g6/build/hw1/build', 'install', '--record', '/home/GTL/wxu/cs7630_g6/build/hw1/install.log', '--single-version-externally-managed'], 'cwd': '/home/GTL/wxu/cs7630_g6/src/hw1', 'env': {'USER': 'wxu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/GTL/wxu', 'CYCLONEDDS_URI': '/cs-share/pradalier/gtlpc_cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '463441', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/36864/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'wxu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wxu', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/cs-share/pradalier/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '3', 'PATH': '/home/GTL/wxu/cs7630_g6/install/hw1/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/GTL/wxu/.local/bin', 'SESSION_MANAGER': 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a8c53dc4_07dc_4f6c_a495_748894d9c5e5', 'XDG_RUNTIME_DIR': '/run/user/36864', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/36864/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.275', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/36864/keyring/ssh', 'ROS_DOMAIN_ID': '53', 'AMENT_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop:/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/hw1:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base:/opt/ros/humble', 'SHELL': '/bin/bash', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_36864', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/36864/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/GTL/wxu/cs7630_g6/build/hw1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/GTL/wxu/cs7630_g6/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/vrep_ros_teleop/lib/python3.10/site-packages:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/GTL/wxu/cs7630_g6/install/vrep4_helpers:/home/GTL/wxu/cs7630_g6/install/hw1_xwh:/home/GTL/wxu/cs7630_g6/install/collision_avoidance_base'}, 'shell': False}
+[1.308216] (-) TimerEvent: {}
+[1.369312] (hw1) StdoutLine: {'line': b'running egg_info\n'}
+[1.369621] (hw1) StdoutLine: {'line': b'creating ../../build/hw1/hw1.egg-info\n'}
+[1.379224] (hw1) StdoutLine: {'line': b'writing ../../build/hw1/hw1.egg-info/PKG-INFO\n'}
+[1.408336] (-) TimerEvent: {}
+[1.431346] (hw1) StdoutLine: {'line': b'writing dependency_links to ../../build/hw1/hw1.egg-info/dependency_links.txt\n'}
+[1.462809] (hw1) StdoutLine: {'line': b'writing entry points to ../../build/hw1/hw1.egg-info/entry_points.txt\n'}
+[1.491708] (hw1) StdoutLine: {'line': b'writing requirements to ../../build/hw1/hw1.egg-info/requires.txt\n'}
+[1.508439] (-) TimerEvent: {}
+[1.564741] (hw1) StdoutLine: {'line': b'writing top-level names to ../../build/hw1/hw1.egg-info/top_level.txt\n'}
+[1.608564] (-) TimerEvent: {}
+[1.612896] (hw1) StdoutLine: {'line': b"writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'\n"}
+[1.704000] (hw1) StdoutLine: {'line': b"reading manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'\n"}
+[1.708635] (-) TimerEvent: {}
+[1.721946] (hw1) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.726835] (hw1) StdoutLine: {'line': b"writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'\n"}
+[1.750308] (hw1) StdoutLine: {'line': b'running build\n'}
+[1.750408] (hw1) StdoutLine: {'line': b'running build_py\n'}
+[1.773599] (hw1) StdoutLine: {'line': b'running install\n'}
+[1.773773] (hw1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.773843] (hw1) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.773958] (hw1) StdoutLine: {'line': b'running install_lib\n'}
+[1.808743] (-) TimerEvent: {}
+[1.832360] (hw1) StdoutLine: {'line': b'running install_data\n'}
+[1.839094] (hw1) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.840917] (hw1) StdoutLine: {'line': b'Copying ../../build/hw1/hw1.egg-info to /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info\n'}
+[1.908868] (-) TimerEvent: {}
+[2.009099] (-) TimerEvent: {}
+[2.109322] (-) TimerEvent: {}
+[2.209576] (-) TimerEvent: {}
+[2.309800] (-) TimerEvent: {}
+[2.387095] (hw1) StdoutLine: {'line': b'running install_scripts\n'}
+[2.405020] (hw1) StdoutLine: {'line': b'Installing joystick script to /home/GTL/wxu/cs7630_g6/install/hw1/bin\n'}
+[2.409882] (-) TimerEvent: {}
+[2.437396] (hw1) StdoutLine: {'line': b'Installing stupid script to /home/GTL/wxu/cs7630_g6/install/hw1/bin\n'}
+[2.473782] (hw1) StdoutLine: {'line': b"writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/hw1/install.log'\n"}
+[2.509997] (-) TimerEvent: {}
+[2.519827] (hw1) CommandEnded: {'returncode': 0}
+[2.610086] (-) TimerEvent: {}
+[2.710301] (-) TimerEvent: {}
+[2.810537] (-) TimerEvent: {}
+[2.910756] (-) TimerEvent: {}
+[3.010992] (-) TimerEvent: {}
+[3.111260] (-) TimerEvent: {}
+[3.211499] (-) TimerEvent: {}
+[3.311709] (-) TimerEvent: {}
+[3.348272] (hw1) JobEnded: {'identifier': 'hw1', 'rc': 0}
+[3.382701] (-) EventReactorShutdown: {}

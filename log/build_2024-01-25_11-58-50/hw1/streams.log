@@ -1,0 +1,25 @@
+[4.264s] Invoking command in '/home/GTL/wxu/cs7630_g6/src/hw1': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw1 build --build-base /home/GTL/wxu/cs7630_g6/build/hw1/build install --record /home/GTL/wxu/cs7630_g6/build/hw1/install.log --single-version-externally-managed
+[4.550s] running egg_info
+[4.550s] writing ../../build/hw1/hw1.egg-info/PKG-INFO
+[4.550s] writing dependency_links to ../../build/hw1/hw1.egg-info/dependency_links.txt
+[4.550s] writing entry points to ../../build/hw1/hw1.egg-info/entry_points.txt
+[4.575s] writing requirements to ../../build/hw1/hw1.egg-info/requires.txt
+[4.681s] writing top-level names to ../../build/hw1/hw1.egg-info/top_level.txt
+[4.802s] reading manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+[4.832s] adding license file 'LICENSE'
+[4.832s] writing manifest file '../../build/hw1/hw1.egg-info/SOURCES.txt'
+[4.918s] running build
+[4.918s] running build_py
+[4.944s] running install
+[4.944s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.944s]   warnings.warn(
+[4.944s] running install_lib
+[4.978s] running install_data
+[4.989s] running install_egg_info
+[4.990s] removing '/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info' (and everything under it)
+[5.084s] Copying ../../build/hw1/hw1.egg-info to /home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages/hw1-0.0.0-py3.10.egg-info
+[6.268s] running install_scripts
+[6.297s] Installing joystick script to /home/GTL/wxu/cs7630_g6/install/hw1/bin
+[6.340s] Installing stupid script to /home/GTL/wxu/cs7630_g6/install/hw1/bin
+[6.418s] writing list of installed files to '/home/GTL/wxu/cs7630_g6/build/hw1/install.log'
+[8.652s] Invoked command in '/home/GTL/wxu/cs7630_g6/src/hw1' returned '0': PYTHONPATH=/home/GTL/wxu/cs7630_g6/build/hw1/prefix_override:/home/GTL/wxu/cs7630_g6/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw1 build --build-base /home/GTL/wxu/cs7630_g6/build/hw1/build install --record /home/GTL/wxu/cs7630_g6/build/hw1/install.log --single-version-externally-managed

@@ -1,0 +1,19 @@
+[  3%] [32mBuilding CXX object CMakeFiles/floornav_TaskGoToPose.dir/tasks/TaskGoToPose.cpp.o[0m
+[ 87%] Built target floornav_TaskAutoDock
+[ 87%] Built target floornav_TaskStareAtFace
+[ 87%] Built target floornav_TaskPlanTo
+[ 87%] Built target floornav_TaskSetMux
+[ 87%] Built target floornav_TaskSetHeading
+[ 87%] Built target floornav_TaskWaitForROI
+[ 87%] Built target floornav_TaskConstant
+[ 87%] Built target floornav_TaskWanderFront
+[ 87%] Built target floornav_TaskWaitForFace
+[ 87%] Built target floornav_TaskGoTo
+[ 87%] Built target floornav_TaskTrigger
+[ 87%] Built target floornav_TaskNav2
+[ 87%] Built target floornav_TaskWander
+[ 96%] Built target floornav_task_server
+[100%] [32m[1mLinking CXX shared library libfloornav_TaskGoToPose.so[0m
+[100%] Built target floornav_TaskGoToPose
+-- Install configuration: ""
+-- Installing: /home/GTL/wxu/cs7630_g6/install/floor_nav/lib/floor_nav/floornav_task_server

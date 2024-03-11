@@ -1,0 +1,8 @@
+source;share/hw1_xwh/hook/cmake_prefix_path.ps1
+source;share/hw1_xwh/hook/cmake_prefix_path.dsv
+source;share/hw1_xwh/hook/cmake_prefix_path.sh
+source;share/hw1_xwh/local_setup.bash
+source;share/hw1_xwh/local_setup.dsv
+source;share/hw1_xwh/local_setup.ps1
+source;share/hw1_xwh/local_setup.sh
+source;share/hw1_xwh/local_setup.zsh

@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000302] (hw1) JobQueued: {'identifier': 'hw1', 'dependencies': OrderedDict()}
+[0.000392] (hw1_xwh) JobQueued: {'identifier': 'hw1_xwh', 'dependencies': OrderedDict()}
+[0.000431] (vrep4_helpers) JobQueued: {'identifier': 'vrep4_helpers', 'dependencies': OrderedDict()}
+[0.000465] (hw1) JobStarted: {'identifier': 'hw1'}
+[0.055339] (-) TimerEvent: {}
+[0.155844] (-) TimerEvent: {}
+[0.175192] (hw1_xwh) JobStarted: {'identifier': 'hw1_xwh'}
+[0.232090] (vrep4_helpers) JobStarted: {'identifier': 'vrep4_helpers'}
+[0.255952] (-) TimerEvent: {}
+[0.356249] (-) TimerEvent: {}
+[0.456850] (-) TimerEvent: {}
+[0.557052] (-) TimerEvent: {}
+[0.657319] (-) TimerEvent: {}
+[0.711820] (hw1_xwh) JobProgress: {'identifier': 'hw1_xwh', 'progress': 'cmake'}
+[0.754156] (hw1_xwh) Command: {'cmd': ['/usr/bin/cmake', '/home/GTL/wxu/cs7630_g6/src/hw1_xwh', '-DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/hw1_xwh'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/hw1_xwh', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '455265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29cbafc1_31e5_4af0_8f71_3bc29bc864b6'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/hw1_xwh'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.978274] (-) TimerEvent: {}
+[0.978588] (vrep4_helpers) JobProgress: {'identifier': 'vrep4_helpers', 'progress': 'cmake'}
+[0.978665] (vrep4_helpers) Command: {'cmd': ['/usr/bin/cmake', '/home/GTL/wxu/cs7630_g6/src/vrep4_helpers', '-DCMAKE_INSTALL_PREFIX=/home/GTL/wxu/cs7630_g6/install/vrep4_helpers'], 'cwd': '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers', 'env': OrderedDict([('USER', 'wxu'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/GTL/wxu'), ('CYCLONEDDS_URI', '/cs-share/pradalier/gtlpc_cyclonedds.xml'), ('OLDPWD', '/home/GTL/wxu'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '455265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/36864/bus'), ('COLORTERM', 'truecolor'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wxu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wxu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gtlpc103.georgiatech-metz.fr:@/tmp/.ICE-unix/455247,unix/gtlpc103.georgiatech-metz.fr:/tmp/.ICE-unix/455247'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29cbafc1_31e5_4af0_8f71_3bc29bc864b6'), ('XDG_RUNTIME_DIR', '/run/user/36864'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/36864/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/36864/keyring/ssh'), ('ROS_DOMAIN_ID', '53'), ('SHELL', '/bin/bash'), ('KRB5CCNAME', 'FILE:/tmp/krb5cc_36864'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/36864/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/GTL/wxu/cs7630_g6/build/vrep4_helpers'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.202504] (-) TimerEvent: {}
+[1.202587] (hw1_xwh) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.202653] (hw1_xwh) StderrLine: {'line': b'  By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.202697] (hw1_xwh) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "rclcpp", but\n'}
+[1.202730] (hw1_xwh) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.202760] (hw1_xwh) StderrLine: {'line': b'\n'}
+[1.202791] (hw1_xwh) StderrLine: {'line': b'  Could not find a package configuration file provided by "rclcpp" with any\n'}
+[1.202822] (hw1_xwh) StderrLine: {'line': b'  of the following names:\n'}
+[1.202854] (hw1_xwh) StderrLine: {'line': b'\n'}
+[1.202885] (hw1_xwh) StderrLine: {'line': b'    rclcppConfig.cmake\n'}
+[1.202914] (hw1_xwh) StderrLine: {'line': b'    rclcpp-config.cmake\n'}
+[1.202944] (hw1_xwh) StderrLine: {'line': b'\n'}
+[1.202974] (hw1_xwh) StderrLine: {'line': b'  Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set\n'}
+[1.203004] (hw1_xwh) StderrLine: {'line': b'  "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"\n'}
+[1.203034] (hw1_xwh) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.203064] (hw1_xwh) StderrLine: {'line': b'  installed.\n'}
+[1.203094] (hw1_xwh) StderrLine: {'line': b'\n'}
+[1.203123] (hw1_xwh) StderrLine: {'line': b'\x1b[0m\n'}
+[1.203154] (hw1_xwh) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.203189] (hw1_xwh) StdoutLine: {'line': b'See also "/home/GTL/wxu/cs7630_g6/build/hw1_xwh/CMakeFiles/CMakeOutput.log".\n'}
+[1.203221] (vrep4_helpers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.203255] (vrep4_helpers) StdoutLine: {'line': b'See also "/home/GTL/wxu/cs7630_g6/build/vrep4_helpers/CMakeFiles/CMakeOutput.log".\n'}
+[1.203286] (vrep4_helpers) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.203319] (vrep4_helpers) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.203350] (vrep4_helpers) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.203381] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.203410] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[1.203440] (vrep4_helpers) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.203471] (vrep4_helpers) StderrLine: {'line': b'  any of the following names:\n'}
+[1.203501] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[1.203530] (vrep4_helpers) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.203560] (vrep4_helpers) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.203589] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[1.203624] (vrep4_helpers) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.203652] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.203681] (vrep4_helpers) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.203709] (vrep4_helpers) StderrLine: {'line': b'  has been installed.\n'}
+[1.203736] (vrep4_helpers) StderrLine: {'line': b'\n'}
+[1.203764] (vrep4_helpers) StderrLine: {'line': b'\x1b[0m\n'}
+[1.203793] (hw1_xwh) CommandEnded: {'returncode': 1}
+[1.302653] (-) TimerEvent: {}
+[1.402999] (-) TimerEvent: {}
+[1.425260] (hw1_xwh) JobEnded: {'identifier': 'hw1_xwh', 'rc': 1}
+[1.458362] (hw1) JobEnded: {'identifier': 'hw1', 'rc': 'SIGINT'}
+[1.487392] (vrep4_helpers) JobEnded: {'identifier': 'vrep4_helpers', 'rc': 'SIGINT'}
+[1.520609] (-) TimerEvent: {}
+[1.520896] (-) EventReactorShutdown: {}

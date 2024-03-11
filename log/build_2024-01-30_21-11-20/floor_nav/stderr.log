@@ -1,0 +1,76 @@
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:18:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_custom_msgs[m[K’ was not declared in this scope
+   18 |     rclcpp::Subscription<[01;31m[Kmy_custom_msgs[m[K::msg::FaceArray>::SharedPtr face_detection_sub;
+      |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:18:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |     rclcpp::Subscription<my_custom_msgs::msg::FaceArray[01;31m[K>[m[K::SharedPtr face_detection_sub;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:18:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:18:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:18:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:18:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |     rclcpp::Subscription<my_custom_msgs::msg::FaceArray>::[01;31m[KSharedPtr[m[K face_detection_sub;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:18:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kface_detection_sub[m[K’ does not name a type
+   18 |     rclcpp::Subscription<my_custom_msgs::msg::FaceArray>::SharedPtr [01;31m[Kface_detection_sub[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:20:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_custom_msgs[m[K’ does not name a type
+   20 |     void faceDetectionCallback(const [01;31m[Kmy_custom_msgs[m[K::msg::FaceArray::SharedPtr& msg);
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:20:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   20 |     void faceDetectionCallback(const my_custom_msgs::msg[01;31m[K::[m[KFaceArray::SharedPtr& msg);
+      |                                                         [01;31m[K^~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:20:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   20 |     void faceDetectionCallback[34m[K([m[Kconst my_custom_msgs::msg[01;31m[K:[m[K[32m[K:[m[KFaceArray::SharedPtr& msg);
+      |                               [34m[K~[m[K                         [01;31m[K^[m[K[32m[K~[m[K
+      |                                                         [32m[K)[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:20:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   20 |     void faceDetectionCallback(const my_custom_msgs::[01;31m[Kmsg[m[K::FaceArray::SharedPtr& msg);
+      |                                                      [01;31m[K^~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:20:59:[m[K [01;31m[Kerror: [m[K‘[01m[KFaceArray[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   20 |     void faceDetectionCallback(const my_custom_msgs::msg::[01;31m[KFaceArray[m[K::SharedPtr& msg);
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskWaitForFace::initialise()[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kface_detection_sub[m[K’ was not declared in this scope
+   12 |     [01;31m[Kface_detection_sub[m[K = getNode()->create_subscription<my_custom_msgs::msg::FaceArray>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:12:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_custom_msgs[m[K’ was not declared in this scope
+   12 |     face_detection_sub = getNode()->create_subscription<[01;31m[Kmy_custom_msgs[m[K::msg::FaceArray>(
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:12:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   12 |     face_detection_sub = getNode()->[01;31m[Kcreate_subscription<my_custom_msgs::msg::FaceArray>[m[K(
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:14:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_custom_msgs[m[K’ does not name a type
+   14 |         [this](const [01;31m[Kmy_custom_msgs[m[K::msg::FaceArray::SharedPtr msg) {
+      |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:[m[K In lambda function:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:16:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   16 |         })[01;31m[K;[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:[m[K In member function ‘[01m[Kvirtual task_manager_lib::TaskIndicator floor_nav::TaskWaitForFace::initialise()[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:16:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   16 |         })[01;31m[K;[m[K
+      |           [01;31m[K^[m[K
+      |           [32m[K)[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:12:88:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   12 |     face_detection_sub = getNode()->create_subscription<my_custom_msgs::msg::FaceArray>[01;36m[K([m[K
+      |                                                                                        [01;36m[K^[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:[m[K At global scope:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:30:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_custom_msgs[m[K’ does not name a type
+   30 | void TaskWaitForFace::faceDetectionCallback(const [01;31m[Kmy_custom_msgs[m[K::msg::FaceArray::SharedPtr& msg) {
+      |                                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:30:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   30 | void TaskWaitForFace::faceDetectionCallback(const my_custom_msgs::msg[01;31m[K::[m[KFaceArray::SharedPtr& msg) {
+      |                                                                      [01;31m[K^~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:30:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   30 | void TaskWaitForFace::faceDetectionCallback[34m[K([m[Kconst my_custom_msgs::msg[01;31m[K:[m[K[32m[K:[m[KFaceArray::SharedPtr& msg) {
+      |                                            [34m[K~[m[K                         [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                      [32m[K)[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:30:70:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   30 | void TaskWaitForFace::faceDetectionCallback(const my_custom_msgs::msg[01;31m[K::[m[KFaceArray::SharedPtr& msg) {
+      |                                                                      [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWaitForFace.dir/build.make:76: CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/floornav_TaskWaitForFace.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

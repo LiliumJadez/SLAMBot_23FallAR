@@ -1,0 +1,60 @@
+In file included from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:23:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kfloor_nav::TaskWaitForFace::[m[K’ on member ‘[01m[KfaceCallback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   23 |             void [01;31m[KTaskWaitForFace[m[K::faceCallback(const msg_pkg::msg::RegionsOfInterestArray::SharedPtr msg)
+      |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/install/task_manager_lib/include/task_manager_lib/TaskInstance.h:12[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:4[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:[m[K In member function ‘[01m[Kvoid floor_nav::TaskWaitForFace::faceCallback(msg_pkg::msg::RegionsOfInterestArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass floor_nav::TaskWaitForFace[m[K’ has no member named ‘[01m[Kget_node[m[K’; did you mean ‘[01m[KgetNode[m[K’?
+   27 |                     RCLCPP_INFO(this->[01;31m[Kget_node[m[K()->get_logger(), "Face detected");
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass floor_nav::TaskWaitForFace[m[K’ has no member named ‘[01m[Kget_node[m[K’; did you mean ‘[01m[KgetNode[m[K’?
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_node()->get_logger(), "Face detected");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:21:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   27 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_node()->get_logger(), "Face detected");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_node()->get_logger(), "Face detected");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:21:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   27 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_node()->get_logger(), "Face detected");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |                     [01;31m[KRCLCPP_INFO[m[K(this->get_node()->get_logger(), "Face detected");
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/install/task_manager_lib/include/task_manager_lib/TaskInstance.h:12[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:4[m[K,
+                 from [01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.cpp:2[m[K:
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass floor_nav::TaskWaitForFace[m[K’ has no member named ‘[01m[Kget_node[m[K’; did you mean ‘[01m[KgetNode[m[K’?
+   27 |                     RCLCPP_INFO(this->[01;31m[Kget_node[m[K()->get_logger(), "Face detected");
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/GTL/wxu/cs7630_g6/src/floor_nav/tasks/TaskWaitForFace.h:27:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass floor_nav::TaskWaitForFace[m[K’ has no member named ‘[01m[Kget_node[m[K’; did you mean ‘[01m[KgetNode[m[K’?
+   27 |                     RCLCPP_INFO(this->[01;31m[Kget_node[m[K()->get_logger(), "Face detected");
+      |                                       [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/floornav_TaskWaitForFace.dir/build.make:76: CMakeFiles/floornav_TaskWaitForFace.dir/tasks/TaskWaitForFace.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:449: CMakeFiles/floornav_TaskWaitForFace.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
